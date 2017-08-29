@@ -1,16 +1,16 @@
-#### Groovy ODI SDK Development
+## Groovy ODI SDK Development
 
-### Requirments
+### Requirements
 * JDK 1.6.37
 * Oracle 11g XE
 * ODI 11g
 * Maven 3.2.5
 
 
-### Maven Build
+### Maven Project
 
 ##### SDK Libs
-ODI SDK Libs are supplied by Oracle & these external libs need to be installed into Local Maven repository for our development 
+ODI SDK Libs are supplied by Oracle & these external libs need to be installed into Local Maven repository for ODI development 
 
 ```
 mvn install:install-file -Dfile=./oracledi.sdk/lib/odi-core.jar -DgroupId=org.oracle.odisdk -DartifactId=odi-core -Dversion=11.1.1 -Dpackaging=jar
@@ -37,8 +37,8 @@ mvn install:install-file -Dfile=$ODI_HOME/modules/oracle.jps_11.1.1/jps-api.jar 
 
 ##### SDK Scripts
 
-Under `$ODI_HOME/oracledi.sdk/lib/scripts/xml` we have basic configuration scripts for ODI repositories. The `scripts` need to exist in the same directory as .jar. The project resources directory also has `scripts` to help in local IDE development but is not used by commandline.
-Unfortunately the `scripts` packaged inside jar is not working due to limitation from Oracle ODI (?) - this [link](https://stackoverflow.com/questions/6192661/how-to-reference-a-resource-file-correctly-for-jar-and-debugging) may help 
+Under `$ODI_HOME/oracledi.sdk/lib/scripts/xml` we have basic configuration scripts for ODI repositories. The `scripts` need to exist in the same directory as .jar.
+Unfortunately `scripts` can't be packaged inside jar due to limitation from Oracle ODI (?) - this [link](https://stackoverflow.com/questions/6192661/how-to-reference-a-resource-file-correctly-for-jar-and-debugging) may help 
 
 ### Preparing ODI Repo Database
 
@@ -83,6 +83,10 @@ git clone https://github.com/kannan-ra/odi-groovy-sdk-prj.git
 cd odi-groovy-sdk-prj
 
 mvn clean install
-java -jar ./target/odi-groovy-sdk-prj-0.1-SNAPSHOT.jar dev
+java -jar ./target/odi-groovy-sdk-prj-0.1-SNAPSHOT.jar <environment>
 ```
 
+The main-class set to `org.odideveloper.OdiConfigRunner` via manifest.
+
+###### ODI environments
+The code supports different environments like `dev, test, prod`. Update the properties under `src/main/resources/config` to suit your need.
