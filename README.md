@@ -6,14 +6,19 @@
 * ODI 11g
 * Maven 3.2.5
 
+For convenience, please update below environment variables
+> `JAVA_HOME` = JDK 1.6.0.37 path - eg: C:\Program Files\Java\jdk1.6.0_37
+> `M2_HOME` = Maven 3.2.5 - eg: C:\apache-maven-3.2.5
+> `ODI_HOME` = ODI 11g home - eg: C:\oracle\product\11.1.1\Oracle_ODI_1
+> `PATH` - append $JAVA_HOME/bin; $M2_HOME/bin
+
 
 ### Maven Project
 
 ##### SDK Libs
-ODI SDK Libs are supplied by Oracle & these external libs need to be installed into Local Maven repository for ODI development 
-
+ODI SDK Libs are supplied by Oracle & these external libs need to be installed into Local Maven repository for ODI development.
 ```
-mvn install:install-file -Dfile=./oracledi.sdk/lib/odi-core.jar -DgroupId=org.oracle.odisdk -DartifactId=odi-core -Dversion=11.1.1 -Dpackaging=jar
+mvn install:install-file -Dfile=$ODI_HOME/oracledi.sdk/lib/odi-core.jar -DgroupId=org.oracle.odisdk -DartifactId=odi-core -Dversion=11.1.1 -Dpackaging=jar
 mvn install:install-file -Dfile=$ODI_HOME/oracledi.sdk/lib/spring-core.jar -DgroupId=org.oracle.odisdk -DartifactId=spring-core -Dversion=11.1.1 -Dpackaging=jar
 mvn install:install-file -Dfile=$ODI_HOME/oracledi.sdk/lib/dms.jar -DgroupId=org.oracle.odisdk -DartifactId=dms -Dversion=11.1.1 -Dpackaging=jar
 mvn install:install-file -Dfile=$ODI_HOME/oracledi.sdk/lib/ojdl.jar -DgroupId=org.oracle.odisdk -DartifactId=ojdl -Dversion=11.1.1 -Dpackaging=jar
@@ -37,8 +42,8 @@ mvn install:install-file -Dfile=$ODI_HOME/modules/oracle.jps_11.1.1/jps-api.jar 
 
 ##### SDK Scripts
 
-Under `$ODI_HOME/oracledi.sdk/lib/scripts/xml` we have basic configuration scripts for ODI repositories. The `scripts` need to exist in the same directory as .jar.
-Unfortunately `scripts` can't be packaged inside jar due to limitation from Oracle ODI (?) - this [link](https://stackoverflow.com/questions/6192661/how-to-reference-a-resource-file-correctly-for-jar-and-debugging) may help 
+Under `$ODI_HOME/oracledi.sdk/lib/scripts/xml` we have basic configuration scripts for ODI repositories. The `scripts` need to exist in the same directory as .jar (For IntelliJ IDE, update the classpath via `Module Settings` as mentioned [here](https://stackoverflow.com/questions/854264/how-to-add-directory-to-classpath-in-an-application-run-profile-in-intellij-idea)
+Unfortunately `scripts` can't be packaged inside jar due to limitation from Oracle ODI (?) - [link](https://stackoverflow.com/questions/6192661/how-to-reference-a-resource-file-correctly-for-jar-and-debugging) 
 
 ### Preparing ODI Repo Database
 
@@ -89,4 +94,4 @@ java -jar ./target/odi-groovy-sdk-prj-0.1-SNAPSHOT.jar <environment>
 The main-class set to `org.odideveloper.OdiConfigRunner` via manifest.
 
 ###### ODI environments
-The code supports different environments like `dev, test, prod`. Update the properties under `src/main/resources/config` to suit your need.
+The code supports different environments like `dev, test, prod`. Update the properties under `src/main/resources/config` to suit.
