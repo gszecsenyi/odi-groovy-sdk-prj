@@ -61,6 +61,6 @@ The code supports different environments like `dev, test, prod`. Update the prop
 Currently these configurations are implemented
 * ODI-Repositories - [RepoConfig](./src/main/groovy/org/odideveloper/config/RepoConfig.groovy)
 * Project & Folder - [ProjectConfig](./src/main/groovy/org/odideveloper/config/ProjectConfig.groovy)
-* Topology - [DataServerConfig](./src/main/groovy/org/odideveloper/config/DataServerConfig.groovy)
+* Topology - [TopologyConfig](./src/main/groovy/org/odideveloper/config/TopologyConfig.groovy)
 
 ---

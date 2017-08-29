@@ -1,6 +1,6 @@
 package org.odideveloper
 
-import org.odideveloper.config.DataServerConfig
+import org.odideveloper.config.TopologyConfig
 import org.odideveloper.config.ProjectConfig
 import org.odideveloper.config.RepoConfig
 import org.odideveloper.dataservers.SourceDb
@@ -28,6 +28,6 @@ class OdiConfigRunner {
         TargetDb.provision(environment)
 
         // Topology
-        DataServerConfig.configure(environment)
+        TopologyConfig.configure(environment)
     }
 }

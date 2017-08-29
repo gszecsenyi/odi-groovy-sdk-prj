@@ -6,24 +6,15 @@ import oracle.odi.core.config.OdiInstanceConfig
 import oracle.odi.core.config.PoolingAttributes
 import oracle.odi.core.config.WorkRepositoryDbInfo
 import oracle.odi.core.persistence.IOdiEntityManager
-import oracle.odi.core.persistence.transaction.ITransactionDefinition
-import oracle.odi.core.persistence.transaction.ITransactionManager
 import oracle.odi.core.persistence.transaction.ITransactionStatus
-import oracle.odi.core.persistence.transaction.support.DefaultTransactionDefinition
 import oracle.odi.core.persistence.transaction.support.ITransactionCallback
 import oracle.odi.core.persistence.transaction.support.TransactionTemplate
 import oracle.odi.core.security.Authentication
-import oracle.odi.domain.topology.AbstractOdiDataServer
-import oracle.odi.domain.topology.OdiContext
-import oracle.odi.domain.topology.OdiContextualSchemaMapping
-import oracle.odi.domain.topology.OdiLogicalSchema
-import oracle.odi.domain.topology.OdiPhysicalSchema
-import oracle.odi.domain.topology.OdiTechnology
+import oracle.odi.domain.topology.*
 import oracle.odi.domain.topology.finder.IOdiTechnologyFinder
 import oracle.odi.domain.util.ObfuscatedString
-import oracle.odi.domain.topology.OdiDataServer
 
-class DataServerConfig {
+class TopologyConfig {
 
     static void configure(String environment) {
 
