@@ -1,6 +1,6 @@
 ## Groovy ODI SDK Development
 
-### Requirements
+### A. Requirements
 * JDK 1.6.37
 * Oracle 11g XE
 * ODI 11g
@@ -15,7 +15,9 @@ ODI_HOME = ODI 11g home - eg: C:\oracle\product\11.1.1\Oracle_ODI_1
 PATH - append $JAVA_HOME/bin; $M2_HOME/bin
 ```
 
-### Maven Project
+---
+
+### B. Maven Project
 
 ##### SDK Libs
 ODI SDK Libs are supplied by Oracle & these external libs need to be installed into Local Maven repository for ODI development.
@@ -33,8 +35,9 @@ Unfortunately `scripts` can't be packaged inside jar due to limitation from Orac
 Use DBA login to create schemas for ODI-Repo, Source & Target databases
 Sql Snippets at [ODI-Repo-Sql](./docs/ODI-Repo-Schema-Creation.sql) & [Src-Trg-Sql](./docs/Source-Taget-Schema-Creation.sql)
 
+---
 
-### Maven Build
+### C. Maven Build
 Project is packaged into executable jar
 ```bash
 git clone https://github.com/kannan-ra/odi-groovy-sdk-prj.git
@@ -49,12 +52,15 @@ The main-class set to `org.odideveloper.OdiConfigRunner` via manifest.
 ###### ODI environments
 The code supports different environments like `dev, test, prod`. Update the properties under `src/main/resources/config` to suit.
 
+---
 
-### ODI Configuration
+### D. ODI Configuration
 
 [OdiConfigRunner](./src/main/groovy/org/odideveloper/OdiConfigRunner.groovy) is the main class to start the configuration -
 
 Currently these configurations are implemented
 * ODI-Repositories - [RepoConfig](./src/main/groovy/org/odideveloper/config/RepoConfig.groovy)
 * Project & Folder - [ProjectConfig](./src/main/groovy/org/odideveloper/config/ProjectConfig.groovy)
-* ODI-Repositories - [DataServerConfig](./src/main/groovy/org/odideveloper/config/DataServerConfig.groovy)
+* Topology - [DataServerConfig](./src/main/groovy/org/odideveloper/config/DataServerConfig.groovy)
+
+---
