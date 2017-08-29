@@ -7,11 +7,13 @@
 * Maven 3.2.5
 
 For convenience, please update below environment variables
-> `JAVA_HOME` = JDK 1.6.0.37 path - eg: C:\Program Files\Java\jdk1.6.0_37
-> `M2_HOME` = Maven 3.2.5 - eg: C:\apache-maven-3.2.5
-> `ODI_HOME` = ODI 11g home - eg: C:\oracle\product\11.1.1\Oracle_ODI_1
-> `PATH` - append $JAVA_HOME/bin; $M2_HOME/bin
 
+```
+JAVA_HOME = JDK 1.6.0.37 path - eg: C:\Program Files\Java\jdk1.6.0_37
+M2_HOME = Maven 3.2.5 - eg: C:\apache-maven-3.2.5
+ODI_HOME = ODI 11g home - eg: C:\oracle\product\11.1.1\Oracle_ODI_1
+PATH - append $JAVA_HOME/bin; $M2_HOME/bin
+```
 
 ### Maven Project
 
@@ -45,41 +47,11 @@ mvn install:install-file -Dfile=$ODI_HOME/modules/oracle.jps_11.1.1/jps-api.jar 
 Under `$ODI_HOME/oracledi.sdk/lib/scripts/xml` we have basic configuration scripts for ODI repositories. The `scripts` need to exist in the same directory as .jar (For IntelliJ IDE, update the classpath via `Module Settings` as mentioned [here](https://stackoverflow.com/questions/854264/how-to-add-directory-to-classpath-in-an-application-run-profile-in-intellij-idea)
 Unfortunately `scripts` can't be packaged inside jar due to limitation from Oracle ODI (?) - [link](https://stackoverflow.com/questions/6192661/how-to-reference-a-resource-file-correctly-for-jar-and-debugging) 
 
-### Preparing ODI Repo Database
+### Preparing Oracle 11 XE Database
 
-Deals with creating just the schemas. The configuration will be done via code
-```sql
--- DEVELOPMENT ENVIRONMENT
-drop user DEV_MREP cascade;
-drop user DEV_WREP cascade;
+Use DBA login to create schemas for ODI-Repo, Source & Target databases
+Sql Snippets at [ODI-Repo-Sql](./docs/ODI-Repo-Schema-Creation.sql) & [Src-Trg-Sql](./docs/Source-Taget-Schema-Creation.sql)
 
-create user DEV_MREP identified by password123;
-grant connect, resource to DEV_MREP;
-
-create user DEV_WREP identified by password123;
-grant connect, resource to DEV_WREP;
-
--- TEST ENVIRONMENT
-drop user TEST_MREP cascade;
-drop user TEST_WREP cascade;
-
-create user TEST_MREP identified by password123;
-grant connect, resource to TEST_MREP;
-
-create user TEST_WREP identified by password123;
-grant connect, resource to TEST_WREP;
-
-
--- PROD ENVIRONMENT
-drop user PROD_MREP cascade;
-drop user PROD_WREP cascade;
-
-create user PROD_MREP identified by password123;
-grant connect, resource to PROD_MREP;
-
-create user PROD_WREP identified by password123;
-grant connect, resource to PROD_WREP;
-```
 
 ### Maven Build
 Project is packaged into executable jar
