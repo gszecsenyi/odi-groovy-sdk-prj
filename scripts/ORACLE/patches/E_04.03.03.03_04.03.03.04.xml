@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (DROP) Foreign Key SNP_LP_INST.FK_LPI_LP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LP_INST drop constraint FK_LPI_LP
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_LP_STEP.FK_LP_STEP_SCEN -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LP_STEP drop constraint FK_LP_STEP_SCEN
+]]></Field>
+
+<!-- (DROP) Index SNP_LP_INST.LPI_LP_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index LPI_LP_FK
+]]></Field>
+
+<!-- (DROP) Index SNP_LP_STEP.LP_STEP_SCEN_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index LP_STEP_SCEN_FK
+]]></Field>
+
+<!-- (MODIFY) Table: SNP_LPI_RUN -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_RUN add PAGENT_NAME VARCHAR2(35 CHAR) NULL
+]]></Field>
+
+
+</Object>
+</SunopsisRepository>

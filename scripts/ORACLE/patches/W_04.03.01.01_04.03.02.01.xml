@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (DROP) Foreign Key SNP_POP_CONTEXT.FK_POP_CONTEXT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_CONTEXT drop constraint FK_POP_CONTEXT
+]]></Field>
+
+<!-- (DROP) Index SNP_POP_CONTEXT.SPOP_CONTEXT_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SPOP_CONTEXT_FK1
+]]></Field>
+
+<!-- (MODIFY) Table: SNP_COL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_COL modify COL_NAME <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_COL modify COL_HEADING <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_COND -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_COND modify COND_NAME <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_DATA_SET -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DATA_SET modify DS_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_DIAGRAM -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DIAGRAM modify DIAG_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_GRP_STATE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_GRP_STATE modify GRP_STATE_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_JOIN -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN modify FK_NAME <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN modify PK_CATALOG <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN modify PK_SCHEMA <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_JOIN_COL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN_COL modify PK_COL_NAME <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_KEY -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_KEY modify KEY_NAME <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_LINE_TRT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINE_TRT modify SQL_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINE_TRT add KIM_DRVD_SEL <?=snpRef.getDataType("SRC_VARCHAR", "1", "")?> NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_MODEL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODEL modify MOD_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODEL modify WS_DATA_SOURCE <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODEL modify WS_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODEL modify WS_NAME_SPACE <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODEL modify WS_JAVA_PACKAGE <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_MOD_FOLDER -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MOD_FOLDER modify MOD_FOLDER_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_OBJ_TRACE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_OBJ_TRACE modify OBJ_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_PARTITION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PARTITION modify PARTITION_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_POP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP modify KEY_NAME <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_POP_COL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_COL modify COL_NAME <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_POP_CONSTRAINT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_CONSTRAINT modify CONST_NAME <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_PROJECT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PROJECT modify PROJECT_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_REV_COL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_COL modify COL_NAME <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_COL modify COL_HEADING <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_REV_COND -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_COND modify COND_NAME <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_REV_JOIN -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_JOIN modify FK_NAME <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_JOIN modify PK_CATALOG <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_JOIN modify PK_SCHEMA <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_REV_JOIN_COL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_JOIN_COL modify FK_NAME <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_JOIN_COL modify FK_COL_NAME <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_JOIN_COL modify PK_COL_NAME <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_REV_KEY -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_KEY modify KEY_NAME <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_REV_KEY_COL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_KEY_COL modify KEY_NAME <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_KEY_COL modify COL_NAME <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_REV_PARTITION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_PARTITION modify PARTITION_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_PARTITION modify PAR_PARTITION_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_REV_SUB_MODEL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_SUB_MODEL modify SMOD_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_REV_TABLE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_TABLE modify RES_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_TABLE modify WS_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_TABLE modify WS_ENTITY_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SEQUENCE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SEQUENCE modify SPC_TAB <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SEQUENCE modify SPC_COL <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SEQUENCE modify DB_SEQ_NAME <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SOURCE_TAB -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOURCE_TAB modify SRC_TAB_ALIAS <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SRC_SET -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SRC_SET modify SRC_SET_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_STATE2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STATE2 modify STATE_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_STEP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP modify STEP_NAME <?=snpRef.getDataType("SRC_VARCHAR", "436", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SUB_MODEL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SUB_MODEL modify SMOD_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_TABLE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TABLE modify RES_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TABLE modify WS_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TABLE modify WS_ENTITY_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_TRT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TRT modify TRT_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_TXT_CROSSR -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TXT_CROSSR modify STRING_ELT <?=snpRef.getDataType("SRC_VARCHAR", "436", "")?> 
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TXT_CROSSR modify TAB_ALIAS <?=snpRef.getDataType("SRC_VARCHAR", "128", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_UFUNC -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_UFUNC modify GROUP_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_USER_EXIT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_EXIT modify UE_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (CREATE) Index SNP_DATA_SET.DATASET_POP_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index DATASET_POP_FK on SNP_DATA_SET ( I_POP  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_DIAGRAM.DIAG_PACK_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index DIAG_PACK_FK on SNP_DIAGRAM ( I_PACKAGE  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_DIAGRAM.DIAG_POP_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index DIAG_POP_FK on SNP_DIAGRAM ( I_POP  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_POP_CLAUSE.POP_CLAUSE_DS_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index POP_CLAUSE_DS_FK on SNP_POP_CLAUSE ( I_DATA_SET  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_POP_MAPPING.POP_MAP_DSET_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index POP_MAP_DSET_FK on SNP_POP_MAPPING ( I_DATA_SET  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_SRC_SET.SRCSET_DSET_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index SRCSET_DSET_FK on SNP_SRC_SET ( I_DATA_SET  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_SOURCE_TAB.SRC_TAB_DSET_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index SRC_TAB_DSET_FK on SNP_SOURCE_TAB ( I_DATA_SET  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_DIAGRAM.DIAG_DATA_SET_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index DIAG_DATA_SET_FK on SNP_DIAGRAM ( I_DATA_SET  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_POP_MAPPING.PMAP_PCOL_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index PMAP_PCOL_FK on SNP_POP_MAPPING ( I_POP_COL  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_POP_MAPPING.PMAP_SSET_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index PMAP_SSET_FK on SNP_POP_MAPPING ( I_SRC_SET  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_POP_MAPPING.PMAP_STAB_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index PMAP_STAB_FK on SNP_POP_MAPPING ( I_SOURCE_TAB  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_DIAGRAM.FK_DIAG_DATA_SET -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DIAGRAM
+ add constraint FK_DIAG_DATA_SET foreign key ( I_DATA_SET  )
+  references SNP_DATA_SET ( I_DATA_SET  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_POP_MAPPING.FK_PMAP_PCOL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_MAPPING
+ add constraint FK_PMAP_PCOL foreign key ( I_POP_COL  )
+  references SNP_POP_COL ( I_POP_COL  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_POP_MAPPING.FK_PMAP_SSET -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_MAPPING
+ add constraint FK_PMAP_SSET foreign key ( I_SRC_SET  )
+  references SNP_SRC_SET ( I_SRC_SET  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_POP_MAPPING.FK_PMAP_STAB -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_MAPPING
+ add constraint FK_PMAP_STAB foreign key ( I_SOURCE_TAB  )
+  references SNP_SOURCE_TAB ( I_SOURCE_TAB  )
+]]></Field>
+
+</Object>
+</SunopsisRepository>

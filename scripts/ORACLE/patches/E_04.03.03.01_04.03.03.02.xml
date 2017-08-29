@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (MODIFY) Table: SNP_EXP_TXT_HEADER -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_EXP_TXT_HEADER add FULL_TXT CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_LPI_EXC_LOG -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_EXC_LOG add ERROR_MESSAGE CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_LPI_RUN -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_RUN add ERROR_MESSAGE CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_LPI_STEP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_STEP add VAR_LONG_VALUE CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_LPI_STEP_LOG -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_STEP_LOG add ERROR_MESSAGE CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_LPI_STEP_VAR -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_STEP_VAR add VAR_LONG_VALUE CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_LPI_VAR -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_VAR add VAR_LONG_VALUE CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_LPI_VAR_LOG -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_VAR_LOG add ERROR_MESSAGE CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_LP_STEP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LP_STEP add VAR_LONG_VALUE CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_LP_STEP_VAR -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LP_STEP_VAR add VAR_LONG_VALUE CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_LP_VAR -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LP_VAR add REFRESH_SQL CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_PARAM_LPI_RUN -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PARAM_LPI_RUN add PARAM_LONG_VALUE CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_PARAM_SESS -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PARAM_SESS add PARAM_LONG_VALUE CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SCEN_REPORT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SCEN_REPORT add ERROR_MESSAGE CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SCEN_STEP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SCEN_STEP add VAR_LONG_VALUE CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SCEN_TASK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SCEN_TASK add COL_TXT CLOB NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SCEN_TASK add COL_IND_ENC VARCHAR2(1 CHAR) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SCEN_TASK add COL_ENC_KEY VARCHAR2(250 CHAR) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SCEN_TASK add DEF_TXT CLOB NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SCEN_TASK add DEF_IND_ENC VARCHAR2(1 CHAR) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SCEN_TASK add DEF_ENC_KEY VARCHAR2(250 CHAR) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SESSION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESSION add ERROR_MESSAGE CLOB NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESSION add STARTUP_VARIABLES CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SESS_STEP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_STEP add VAR_LONG_VALUE CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SESS_TASK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK add COL_TXT CLOB NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK add COL_IND_ENC VARCHAR2(1 CHAR) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK add COL_ENC_KEY VARCHAR2(250 CHAR) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK add DEF_TXT CLOB NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK add DEF_IND_ENC VARCHAR2(1 CHAR) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK add DEF_ENC_KEY VARCHAR2(250 CHAR) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK add ERROR_MESSAGE CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SESS_TASK_LOG -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK_LOG add COL_TXT CLOB NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK_LOG add COL_IND_ENC VARCHAR2(1 CHAR) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK_LOG add COL_ENC_KEY VARCHAR2(250 CHAR) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK_LOG add DEF_TXT CLOB NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK_LOG add DEF_IND_ENC VARCHAR2(1 CHAR) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK_LOG add DEF_ENC_KEY VARCHAR2(250 CHAR) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK_LOG add TASK_NAME3 VARCHAR2(436 CHAR) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_STEP_LOG -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP_LOG add ERROR_MESSAGE CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_STEP_REPORT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP_REPORT add ERROR_MESSAGE CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_VAR_DATA -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_VAR_DATA add VAR_LONG_VALUE CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_VAR_PLAN_AGENT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_VAR_PLAN_AGENT add VAR_LONG_VALUE CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_VAR_SCEN -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_VAR_SCEN add VAR_LONG_VALUE CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_VAR_SESS -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_VAR_SESS add VAR_LONG_VALUE CLOB NULL
+]]></Field>
+
+
+</Object>
+</SunopsisRepository>

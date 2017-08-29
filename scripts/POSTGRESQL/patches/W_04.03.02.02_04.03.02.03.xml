@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (DROP) Unique Key SNP_COND.AK_COND -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_COND drop constraint AK_COND
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_REV_JOIN.PK_REV_JOIN -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_JOIN drop constraint PK_REV_JOIN
+]]></Field>
+
+<!-- (MODIFY) Table: SNP_COL -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_COL alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_COL alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_COND -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_COND alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_COND alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_DIAGRAM -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DIAGRAM alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DIAGRAM alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_FOLDER -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FOLDER alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FOLDER alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_GRP_STATE -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_GRP_STATE alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_GRP_STATE alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_JOIN -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_JOIN_COL -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN_COL alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN_COL alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_KEY -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_KEY alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_KEY alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_KEY_COL -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_KEY_COL alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_KEY_COL alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_LINE_TRT -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINE_TRT alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINE_TRT alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_MODEL -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODEL alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODEL alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_MOD_FOLDER -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MOD_FOLDER alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MOD_FOLDER alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_PACKAGE -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PACKAGE alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PACKAGE alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_PARTITION -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PARTITION alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PARTITION alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_POP -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_POP_CLAUSE -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_CLAUSE alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_CLAUSE alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_POP_COL -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_COL alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_COL alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_PROJECT -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PROJECT alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PROJECT alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SEQUENCE -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SEQUENCE alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SEQUENCE alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SOURCE_TAB -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOURCE_TAB alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOURCE_TAB alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_STATE -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STATE alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STATE alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_STATE2 -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STATE2 alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STATE2 alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_STEP -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SUB_MODEL -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SUB_MODEL alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SUB_MODEL alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_TABLE -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TABLE alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TABLE alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_TRT -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TRT alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TRT alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_TXT -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TXT alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TXT alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_UFUNC -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_UFUNC alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_UFUNC alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_VAR -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_VAR alter FIRST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_VAR alter LAST_USER type <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> 
+]]></Field>
+
+
+<!-- (CREATE) Primary Key SNP_REV_JOIN.PK_REV_JOIN -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_JOIN add constraint PK_REV_JOIN primary key ( I_MOD , FK_NAME , TABLE_NAME  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_COND.AK_COND -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_COND add constraint AK_COND unique ( I_TABLE , COND_NAME  )
+]]></Field>
+
+</Object>
+</SunopsisRepository>

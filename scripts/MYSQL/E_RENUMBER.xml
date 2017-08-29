@@ -1,0 +1,2259 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (RENUMBER) Table SNP_EXP_TXT -->
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_EXP_TXT
+set		I_TXT = I_TXT + :NEWOFFSET
+where	CAST(I_TXT AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_EXP_TXT_HEADER -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_EXP_TXT_HEADER
+set		I_TXT = I_TXT + :NEWOFFSET
+where	CAST(I_TXT AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_FF_VALUEE -->
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_FF_VALUEE
+set		I_INSTANCE = I_INSTANCE + :NEWOFFSET
+where	CAST(I_INSTANCE AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_ID -->
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_IMPORT_REP -->
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_LOAD_PLAN -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LOAD_PLAN
+set		I_LOAD_PLAN = I_LOAD_PLAN + :NEWOFFSET
+where	CAST(I_LOAD_PLAN AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LOAD_PLAN
+set		I_SCEN_FOLDER = I_SCEN_FOLDER + :NEWOFFSET
+where	CAST(I_SCEN_FOLDER AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LOAD_PLAN
+set		I_TXT_DESC = I_TXT_DESC + :NEWOFFSET
+where	CAST(I_TXT_DESC AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_LOCK -->
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_LOCKED_OBJECT -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LOCKED_OBJECT
+set		I_INSTANCE = I_INSTANCE + :NEWOFFSET
+where	CAST(I_INSTANCE AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_LOC_REPW -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_LPI_EC_VAR_LOG -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_EC_VAR_LOG
+set		I_LP_INST = I_LP_INST + :NEWOFFSET
+where	CAST(I_LP_INST AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_EC_VAR_LOG
+set		I_LP_STEP = I_LP_STEP + :NEWOFFSET
+where	CAST(I_LP_STEP AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_EC_VAR_LOG
+set		I_LP_STEP_EXCEPT = I_LP_STEP_EXCEPT + :NEWOFFSET
+where	CAST(I_LP_STEP_EXCEPT AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_EC_VAR_LOG
+set		I_TXT_MESS = I_TXT_MESS + :NEWOFFSET
+where	CAST(I_TXT_MESS AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_EC_VAR_LOG
+set		I_TXT_VAR_VALUE = I_TXT_VAR_VALUE + :NEWOFFSET
+where	CAST(I_TXT_VAR_VALUE AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_LPI_EXC_LOG -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_EXC_LOG
+set		I_LP_INST = I_LP_INST + :NEWOFFSET
+where	CAST(I_LP_INST AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_EXC_LOG
+set		I_LP_STEP = I_LP_STEP + :NEWOFFSET
+where	CAST(I_LP_STEP AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_EXC_LOG
+set		I_LP_STEP_EXCEPT = I_LP_STEP_EXCEPT + :NEWOFFSET
+where	CAST(I_LP_STEP_EXCEPT AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_EXC_LOG
+set		I_TXT_MESS = I_TXT_MESS + :NEWOFFSET
+where	CAST(I_TXT_MESS AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_EXC_LOG
+set		SESS_NO = SESS_NO + :NEWOFFSET
+where	CAST(SESS_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_LPI_RUN -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_RUN
+set		I_LP_INST = I_LP_INST + :NEWOFFSET
+where	CAST(I_LP_INST AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_RUN
+set		I_TXT_MESS = I_TXT_MESS + :NEWOFFSET
+where	CAST(I_TXT_MESS AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_LPI_STEP -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_STEP
+set		I_LP_INST = I_LP_INST + :NEWOFFSET
+where	CAST(I_LP_INST AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_STEP
+set		I_LP_STEP = I_LP_STEP + :NEWOFFSET
+where	CAST(I_LP_STEP AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_STEP
+set		PAR_I_LP_STEP = PAR_I_LP_STEP + :NEWOFFSET
+where	CAST(PAR_I_LP_STEP AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_STEP
+set		SCEN_NO = SCEN_NO + :NEWOFFSET
+where	CAST(SCEN_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_STEP
+set		I_LP_STEP_EXCEPT = I_LP_STEP_EXCEPT + :NEWOFFSET
+where	CAST(I_LP_STEP_EXCEPT AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_LPI_STEP_LOG -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_STEP_LOG
+set		I_LP_INST = I_LP_INST + :NEWOFFSET
+where	CAST(I_LP_INST AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_STEP_LOG
+set		I_LP_STEP = I_LP_STEP + :NEWOFFSET
+where	CAST(I_LP_STEP AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_STEP_LOG
+set		I_TXT_MESS = I_TXT_MESS + :NEWOFFSET
+where	CAST(I_TXT_MESS AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_STEP_LOG
+set		SESS_NO = SESS_NO + :NEWOFFSET
+where	CAST(SESS_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_LPI_STEP_VAR -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_STEP_VAR
+set		I_LP_INST = I_LP_INST + :NEWOFFSET
+where	CAST(I_LP_INST AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_STEP_VAR
+set		I_LP_STEP = I_LP_STEP + :NEWOFFSET
+where	CAST(I_LP_STEP AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_STEP_VAR
+set		I_TXT_VAR_VALUE = I_TXT_VAR_VALUE + :NEWOFFSET
+where	CAST(I_TXT_VAR_VALUE AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_LPI_TXT_LOG -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_TXT_LOG
+set		I_LP_INST = I_LP_INST + :NEWOFFSET
+where	CAST(I_LP_INST AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_TXT_LOG
+set		I_LP_STEP = I_LP_STEP + :NEWOFFSET
+where	CAST(I_LP_STEP AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_LPI_VAR -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_VAR
+set		I_LP_INST = I_LP_INST + :NEWOFFSET
+where	CAST(I_LP_INST AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_VAR
+set		I_TXT_DESC = I_TXT_DESC + :NEWOFFSET
+where	CAST(I_TXT_DESC AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_VAR
+set		I_TXT_SQL = I_TXT_SQL + :NEWOFFSET
+where	CAST(I_TXT_SQL AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_VAR
+set		I_TXT_VAR_VALUE = I_TXT_VAR_VALUE + :NEWOFFSET
+where	CAST(I_TXT_VAR_VALUE AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_LPI_VAR_LOG -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_VAR_LOG
+set		I_LP_INST = I_LP_INST + :NEWOFFSET
+where	CAST(I_LP_INST AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_VAR_LOG
+set		I_LP_STEP = I_LP_STEP + :NEWOFFSET
+where	CAST(I_LP_STEP AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_VAR_LOG
+set		I_TXT_MESS = I_TXT_MESS + :NEWOFFSET
+where	CAST(I_TXT_MESS AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LPI_VAR_LOG
+set		I_TXT_VAR_VALUE = I_TXT_VAR_VALUE + :NEWOFFSET
+where	CAST(I_TXT_VAR_VALUE AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_LP_INST -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LP_INST
+set		I_LP_INST = I_LP_INST + :NEWOFFSET
+where	CAST(I_LP_INST AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LP_INST
+set		I_LOAD_PLAN = I_LOAD_PLAN + :NEWOFFSET
+where	CAST(I_LOAD_PLAN AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LP_INST
+set		I_TXT_DESC = I_TXT_DESC + :NEWOFFSET
+where	CAST(I_TXT_DESC AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_LP_STEP -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LP_STEP
+set		I_LOAD_PLAN = I_LOAD_PLAN + :NEWOFFSET
+where	CAST(I_LOAD_PLAN AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LP_STEP
+set		I_LP_STEP = I_LP_STEP + :NEWOFFSET
+where	CAST(I_LP_STEP AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LP_STEP
+set		PAR_I_LP_STEP = PAR_I_LP_STEP + :NEWOFFSET
+where	CAST(PAR_I_LP_STEP AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LP_STEP
+set		SCEN_NO = SCEN_NO + :NEWOFFSET
+where	CAST(SCEN_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LP_STEP
+set		I_LP_STEP_EXCEPT = I_LP_STEP_EXCEPT + :NEWOFFSET
+where	CAST(I_LP_STEP_EXCEPT AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_LP_STEP_VAR -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LP_STEP_VAR
+set		I_LOAD_PLAN = I_LOAD_PLAN + :NEWOFFSET
+where	CAST(I_LOAD_PLAN AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LP_STEP_VAR
+set		I_LP_STEP = I_LP_STEP + :NEWOFFSET
+where	CAST(I_LP_STEP AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LP_STEP_VAR
+set		I_TXT_VAR_VALUE = I_TXT_VAR_VALUE + :NEWOFFSET
+where	CAST(I_TXT_VAR_VALUE AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_LP_VAR -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LP_VAR
+set		I_LOAD_PLAN = I_LOAD_PLAN + :NEWOFFSET
+where	CAST(I_LOAD_PLAN AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LP_VAR
+set		I_TXT_DESC = I_TXT_DESC + :NEWOFFSET
+where	CAST(I_TXT_DESC AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LP_VAR
+set		I_TXT_SQL = I_TXT_SQL + :NEWOFFSET
+where	CAST(I_TXT_SQL AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_PARAM_LPI_RUN -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_PARAM_LPI_RUN
+set		I_LP_INST = I_LP_INST + :NEWOFFSET
+where	CAST(I_LP_INST AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_PARAM_LPI_RUN
+set		I_TXT_VALUE = I_TXT_VALUE + :NEWOFFSET
+where	CAST(I_TXT_VALUE AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_PARAM_SESS -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_PARAM_SESS
+set		SESS_NO = SESS_NO + :NEWOFFSET
+where	CAST(SESS_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_PARAM_SESS
+set		I_TXT_VALUE = I_TXT_VALUE + :NEWOFFSET
+where	CAST(I_TXT_VALUE AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_PLAN_AGENT -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_PLAN_AGENT
+set		I_PLAN_AGENT = I_PLAN_AGENT + :NEWOFFSET
+where	CAST(I_PLAN_AGENT AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_SCEN -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SCEN
+set		SCEN_NO = SCEN_NO + :NEWOFFSET
+where	CAST(SCEN_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SCEN
+set		I_PACKAGE = I_PACKAGE + :NEWOFFSET
+where	CAST(I_PACKAGE AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SCEN
+set		I_POP = I_POP + :NEWOFFSET
+where	CAST(I_POP AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SCEN
+set		I_TRT = I_TRT + :NEWOFFSET
+where	CAST(I_TRT AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SCEN
+set		I_VAR = I_VAR + :NEWOFFSET
+where	CAST(I_VAR AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SCEN
+set		I_TXT_SCEN = I_TXT_SCEN + :NEWOFFSET
+where	CAST(I_TXT_SCEN AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SCEN
+set		I_SCEN_FOLDER = I_SCEN_FOLDER + :NEWOFFSET
+where	CAST(I_SCEN_FOLDER AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_SCEN_FOLDER -->
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SCEN_FOLDER
+set		I_SCEN_FOLDER = I_SCEN_FOLDER + :NEWOFFSET
+where	CAST(I_SCEN_FOLDER AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SCEN_FOLDER
+set		I_TXT_DESCRIPTION = I_TXT_DESCRIPTION + :NEWOFFSET
+where	CAST(I_TXT_DESCRIPTION AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SCEN_FOLDER
+set		PAR_I_SCEN_FOLDER = PAR_I_SCEN_FOLDER + :NEWOFFSET
+where	CAST(PAR_I_SCEN_FOLDER AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_SCEN_REPORT -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SCEN_REPORT
+set		SCEN_NO = SCEN_NO + :NEWOFFSET
+where	CAST(SCEN_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SCEN_REPORT
+set		I_TXT_SESS_MESS = I_TXT_SESS_MESS + :NEWOFFSET
+where	CAST(I_TXT_SESS_MESS AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_SCEN_STEP -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SCEN_STEP
+set		SCEN_NO = SCEN_NO + :NEWOFFSET
+where	CAST(SCEN_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SCEN_STEP
+set		OK_NEXT_STEP = OK_NEXT_STEP + :NEWOFFSET
+where	CAST(OK_NEXT_STEP AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SCEN_STEP
+set		KO_NEXT_STEP = KO_NEXT_STEP + :NEWOFFSET
+where	CAST(KO_NEXT_STEP AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SCEN_STEP
+set		I_TXT_VAR_VALUE = I_TXT_VAR_VALUE + :NEWOFFSET
+where	CAST(I_TXT_VAR_VALUE AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_SCEN_TASK -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SCEN_TASK
+set		SCEN_NO = SCEN_NO + :NEWOFFSET
+where	CAST(SCEN_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_SCEN_TXT -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SCEN_TXT
+set		SCEN_NO = SCEN_NO + :NEWOFFSET
+where	CAST(SCEN_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_SEQ_DATA -->
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_SEQ_SCEN -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SEQ_SCEN
+set		SCEN_NO = SCEN_NO + :NEWOFFSET
+where	CAST(SCEN_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_SEQ_SESS -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SEQ_SESS
+set		SESS_NO = SESS_NO + :NEWOFFSET
+where	CAST(SESS_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_SESSION -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SESSION
+set		SESS_NO = SESS_NO + :NEWOFFSET
+where	CAST(SESS_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SESSION
+set		PARENT_SESS_NO = PARENT_SESS_NO + :NEWOFFSET
+where	CAST(PARENT_SESS_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SESSION
+set		I_TXT_SESS_MESS = I_TXT_SESS_MESS + :NEWOFFSET
+where	CAST(I_TXT_SESS_MESS AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SESSION
+set		I_TXT_SESS_PARAMS = I_TXT_SESS_PARAMS + :NEWOFFSET
+where	CAST(I_TXT_SESS_PARAMS AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_SESS_FOLDER -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SESS_FOLDER
+set		I_SESS_FOLDER = I_SESS_FOLDER + :NEWOFFSET
+where	CAST(I_SESS_FOLDER AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_SESS_STEP -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SESS_STEP
+set		SESS_NO = SESS_NO + :NEWOFFSET
+where	CAST(SESS_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SESS_STEP
+set		OK_NEXT_STEP = OK_NEXT_STEP + :NEWOFFSET
+where	CAST(OK_NEXT_STEP AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SESS_STEP
+set		KO_NEXT_STEP = KO_NEXT_STEP + :NEWOFFSET
+where	CAST(KO_NEXT_STEP AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SESS_STEP
+set		I_TXT_VAR_VALUE = I_TXT_VAR_VALUE + :NEWOFFSET
+where	CAST(I_TXT_VAR_VALUE AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_SESS_STEP_LV -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SESS_STEP_LV
+set		SESS_NO = SESS_NO + :NEWOFFSET
+where	CAST(SESS_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_SESS_TASK -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SESS_TASK
+set		SESS_NO = SESS_NO + :NEWOFFSET
+where	CAST(SESS_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_SESS_TASK_LOG -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SESS_TASK_LOG
+set		SESS_NO = SESS_NO + :NEWOFFSET
+where	CAST(SESS_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SESS_TASK_LOG
+set		I_TXT_TASK_MESS = I_TXT_TASK_MESS + :NEWOFFSET
+where	CAST(I_TXT_TASK_MESS AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_SESS_TASK_LS -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SESS_TASK_LS
+set		SESS_NO = SESS_NO + :NEWOFFSET
+where	CAST(SESS_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_SESS_TXT_LOG -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SESS_TXT_LOG
+set		SESS_NO = SESS_NO + :NEWOFFSET
+where	CAST(SESS_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_STEP_LOG -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP_LOG
+set		SESS_NO = SESS_NO + :NEWOFFSET
+where	CAST(SESS_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP_LOG
+set		I_STEP = I_STEP + :NEWOFFSET
+where	CAST(I_STEP AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP_LOG
+set		I_TXT_STEP_MESS = I_TXT_STEP_MESS + :NEWOFFSET
+where	CAST(I_TXT_STEP_MESS AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_STEP_REPORT -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP_REPORT
+set		SCEN_NO = SCEN_NO + :NEWOFFSET
+where	CAST(SCEN_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP_REPORT
+set		I_STEP = I_STEP + :NEWOFFSET
+where	CAST(I_STEP AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP_REPORT
+set		I_TXT_STEP_MESS = I_TXT_STEP_MESS + :NEWOFFSET
+where	CAST(I_TXT_STEP_MESS AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_TASK_TXT -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TASK_TXT
+set		SESS_NO = SESS_NO + :NEWOFFSET
+where	CAST(SESS_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_VAR_DATA -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_VAR_DATA
+set		I_TXT_VAR_T = I_TXT_VAR_T + :NEWOFFSET
+where	CAST(I_TXT_VAR_T AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_VAR_PLAN_AGENT -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_VAR_PLAN_AGENT
+set		I_PLAN_AGENT = I_PLAN_AGENT + :NEWOFFSET
+where	CAST(I_PLAN_AGENT AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_VAR_PLAN_AGENT
+set		I_TXT_VAR_VALUE = I_TXT_VAR_VALUE + :NEWOFFSET
+where	CAST(I_TXT_VAR_VALUE AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_VAR_SCEN -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_VAR_SCEN
+set		SCEN_NO = SCEN_NO + :NEWOFFSET
+where	CAST(SCEN_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_VAR_SCEN
+set		I_TXT_VAR = I_TXT_VAR + :NEWOFFSET
+where	CAST(I_TXT_VAR AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_VAR_SCEN
+set		I_TXT_DEF_T = I_TXT_DEF_T + :NEWOFFSET
+where	CAST(I_TXT_DEF_T AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_VAR_SESS -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_VAR_SESS
+set		SESS_NO = SESS_NO + :NEWOFFSET
+where	CAST(SESS_NO AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_VAR_SESS
+set		I_TXT_VAR = I_TXT_VAR + :NEWOFFSET
+where	CAST(I_TXT_VAR AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_VAR_SESS
+set		I_TXT_DEF_T = I_TXT_DEF_T + :NEWOFFSET
+where	CAST(I_TXT_DEF_T AS CHAR) like :OLDMASK
+]]></Field>
+
+
+
+
+
+</Object>
+</SunopsisRepository>

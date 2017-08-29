@@ -1,0 +1,3673 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (RENUMBER) Table SNP_COL -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_COL
+set		I_COL = I_COL + :NEWOFFSET
+where	digits(I_COL) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_COL
+set		I_TABLE = I_TABLE + :NEWOFFSET
+where	digits(I_TABLE) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_COL
+set		I_SRC_COL = I_SRC_COL + :NEWOFFSET
+where	digits(I_SRC_COL) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_COL
+set		I_TXT_COL_DESC = I_TXT_COL_DESC + :NEWOFFSET
+where	digits(I_TXT_COL_DESC) like :OLDMASK
+]]></Field>
+
+
+
+
+<!-- (RENUMBER) Table SNP_COND -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_COND
+set		I_COND = I_COND + :NEWOFFSET
+where	digits(I_COND) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_COND
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_COND
+set		I_TABLE = I_TABLE + :NEWOFFSET
+where	digits(I_TABLE) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_COND
+set		I_TXT_COND_SQL = I_TXT_COND_SQL + :NEWOFFSET
+where	digits(I_TXT_COND_SQL) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_COND
+set		I_TXT_COND_MESS = I_TXT_COND_MESS + :NEWOFFSET
+where	digits(I_TXT_COND_MESS) like :OLDMASK
+]]></Field>
+
+
+<!-- (RENUMBER) Table SNP_DATA_SET -->
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_DATA_SET
+set		I_DATA_SET = I_DATA_SET + :NEWOFFSET
+where	digits(I_DATA_SET) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_DATA_SET
+set		I_POP = I_POP + :NEWOFFSET
+where	digits(I_POP) like :OLDMASK
+]]></Field>
+
+
+<!-- (RENUMBER) Table SNP_DIAGRAM -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_DIAGRAM
+set		I_DIAGRAM = I_DIAGRAM + :NEWOFFSET
+where	digits(I_DIAGRAM) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_DIAGRAM
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_DIAGRAM
+set		I_SMOD = I_SMOD + :NEWOFFSET
+where	digits(I_SMOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_DIAGRAM
+set		I_TXT_DIAG_DESC = I_TXT_DIAG_DESC + :NEWOFFSET
+where	digits(I_TXT_DIAG_DESC) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_DIAGRAM
+set		I_PACKAGE = I_PACKAGE + :NEWOFFSET
+where	digits(I_PACKAGE) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_DIAGRAM
+set		I_TXT_XMI_DATA = I_TXT_XMI_DATA + :NEWOFFSET
+where	digits(I_TXT_XMI_DATA) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_DIAGRAM
+set		I_POP = I_POP + :NEWOFFSET
+where	digits(I_POP) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_DIAGRAM
+set		I_DATA_SET = I_DATA_SET + :NEWOFFSET
+where	digits(I_DATA_SET) like :OLDMASK
+]]></Field>
+
+
+<!-- (RENUMBER) Table SNP_DIAG_PARAM -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_DIAG_PARAM
+set		I_DIAGRAM = I_DIAGRAM + :NEWOFFSET
+where	digits(I_DIAGRAM) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_FF_VALUEW -->
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_FF_VALUEW
+set		I_INSTANCE = I_INSTANCE + :NEWOFFSET
+where	digits(I_INSTANCE) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_FOLDER -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_FOLDER
+set		I_FOLDER = I_FOLDER + :NEWOFFSET
+where	digits(I_FOLDER) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_FOLDER
+set		PAR_I_FOLDER = PAR_I_FOLDER + :NEWOFFSET
+where	digits(PAR_I_FOLDER) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_FOLDER
+set		I_PROJECT = I_PROJECT + :NEWOFFSET
+where	digits(I_PROJECT) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_FOLDER
+set		RELEASE_TAG = RELEASE_TAG + :NEWOFFSET
+where	digits(RELEASE_TAG) like :OLDMASK
+]]></Field>
+
+
+<!-- (RENUMBER) Table SNP_GRP_STATE -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_GRP_STATE
+set		I_GRP_STATE = I_GRP_STATE + :NEWOFFSET
+where	digits(I_GRP_STATE) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_GRP_STATE
+set		I_PROJECT = I_PROJECT + :NEWOFFSET
+where	digits(I_PROJECT) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_INDIRECT_MREF -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_INDIRECT_MREF
+set		I_INSTANCE = I_INSTANCE + :NEWOFFSET
+where	digits(I_INSTANCE) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_INDIRECT_MREF
+set		ID_OBJECT_PK = ID_OBJECT_PK + :NEWOFFSET
+where	digits(ID_OBJECT_PK) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_INDIRECT_MREF
+set		ID_OBJECT_FK = ID_OBJECT_FK + :NEWOFFSET
+where	digits(ID_OBJECT_FK) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_JOIN -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_JOIN
+set		I_JOIN = I_JOIN + :NEWOFFSET
+where	digits(I_JOIN) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_JOIN
+set		I_TABLE_FK = I_TABLE_FK + :NEWOFFSET
+where	digits(I_TABLE_FK) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_JOIN
+set		I_TABLE_PK = I_TABLE_PK + :NEWOFFSET
+where	digits(I_TABLE_PK) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_JOIN
+set		PK_I_MOD = PK_I_MOD + :NEWOFFSET
+where	digits(PK_I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_JOIN
+set		I_TXT_COMPLEX = I_TXT_COMPLEX + :NEWOFFSET
+where	digits(I_TXT_COMPLEX) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_JOIN
+set		I_SC_TABLE_PK = I_SC_TABLE_PK + :NEWOFFSET
+where	digits(I_SC_TABLE_PK) like :OLDMASK
+]]></Field>
+
+
+<!-- (RENUMBER) Table SNP_JOIN_COL -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_JOIN_COL
+set		I_JOIN = I_JOIN + :NEWOFFSET
+where	digits(I_JOIN) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_JOIN_COL
+set		I_COL_FK = I_COL_FK + :NEWOFFSET
+where	digits(I_COL_FK) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_JOIN_COL
+set		I_COL_PK = I_COL_PK + :NEWOFFSET
+where	digits(I_COL_PK) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_KEY -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_KEY
+set		I_KEY = I_KEY + :NEWOFFSET
+where	digits(I_KEY) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_KEY
+set		I_TABLE = I_TABLE + :NEWOFFSET
+where	digits(I_TABLE) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_KEY_COL -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_KEY_COL
+set		I_KEY = I_KEY + :NEWOFFSET
+where	digits(I_KEY) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_KEY_COL
+set		I_COL = I_COL + :NEWOFFSET
+where	digits(I_COL) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_LINE_TRT -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LINE_TRT
+set		I_TRT = I_TRT + :NEWOFFSET
+where	digits(I_TRT) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LINE_TRT
+set		DEF_I_TXT = DEF_I_TXT + :NEWOFFSET
+where	digits(DEF_I_TXT) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LINE_TRT
+set		COL_I_TXT = COL_I_TXT + :NEWOFFSET
+where	digits(COL_I_TXT) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_LINE_TRT_UE -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LINE_TRT_UE
+set		I_USER_EXIT = I_USER_EXIT + :NEWOFFSET
+where	digits(I_USER_EXIT) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LINE_TRT_UE
+set		I_TRT = I_TRT + :NEWOFFSET
+where	digits(I_TRT) like :OLDMASK
+]]></Field>
+
+
+
+
+<!-- (RENUMBER) Table SNP_LINK_COORD -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LINK_COORD
+set		I_COORD = I_COORD + :NEWOFFSET
+where	digits(I_COORD) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LINK_COORD
+set		I_LINK = I_LINK + :NEWOFFSET
+where	digits(I_LINK) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_LINK_DIAG -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LINK_DIAG
+set		I_LINK = I_LINK + :NEWOFFSET
+where	digits(I_LINK) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LINK_DIAG
+set		I_DIAGRAM_FROM = I_DIAGRAM_FROM + :NEWOFFSET
+where	digits(I_DIAGRAM_FROM) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LINK_DIAG
+set		I_INSTANCE_FROM = I_INSTANCE_FROM + :NEWOFFSET
+where	digits(I_INSTANCE_FROM) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LINK_DIAG
+set		I_DIAGRAM_TO = I_DIAGRAM_TO + :NEWOFFSET
+where	digits(I_DIAGRAM_TO) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LINK_DIAG
+set		I_INSTANCE_TO = I_INSTANCE_TO + :NEWOFFSET
+where	digits(I_INSTANCE_TO) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LINK_DIAG
+set		I_DIAGRAM = I_DIAGRAM + :NEWOFFSET
+where	digits(I_DIAGRAM) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_LINK_DIAG
+set		I_INSTANCE = I_INSTANCE + :NEWOFFSET
+where	digits(I_INSTANCE) like :OLDMASK
+]]></Field>
+
+
+
+
+<!-- (RENUMBER) Table SNP_MISSING_REF -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_MISSING_REF
+set		ID_OBJECT_PK = ID_OBJECT_PK + :NEWOFFSET
+where	digits(ID_OBJECT_PK) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_MISSING_REF
+set		ID_OBJECT_FK = ID_OBJECT_FK + :NEWOFFSET
+where	digits(ID_OBJECT_FK) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_MODEL -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_MODEL
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_MODEL
+set		I_TRT_KCM = I_TRT_KCM + :NEWOFFSET
+where	digits(I_TRT_KCM) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_MODEL
+set		I_TRT_KDM = I_TRT_KDM + :NEWOFFSET
+where	digits(I_TRT_KDM) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_MODEL
+set		I_TRT_KJM = I_TRT_KJM + :NEWOFFSET
+where	digits(I_TRT_KJM) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_MODEL
+set		I_MOD_FOLDER = I_MOD_FOLDER + :NEWOFFSET
+where	digits(I_MOD_FOLDER) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_MODEL
+set		I_DEF_FOLDER = I_DEF_FOLDER + :NEWOFFSET
+where	digits(I_DEF_FOLDER) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_MODEL
+set		I_TXT_MOD = I_TXT_MOD + :NEWOFFSET
+where	digits(I_TXT_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_MODEL
+set		I_TRT_SKM = I_TRT_SKM + :NEWOFFSET
+where	digits(I_TRT_SKM) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_MODEL
+set		RELEASE_TAG = RELEASE_TAG + :NEWOFFSET
+where	digits(RELEASE_TAG) like :OLDMASK
+]]></Field>
+
+
+<!-- (RENUMBER) Table SNP_MOD_FOLDER -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_MOD_FOLDER
+set		PAR_I_MOD_FOLDER = PAR_I_MOD_FOLDER + :NEWOFFSET
+where	digits(PAR_I_MOD_FOLDER) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_MOD_FOLDER
+set		I_MOD_FOLDER = I_MOD_FOLDER + :NEWOFFSET
+where	digits(I_MOD_FOLDER) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_MOD_FOLDER
+set		I_TXT_DESCRIPTION = I_TXT_DESCRIPTION + :NEWOFFSET
+where	digits(I_TXT_DESCRIPTION) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_OBJECT_ID -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_OBJECT_ID
+set		I_OBJECT_ID = I_OBJECT_ID + :NEWOFFSET
+where	digits(I_OBJECT_ID) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_OBJECT_ID_COL -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_OBJECT_ID_COL
+set		I_OBJECT_ID = I_OBJECT_ID + :NEWOFFSET
+where	digits(I_OBJECT_ID) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_OBJ_DIAG -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_OBJ_DIAG
+set		I_DIAGRAM = I_DIAGRAM + :NEWOFFSET
+where	digits(I_DIAGRAM) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_OBJ_DIAG
+set		I_INSTANCE = I_INSTANCE + :NEWOFFSET
+where	digits(I_INSTANCE) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_OBJ_STATE -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_OBJ_STATE
+set		I_OBJ_STATE = I_OBJ_STATE + :NEWOFFSET
+where	digits(I_OBJ_STATE) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_OBJ_STATE
+set		I_STATE = I_STATE + :NEWOFFSET
+where	digits(I_STATE) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_OBJ_STATE
+set		I_INSTANCE = I_INSTANCE + :NEWOFFSET
+where	digits(I_INSTANCE) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_OBJ_STATE
+set		I_TXT_MEMO = I_TXT_MEMO + :NEWOFFSET
+where	digits(I_TXT_MEMO) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_OBJ_TRACE -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_OBJ_TRACE
+set		I_OBJ_TRACE = I_OBJ_TRACE + :NEWOFFSET
+where	digits(I_OBJ_TRACE) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_OBJ_TRACE
+set		I_INSTANCE = I_INSTANCE + :NEWOFFSET
+where	digits(I_INSTANCE) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_ORIG_TXT -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_ORIG_TXT
+set		I_TXT_ORIG = I_TXT_ORIG + :NEWOFFSET
+where	digits(I_TXT_ORIG) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_PACKAGE -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_PACKAGE
+set		I_PACKAGE = I_PACKAGE + :NEWOFFSET
+where	digits(I_PACKAGE) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_PACKAGE
+set		I_STATE = I_STATE + :NEWOFFSET
+where	digits(I_STATE) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_PACKAGE
+set		I_FOLDER = I_FOLDER + :NEWOFFSET
+where	digits(I_FOLDER) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_PACKAGE
+set		I_TXT_PACK = I_TXT_PACK + :NEWOFFSET
+where	digits(I_TXT_PACK) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_PACKAGE
+set		I_SC_PACKAGE = I_SC_PACKAGE + :NEWOFFSET
+where	digits(I_SC_PACKAGE) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_PACKAGE
+set		I_SC_BASE_PACKAGE = I_SC_BASE_PACKAGE + :NEWOFFSET
+where	digits(I_SC_BASE_PACKAGE) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_PACKAGE
+set		I_SC_ORIG_PACKAGE = I_SC_ORIG_PACKAGE + :NEWOFFSET
+where	digits(I_SC_ORIG_PACKAGE) like :OLDMASK
+]]></Field>
+
+
+<!-- (RENUMBER) Table SNP_PARTITION -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_PARTITION
+set		I_PARTITION = I_PARTITION + :NEWOFFSET
+where	digits(I_PARTITION) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_PARTITION
+set		I_TABLE = I_TABLE + :NEWOFFSET
+where	digits(I_TABLE) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_PARTITION
+set		I_PAR_PARTITION = I_PAR_PARTITION + :NEWOFFSET
+where	digits(I_PAR_PARTITION) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_POP -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP
+set		I_POP = I_POP + :NEWOFFSET
+where	digits(I_POP) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP
+set		ORD_FOLDER = ORD_FOLDER + :NEWOFFSET
+where	digits(ORD_FOLDER) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP
+set		I_STATE = I_STATE + :NEWOFFSET
+where	digits(I_STATE) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP
+set		I_TXT_POP_LIB = I_TXT_POP_LIB + :NEWOFFSET
+where	digits(I_TXT_POP_LIB) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP
+set		I_TABLE = I_TABLE + :NEWOFFSET
+where	digits(I_TABLE) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP
+set		I_TRT_KIM = I_TRT_KIM + :NEWOFFSET
+where	digits(I_TRT_KIM) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP
+set		I_TRT_KLM = I_TRT_KLM + :NEWOFFSET
+where	digits(I_TRT_KLM) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP
+set		I_TRT_KCM = I_TRT_KCM + :NEWOFFSET
+where	digits(I_TRT_KCM) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP
+set		I_FOLDER = I_FOLDER + :NEWOFFSET
+where	digits(I_FOLDER) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP
+set		I_PARTITION = I_PARTITION + :NEWOFFSET
+where	digits(I_PARTITION) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP
+set		I_SC_POP = I_SC_POP + :NEWOFFSET
+where	digits(I_SC_POP) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP
+set		I_SC_BASE_POP = I_SC_BASE_POP + :NEWOFFSET
+where	digits(I_SC_BASE_POP) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP
+set		I_SC_ORIG_POP = I_SC_ORIG_POP + :NEWOFFSET
+where	digits(I_SC_ORIG_POP) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP
+set		I_SC_TABLE = I_SC_TABLE + :NEWOFFSET
+where	digits(I_SC_TABLE) like :OLDMASK
+]]></Field>
+
+
+<!-- (RENUMBER) Table SNP_POP_CLAUSE -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP_CLAUSE
+set		I_POP_CLAUSE = I_POP_CLAUSE + :NEWOFFSET
+where	digits(I_POP_CLAUSE) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP_CLAUSE
+set		I_POP = I_POP + :NEWOFFSET
+where	digits(I_POP) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP_CLAUSE
+set		I_TXT_SQL = I_TXT_SQL + :NEWOFFSET
+where	digits(I_TXT_SQL) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP_CLAUSE
+set		I_TABLE1 = I_TABLE1 + :NEWOFFSET
+where	digits(I_TABLE1) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP_CLAUSE
+set		I_TABLE2 = I_TABLE2 + :NEWOFFSET
+where	digits(I_TABLE2) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP_CLAUSE
+set		I_SRC_SET = I_SRC_SET + :NEWOFFSET
+where	digits(I_SRC_SET) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP_CLAUSE
+set		I_TXT_DESC = I_TXT_DESC + :NEWOFFSET
+where	digits(I_TXT_DESC) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP_CLAUSE
+set		I_DATA_SET = I_DATA_SET + :NEWOFFSET
+where	digits(I_DATA_SET) like :OLDMASK
+]]></Field>
+
+
+<!-- (RENUMBER) Table SNP_POP_COL -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP_COL
+set		I_POP_COL = I_POP_COL + :NEWOFFSET
+where	digits(I_POP_COL) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP_COL
+set		I_POP = I_POP + :NEWOFFSET
+where	digits(I_POP) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP_COL
+set		I_COL = I_COL + :NEWOFFSET
+where	digits(I_COL) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP_COL
+set		I_SRC_SET = I_SRC_SET + :NEWOFFSET
+where	digits(I_SRC_SET) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP_COL
+set		I_SOURCE_TAB = I_SOURCE_TAB + :NEWOFFSET
+where	digits(I_SOURCE_TAB) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP_COL
+set		I_TXT_MAP = I_TXT_MAP + :NEWOFFSET
+where	digits(I_TXT_MAP) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP_COL
+set		I_TXT_MAP_TXT = I_TXT_MAP_TXT + :NEWOFFSET
+where	digits(I_TXT_MAP_TXT) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_POP_CONSTRAINT -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP_CONSTRAINT
+set		I_POP = I_POP + :NEWOFFSET
+where	digits(I_POP) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_POP_CONTEXT -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP_CONTEXT
+set		I_POP = I_POP + :NEWOFFSET
+where	digits(I_POP) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_POP_MAPPING -->
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP_MAPPING
+set		I_DATA_SET = I_DATA_SET + :NEWOFFSET
+where	digits(I_DATA_SET) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP_MAPPING
+set		I_POP_COL = I_POP_COL + :NEWOFFSET
+where	digits(I_POP_COL) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP_MAPPING
+set		I_SOURCE_TAB = I_SOURCE_TAB + :NEWOFFSET
+where	digits(I_SOURCE_TAB) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP_MAPPING
+set		I_SRC_SET = I_SRC_SET + :NEWOFFSET
+where	digits(I_SRC_SET) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_POP_MAPPING
+set		I_TXT_MAP = I_TXT_MAP + :NEWOFFSET
+where	digits(I_TXT_MAP) like :OLDMASK
+]]></Field>
+
+
+<!-- (RENUMBER) Table SNP_PROJECT -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_PROJECT
+set		I_PROJECT = I_PROJECT + :NEWOFFSET
+where	digits(I_PROJECT) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_REV_COL -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_REV_COL
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_REV_COL
+set		I_TXT_COL_DESC = I_TXT_COL_DESC + :NEWOFFSET
+where	digits(I_TXT_COL_DESC) like :OLDMASK
+]]></Field>
+
+
+<!-- (RENUMBER) Table SNP_REV_COL_FFV -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_REV_COL_FFV
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_REV_COND -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_REV_COND
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_REV_COND_FFV -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_REV_COND_FFV
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_REV_FOR_TABLE -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_REV_FOR_TABLE
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_REV_JOIN -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_REV_JOIN
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_REV_JOIN_COL -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_REV_JOIN_COL
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_REV_JOIN_FFV -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_REV_JOIN_FFV
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_REV_KEY -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_REV_KEY
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_REV_KEY_COL -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_REV_KEY_COL
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_REV_KEY_FFV -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_REV_KEY_FFV
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_REV_MODEL_FFV -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_REV_MODEL_FFV
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_REV_PARTITION -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_REV_PARTITION
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_REV_PARTITION
+set		I_TXT_DESC = I_TXT_DESC + :NEWOFFSET
+where	digits(I_TXT_DESC) like :OLDMASK
+]]></Field>
+
+
+<!-- (RENUMBER) Table SNP_REV_SUB_MODEL -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_REV_SUB_MODEL
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_REV_TABLE -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_REV_TABLE
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_REV_TABLE
+set		I_TXT_DESC = I_TXT_DESC + :NEWOFFSET
+where	digits(I_TXT_DESC) like :OLDMASK
+]]></Field>
+
+
+<!-- (RENUMBER) Table SNP_REV_TABLE_FFV -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_REV_TABLE_FFV
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_SEQUENCE -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SEQUENCE
+set		SEQ_ID = SEQ_ID + :NEWOFFSET
+where	digits(SEQ_ID) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SEQUENCE
+set		I_PROJECT = I_PROJECT + :NEWOFFSET
+where	digits(I_PROJECT) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SEQUENCE
+set		I_TXT_SPC_WHERE = I_TXT_SPC_WHERE + :NEWOFFSET
+where	digits(I_TXT_SPC_WHERE) like :OLDMASK
+]]></Field>
+
+
+<!-- (RENUMBER) Table SNP_SOURCE_TAB -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SOURCE_TAB
+set		I_SOURCE_TAB = I_SOURCE_TAB + :NEWOFFSET
+where	digits(I_SOURCE_TAB) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SOURCE_TAB
+set		I_POP = I_POP + :NEWOFFSET
+where	digits(I_POP) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SOURCE_TAB
+set		I_TABLE = I_TABLE + :NEWOFFSET
+where	digits(I_TABLE) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SOURCE_TAB
+set		I_POP_SUB = I_POP_SUB + :NEWOFFSET
+where	digits(I_POP_SUB) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SOURCE_TAB
+set		I_SRC_SET = I_SRC_SET + :NEWOFFSET
+where	digits(I_SRC_SET) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SOURCE_TAB
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SOURCE_TAB
+set		I_DATA_SET = I_DATA_SET + :NEWOFFSET
+where	digits(I_DATA_SET) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SOURCE_TAB
+set		I_PARTITION = I_PARTITION + :NEWOFFSET
+where	digits(I_PARTITION) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SOURCE_TAB
+set		I_SC_TABLE = I_SC_TABLE + :NEWOFFSET
+where	digits(I_SC_TABLE) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SOURCE_TAB
+set		I_SC_POP_SUB = I_SC_POP_SUB + :NEWOFFSET
+where	digits(I_SC_POP_SUB) like :OLDMASK
+]]></Field>
+
+
+<!-- (RENUMBER) Table SNP_SRC_SET -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SRC_SET
+set		I_SRC_SET = I_SRC_SET + :NEWOFFSET
+where	digits(I_SRC_SET) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SRC_SET
+set		I_POP = I_POP + :NEWOFFSET
+where	digits(I_POP) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SRC_SET
+set		I_TRT_KLM = I_TRT_KLM + :NEWOFFSET
+where	digits(I_TRT_KLM) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SRC_SET
+set		I_DATA_SET = I_DATA_SET + :NEWOFFSET
+where	digits(I_DATA_SET) like :OLDMASK
+]]></Field>
+
+
+<!-- (RENUMBER) Table SNP_STATE -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STATE
+set		I_STATE = I_STATE + :NEWOFFSET
+where	digits(I_STATE) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STATE
+set		I_PROJECT = I_PROJECT + :NEWOFFSET
+where	digits(I_PROJECT) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_STATE2 -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STATE2
+set		I_STATE = I_STATE + :NEWOFFSET
+where	digits(I_STATE) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STATE2
+set		I_GRP_STATE = I_GRP_STATE + :NEWOFFSET
+where	digits(I_GRP_STATE) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_STEP -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP
+set		I_STEP = I_STEP + :NEWOFFSET
+where	digits(I_STEP) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP
+set		I_PACKAGE = I_PACKAGE + :NEWOFFSET
+where	digits(I_PACKAGE) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP
+set		NNO = NNO + :NEWOFFSET
+where	digits(NNO) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP
+set		I_POP = I_POP + :NEWOFFSET
+where	digits(I_POP) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP
+set		I_TRT = I_TRT + :NEWOFFSET
+where	digits(I_TRT) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP
+set		I_VAR = I_VAR + :NEWOFFSET
+where	digits(I_VAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP
+set		I_TXT_ACTION = I_TXT_ACTION + :NEWOFFSET
+where	digits(I_TXT_ACTION) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP
+set		OK_NEXT_STEP = OK_NEXT_STEP + :NEWOFFSET
+where	digits(OK_NEXT_STEP) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP
+set		KO_RETRY = KO_RETRY + :NEWOFFSET
+where	digits(KO_RETRY) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP
+set		KO_NEXT_STEP = KO_NEXT_STEP + :NEWOFFSET
+where	digits(KO_NEXT_STEP) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP
+set		I_SMOD = I_SMOD + :NEWOFFSET
+where	digits(I_SMOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP
+set		I_TABLE = I_TABLE + :NEWOFFSET
+where	digits(I_TABLE) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP
+set		I_TXT_SUBSCRIBERS = I_TXT_SUBSCRIBERS + :NEWOFFSET
+where	digits(I_TXT_SUBSCRIBERS) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP
+set		I_TXT_VAR_VALUE = I_TXT_VAR_VALUE + :NEWOFFSET
+where	digits(I_TXT_VAR_VALUE) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP
+set		I_SC_TABLE = I_SC_TABLE + :NEWOFFSET
+where	digits(I_SC_TABLE) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP
+set		I_SC_TRT = I_SC_TRT + :NEWOFFSET
+where	digits(I_SC_TRT) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_STEP
+set		I_SC_POP = I_SC_POP + :NEWOFFSET
+where	digits(I_SC_POP) like :OLDMASK
+]]></Field>
+
+
+
+
+<!-- (RENUMBER) Table SNP_SUB_MODEL -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SUB_MODEL
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SUB_MODEL
+set		I_SMOD = I_SMOD + :NEWOFFSET
+where	digits(I_SMOD) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_SUB_MODEL
+set		I_SMOD_PARENT = I_SMOD_PARENT + :NEWOFFSET
+where	digits(I_SMOD_PARENT) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_TABLE -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TABLE
+set		I_TABLE = I_TABLE + :NEWOFFSET
+where	digits(I_TABLE) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TABLE
+set		I_MOD = I_MOD + :NEWOFFSET
+where	digits(I_MOD) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TABLE
+set		I_SUB_MODEL = I_SUB_MODEL + :NEWOFFSET
+where	digits(I_SUB_MODEL) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TABLE
+set		I_TXT_WSDL = I_TXT_WSDL + :NEWOFFSET
+where	digits(I_TXT_WSDL) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TABLE
+set		I_TXT_DESC = I_TXT_DESC + :NEWOFFSET
+where	digits(I_TXT_DESC) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TABLE
+set		I_SC_TABLE = I_SC_TABLE + :NEWOFFSET
+where	digits(I_SC_TABLE) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TABLE
+set		I_SC_BASE_TABLE = I_SC_BASE_TABLE + :NEWOFFSET
+where	digits(I_SC_BASE_TABLE) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TABLE
+set		I_SC_ORIG_TABLE = I_SC_ORIG_TABLE + :NEWOFFSET
+where	digits(I_SC_ORIG_TABLE) like :OLDMASK
+]]></Field>
+
+
+<!-- (RENUMBER) Table SNP_TRT -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TRT
+set		I_TRT = I_TRT + :NEWOFFSET
+where	digits(I_TRT) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TRT
+set		I_STATE = I_STATE + :NEWOFFSET
+where	digits(I_STATE) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TRT
+set		I_FOLDER = I_FOLDER + :NEWOFFSET
+where	digits(I_FOLDER) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TRT
+set		I_TXT_TRT_TXT = I_TXT_TRT_TXT + :NEWOFFSET
+where	digits(I_TXT_TRT_TXT) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TRT
+set		I_PROJECT = I_PROJECT + :NEWOFFSET
+where	digits(I_PROJECT) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TRT
+set		I_SC_TRT = I_SC_TRT + :NEWOFFSET
+where	digits(I_SC_TRT) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TRT
+set		I_SC_BASE_TRT = I_SC_BASE_TRT + :NEWOFFSET
+where	digits(I_SC_BASE_TRT) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TRT
+set		I_SC_ORIG_TRT = I_SC_ORIG_TRT + :NEWOFFSET
+where	digits(I_SC_ORIG_TRT) like :OLDMASK
+]]></Field>
+
+
+
+
+<!-- (RENUMBER) Table SNP_TXT -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TXT
+set		I_TXT = I_TXT + :NEWOFFSET
+where	digits(I_TXT) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_TXT_CROSSR -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TXT_CROSSR
+set		I_TXT = I_TXT + :NEWOFFSET
+where	digits(I_TXT) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TXT_CROSSR
+set		I_TABLE = I_TABLE + :NEWOFFSET
+where	digits(I_TABLE) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TXT_CROSSR
+set		I_COL = I_COL + :NEWOFFSET
+where	digits(I_COL) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TXT_CROSSR
+set		I_VAR = I_VAR + :NEWOFFSET
+where	digits(I_VAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TXT_CROSSR
+set		SEQ_ID = SEQ_ID + :NEWOFFSET
+where	digits(SEQ_ID) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TXT_CROSSR
+set		I_POP_COL = I_POP_COL + :NEWOFFSET
+where	digits(I_POP_COL) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TXT_CROSSR
+set		I_UFUNC = I_UFUNC + :NEWOFFSET
+where	digits(I_UFUNC) like :OLDMASK
+]]></Field>
+
+
+
+
+<!-- (RENUMBER) Table SNP_TXT_HEADER -->
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_TXT_HEADER
+set		I_TXT = I_TXT + :NEWOFFSET
+where	digits(I_TXT) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_UE_ORIG -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_UE_ORIG
+set		I_UE_ORIG = I_UE_ORIG + :NEWOFFSET
+where	digits(I_UE_ORIG) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_UE_USED -->
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_UE_USED
+set		I_USER_EXIT = I_USER_EXIT + :NEWOFFSET
+where	digits(I_USER_EXIT) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_UE_USED
+set		I_INSTANCE = I_INSTANCE + :NEWOFFSET
+where	digits(I_INSTANCE) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_UE_USED
+set		I_TXT_VALUE = I_TXT_VALUE + :NEWOFFSET
+where	digits(I_TXT_VALUE) like :OLDMASK
+]]></Field>
+
+
+<!-- (RENUMBER) Table SNP_UFUNC -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_UFUNC
+set		I_UFUNC = I_UFUNC + :NEWOFFSET
+where	digits(I_UFUNC) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_UFUNC
+set		I_PROJECT = I_PROJECT + :NEWOFFSET
+where	digits(I_PROJECT) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_UFUNC
+set		I_TXT_DEF = I_TXT_DEF + :NEWOFFSET
+where	digits(I_TXT_DEF) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_UFUNC
+set		I_TXT_DESC = I_TXT_DESC + :NEWOFFSET
+where	digits(I_TXT_DESC) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_UFUNC_IMPL -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_UFUNC_IMPL
+set		I_UFUNC_IMPL = I_UFUNC_IMPL + :NEWOFFSET
+where	digits(I_UFUNC_IMPL) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_UFUNC_IMPL
+set		I_UFUNC = I_UFUNC + :NEWOFFSET
+where	digits(I_UFUNC) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_UFUNC_IMPL
+set		I_TXT_IMPL = I_TXT_IMPL + :NEWOFFSET
+where	digits(I_TXT_IMPL) like :OLDMASK
+]]></Field>
+
+
+<!-- (RENUMBER) Table SNP_UFUNC_TECHNO -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_UFUNC_TECHNO
+set		I_UFUNC_IMPL = I_UFUNC_IMPL + :NEWOFFSET
+where	digits(I_UFUNC_IMPL) like :OLDMASK
+]]></Field>
+
+
+
+
+<!-- (RENUMBER) Table SNP_USER_EXIT -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_USER_EXIT
+set		I_USER_EXIT = I_USER_EXIT + :NEWOFFSET
+where	digits(I_USER_EXIT) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_USER_EXIT
+set		I_TRT = I_TRT + :NEWOFFSET
+where	digits(I_TRT) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_USER_EXIT
+set		I_TXT_UE_HELP = I_TXT_UE_HELP + :NEWOFFSET
+where	digits(I_TXT_UE_HELP) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_USER_EXIT
+set		I_TXT_VALUE = I_TXT_VALUE + :NEWOFFSET
+where	digits(I_TXT_VALUE) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+<!-- (RENUMBER) Table SNP_VAR -->
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_VAR
+set		I_VAR = I_VAR + :NEWOFFSET
+where	digits(I_VAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_VAR
+set		I_PROJECT = I_PROJECT + :NEWOFFSET
+where	digits(I_PROJECT) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_VAR
+set		I_TXT_VAR_IN = I_TXT_VAR_IN + :NEWOFFSET
+where	digits(I_TXT_VAR_IN) like :OLDMASK
+]]></Field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_VAR
+set		I_TXT_VAR = I_TXT_VAR + :NEWOFFSET
+where	digits(I_TXT_VAR) like :OLDMASK
+]]></Field>
+
+
+
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+update	SNP_VAR
+set		I_TXT_VAR_VAL_TXT = I_TXT_VAR_VAL_TXT + :NEWOFFSET
+where	digits(I_TXT_VAR_VAL_TXT) like :OLDMASK
+]]></Field>
+
+
+
+
+</Object>
+</SunopsisRepository>

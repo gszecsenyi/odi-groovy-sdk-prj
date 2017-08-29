@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (MODIFY) Table: SNP_LPI_VAR -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_VAR add VAR_VALUE <?=snpRef.getDataType("SRC_VARCHAR", "250", "")?> NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_VAR add I_TXT_VAR_VALUE <?=snpRef.getDataType("SRC_NUMERIC", "19", "")?> NULL
+]]></Field>
+
+
+<!-- (CREATE) Table SNP_PARAM_SESS -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create table SNP_PARAM_SESS
+(
+
+  SESS_NO <?=snpRef.getDataType("SRC_NUMERIC", "19", "")?> NOT NULL ,
+
+  PARAM_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> NOT NULL ,
+
+  PARAM_VALUE <?=snpRef.getDataType("SRC_VARCHAR", "250", "")?> NULL ,
+
+  I_TXT_VALUE <?=snpRef.getDataType("SRC_NUMERIC", "19", "")?> NULL 
+
+)
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_PARAM_SESS.PK_PARAM_SESS -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PARAM_SESS add constraint PK_PARAM_SESS primary key ( SESS_NO , PARAM_NAME  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_PARAM_SESS.PARAM_SESS_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index PARAM_SESS_FK on SNP_PARAM_SESS ( SESS_NO  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_PARAM_SESS.FK_PARAM_SESS -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PARAM_SESS
+ add constraint FK_PARAM_SESS foreign key ( SESS_NO  )
+  references SNP_SESSION ( SESS_NO  )
+]]></Field>
+
+</Object>
+</SunopsisRepository>

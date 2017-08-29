@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (MODIFY) Table: SNP_POP_COL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_COL add POS NUMERIC(10) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_TXT_HEADER -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TXT_HEADER add FULL_TEXT TEXT NULL
+]]></Field>
+
+
+</Object>
+</SunopsisRepository>

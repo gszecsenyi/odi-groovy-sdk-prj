@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (MODIFY) Table: SNP_SEQ_SCEN -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SEQ_SCEN add SPC_WHERE_TXT CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SEQ_SESS -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SEQ_SESS add SPC_WHERE_TXT CLOB NULL
+]]></Field>
+
+
+</Object>
+</SunopsisRepository>

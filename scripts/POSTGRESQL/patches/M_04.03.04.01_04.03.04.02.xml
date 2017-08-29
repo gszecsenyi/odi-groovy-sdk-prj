@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (CREATE) Table SNP_AGENT_PROP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create table SNP_AGENT_PROP
+(
+
+  I_AGENT NUMERIC(10) NOT NULL ,
+
+  PROP_KEY VARCHAR(100) NOT NULL ,
+
+  PROP_VALUE VARCHAR(150) NULL 
+
+)
+]]></Field>
+
+<!-- (CREATE) Table SNP_AGENT_PROP_LST -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create table SNP_AGENT_PROP_LST
+(
+
+  PROP_KEY VARCHAR(100) NOT NULL ,
+
+  PROP_TYPE VARCHAR(150) NOT NULL ,
+
+  PROP_DEFAULT_VALUE VARCHAR(150) NULL 
+
+)
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_AGENT_PROP.PK_AGENT_PROP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_AGENT_PROP add constraint PK_AGENT_PROP primary key ( I_AGENT , PROP_KEY  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_AGENT_PROP_LST.PK_AGENT_PROP_LST -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_AGENT_PROP_LST add constraint PK_AGENT_PROP_LST primary key ( PROP_KEY  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_AGENT_PROP.FK_AGENT_PROP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_AGENT_PROP
+ add constraint FK_AGENT_PROP foreign key ( I_AGENT  )
+  references SNP_AGENT ( I_AGENT  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_AGENT_PROP.FK_AGENT_PROP_KEY -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_AGENT_PROP
+ add constraint FK_AGENT_PROP_KEY foreign key ( PROP_KEY  )
+  references SNP_AGENT_PROP_LST ( PROP_KEY  )
+]]></Field>
+
+</Object>
+</SunopsisRepository>

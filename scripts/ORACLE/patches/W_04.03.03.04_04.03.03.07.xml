@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (DROP) Foreign Key SNP_SOURCE_TAB.FK_SRC_TAB_SC_POP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOURCE_TAB drop constraint FK_SRC_TAB_SC_POP
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_SOURCE_TAB.FK_SRC_TAB_SC_TAB -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOURCE_TAB drop constraint FK_SRC_TAB_SC_TAB
+]]></Field>
+
+<!-- (DROP) Index SNP_SOURCE_TAB.SRC_TAB_SC_POP_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SRC_TAB_SC_POP_FK
+]]></Field>
+
+<!-- (DROP) Index SNP_SOURCE_TAB.SRC_TAB_SC_TAB_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SRC_TAB_SC_TAB_FK
+]]></Field>
+
+<!-- (MODIFY) Table: SNP_REV_TABLE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_TABLE add REVERSE_OPTION VARCHAR2(1 CHAR) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_STEP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP add RECURSE_SUBMOD VARCHAR2(1 CHAR) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_TRT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TRT add KM_VERSION VARCHAR2(20 CHAR) NULL
+]]></Field>
+
+
+</Object>
+</SunopsisRepository>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (MODIFY) Table: SNP_LPI_RUN -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_RUN add EXEC_MODE NUMERIC(4) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_STEP_LOG -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP_LOG add EXECUTION_ORDER NUMERIC(10) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_STEP_REPORT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP_REPORT add EXECUTION_ORDER NUMERIC(10) NULL
+]]></Field>
+
+
+<!-- (CREATE) Index SNP_SESS_TASK_LS.SESS_LS_SEQ_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index SESS_LS_SEQ_FK on SNP_SESS_TASK_LS ( SESS_NO , SEQ_NAME  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_SESS_STEP_LV.SESS_LV_VAR_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index SESS_LV_VAR_FK on SNP_SESS_STEP_LV ( SESS_NO , VAR_NAME  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_SESS_TASK_LS.FK_SESS_LS_SEQ -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK_LS
+ add constraint FK_SESS_LS_SEQ foreign key ( SESS_NO , SEQ_NAME  )
+  references SNP_SEQ_SESS ( SESS_NO , SEQ_NAME  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_SESS_STEP_LV.FK_SESS_LV_VAR -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_STEP_LV
+ add constraint FK_SESS_LV_VAR foreign key ( SESS_NO , VAR_NAME  )
+  references SNP_VAR_SESS ( SESS_NO , VAR_NAME  )
+]]></Field>
+
+</Object>
+</SunopsisRepository>

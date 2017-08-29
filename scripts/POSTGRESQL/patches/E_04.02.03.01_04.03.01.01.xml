@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (MODIFY) Table: SNP_SCEN -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SCEN add INT_VERSION <?=snpRef.getDataType("SRC_NUMERIC", "10", "")?> NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SCEN add V_LAST_DATE <?=snpRef.getDataType("SRC_DATE", "", "")?> NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SCEN_STEP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SCEN_STEP add I_TXT_VAR_VALUE <?=snpRef.getDataType("SRC_NUMERIC", "10", "")?> NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SEQ_SESS -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SEQ_SESS add DB_SEQ_NAME <?=snpRef.getDataType("SRC_VARCHAR", "35", "")?> NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SESSION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESSION add FIRST_DATE <?=snpRef.getDataType("SRC_DATE", "", "")?> NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESSION add LAST_DATE <?=snpRef.getDataType("SRC_DATE", "", "")?> NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESSION add LAST_USER <?=snpRef.getDataType("SRC_VARCHAR", "35", "")?> NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESSION add FIRST_USER <?=snpRef.getDataType("SRC_VARCHAR", "35", "")?> NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SESS_STEP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_STEP add FIRST_DATE <?=snpRef.getDataType("SRC_DATE", "", "")?> NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_STEP add LAST_DATE <?=snpRef.getDataType("SRC_DATE", "", "")?> NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_STEP add LAST_USER <?=snpRef.getDataType("SRC_VARCHAR", "35", "")?> NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_STEP add FIRST_USER <?=snpRef.getDataType("SRC_VARCHAR", "35", "")?> NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_STEP add I_TXT_VAR_VALUE <?=snpRef.getDataType("SRC_NUMERIC", "10", "")?> NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SESS_TASK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK add FIRST_DATE <?=snpRef.getDataType("SRC_DATE", "", "")?> NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK add LAST_DATE <?=snpRef.getDataType("SRC_DATE", "", "")?> NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK add LAST_USER <?=snpRef.getDataType("SRC_VARCHAR", "35", "")?> NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK add FIRST_USER <?=snpRef.getDataType("SRC_VARCHAR", "35", "")?> NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_VAR_PLAN_AGENT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_VAR_PLAN_AGENT add I_TXT_VAR_VALUE <?=snpRef.getDataType("SRC_NUMERIC", "10", "")?> NULL
+]]></Field>
+
+
+<!-- (CREATE) Table SNP_EXP_TXT_HEADER -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create table SNP_EXP_TXT_HEADER
+(
+
+  I_TXT <?=snpRef.getDataType("SRC_NUMERIC", "10", "")?> NOT NULL 
+
+)
+]]></Field>
+
+<!-- (CREATE) Table SNP_IMPORT_REP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create table SNP_IMPORT_REP
+(
+
+  REP_SHORT_ID <?=snpRef.getDataType("SRC_NUMERIC", "10", "")?> NOT NULL ,
+
+  REP_TIMESTAMP <?=snpRef.getDataType("SRC_VARCHAR", "30", "")?> NOT NULL 
+
+)
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_EXP_TXT_HEADER.PK_EXP_TXT_HEADER -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_EXP_TXT_HEADER add constraint PK_EXP_TXT_HEADER primary key ( I_TXT  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_LOCKED_OBJECT.PK_LOCKED_OBJECT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LOCKED_OBJECT add constraint PK_LOCKED_OBJECT primary key ( I_INSTANCE , I_OBJECT  )
+]]></Field>
+
+</Object>
+</SunopsisRepository>

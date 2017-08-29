@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_COL drop foreign key FK_COL
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_COL drop foreign key FK_COL_COL
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_COND drop foreign key FK_COND1
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_COND drop foreign key FK_COND2
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DATA_SET drop foreign key FK_DATA_SET_POP
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DIAGRAM drop foreign key FK_DIAG_DATA_SET
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FOLDER drop foreign key FK_FOLDER
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_GRP_STATE drop foreign key FK_GRP_STT_SNP_PRJ
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_INDIRECT_MREF drop foreign key FK_IND_MREF_FK
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODEL drop foreign key FK_I_MOD_FOLDER
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN drop foreign key FK_JOIN2
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN drop foreign key FK_JOIN3
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN_COL drop foreign key FK_JOIN_COL1
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN_COL drop foreign key FK_JOIN_COL2
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN_COL drop foreign key FK_JOIN_COL3
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN drop foreign key FK_JOIN_SC_TAB_PK
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_KEY drop foreign key FK_KEY
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_KEY_COL drop foreign key FK_KEY_COL1
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_KEY_COL drop foreign key FK_KEY_COL2
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINE_TRT drop foreign key FK_LINE_TRT
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINE_TRT_UE drop foreign key FK_LINE_TRT_UE1
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINE_TRT_UE drop foreign key FK_LINE_TRT_UE2
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINK_DIAG drop foreign key FK_LINK_SNP_OBJ_DG
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINK_DIAG drop foreign key FK_LINK_SNP_OBJ_FR
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINK_DIAG drop foreign key FK_LINK_SNP_OBJ_TO
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODEL drop foreign key FK_MODEL_FOLDER
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODEL drop foreign key FK_MODEL_KCM
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODEL drop foreign key FK_MODEL_KDM
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODEL drop foreign key FK_MODEL_KJM
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODEL drop foreign key FK_MODEL_SKM
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MOD_FOLDER drop foreign key FK_MOD_FOLDER
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MISSING_REF drop foreign key FK_MREF_ID_FK
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MISSING_REF drop foreign key FK_MREF_ID_PK
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_OBJ_STATE drop foreign key FK_OBJ_STT_SNP_STT
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_OBJ_DIAG drop foreign key FK_ODIAG_SNP_DIAG
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_OBJECT_ID_COL drop foreign key FK_OID_COL_OID
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PACKAGE drop foreign key FK_PACKAGE1
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PACKAGE drop foreign key FK_PACK_SHORTCUT
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PARTITION drop foreign key FK_PARTITION_TABLE
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PARTITION drop foreign key FK_PART_PARTITION
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_MAPPING drop foreign key FK_PMAP_PCOL
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_MAPPING drop foreign key FK_PMAP_SSET
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_MAPPING drop foreign key FK_PMAP_STAB
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP drop foreign key FK_POP1
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP drop foreign key FK_POP2
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP drop foreign key FK_POP3
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP drop foreign key FK_POP6
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP drop foreign key FK_POP8
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_CLAUSE drop foreign key FK_POP_CLAUSE1
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_CLAUSE drop foreign key FK_POP_CLAUSE2
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_CLAUSE drop foreign key FK_POP_CLAUSE3
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_CLAUSE drop foreign key FK_POP_CLAUSE5
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_COL drop foreign key FK_POP_COL
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_COL drop foreign key FK_POP_COL1
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_COL drop foreign key FK_POP_COL3
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_CONSTRAINT drop foreign key FK_POP_CONSTRAINT
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_MAPPING drop foreign key FK_POP_MAPPING1
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP drop foreign key FK_POP_SC_TABLE
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP drop foreign key FK_POP_SHORTCUT
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SEQUENCE drop foreign key FK_SEQUENCE
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINK_COORD drop foreign key FK_SNP_COORD_LINK
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DIAGRAM drop foreign key FK_SNP_DIAG_PACK
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DIAGRAM drop foreign key FK_SNP_DIAG_POP
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DIAG_PARAM drop foreign key FK_SNP_DIAG_PRM_DG
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DIAGRAM drop foreign key FK_SNP_DIAG_SMOD
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_UFUNC_IMPL drop foreign key FK_SNP_UFUNC_IMPL
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOURCE_TAB drop foreign key FK_SOURCE_TAB1
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOURCE_TAB drop foreign key FK_SOURCE_TAB3
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOURCE_TAB drop foreign key FK_SOURCE_TAB4
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SRC_SET drop foreign key FK_SRC_SET1
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SRC_SET drop foreign key FK_SRC_SET3
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STATE drop foreign key FK_STATE
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP drop foreign key FK_STEP3
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP drop foreign key FK_STEP4
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP drop foreign key FK_STEP5
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP drop foreign key FK_STEP6
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP drop foreign key FK_STEP_SC_POP
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP drop foreign key FK_STEP_SC_TABLE
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP drop foreign key FK_STEP_SC_TRT
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP drop foreign key FK_STEP_SMODEL
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP drop foreign key FK_STEP_TABLE
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STATE2 drop foreign key FK_STT_SNP_GRP_STT
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SUB_MODEL drop foreign key FK_SUB_MODEL
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TABLE drop foreign key FK_TABLE
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TABLE drop foreign key FK_TABLE_SHORTCUT
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TRT drop foreign key FK_TRT1
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TRT drop foreign key FK_TRT2
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TRT drop foreign key FK_TRT_SHORTCUT
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TXT_CROSSR drop foreign key FK_TXT_CROSSR1
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TXT_CROSSR drop foreign key FK_TXT_CROSSR2
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TXT_CROSSR drop foreign key FK_TXT_CROSSR3
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TXT_CROSSR drop foreign key FK_TXT_CROSSR5
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TXT_CROSSR drop foreign key FK_TXT_CROSSR6
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TXT_CROSSR drop foreign key FK_TXT_CROSSR_UFUN
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_UE_USED drop foreign key FK_UE_USED2
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_UFUNC_TECHNO drop foreign key FK_UFUNC_TECHNO
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_EXIT drop foreign key FK_USER_EXIT
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_VAR drop foreign key FK_VAR
+
+]]></Field>
+</Object>
+</SunopsisRepository>

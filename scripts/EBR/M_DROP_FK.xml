@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ACTION_T drop constraint FK_ACT_GRP_ACT4321
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_AGENT_PROP_T drop constraint FK_AGENT_PROP4342
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_AGENT_PROP_T drop constraint FK_AGENT_PROP_KEY4342
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ALLOC_AGENT_T drop constraint FK_ALLOC_AGENT14221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ALLOC_AGENT_T drop constraint FK_ALLOC_AGENT24221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ALLOC_AGENT_T drop constraint FK_ALLOC_AGENT34221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONNECT_PROP_T drop constraint FK_CONNECT_PROP4221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONV_DT_T drop constraint FK_CONV_DT14221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONV_DT_T drop constraint FK_CONV_DT24221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONV_DT_T drop constraint FK_CONV_DT34221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DATASOURCE_T drop constraint FK_DS_AGENT4311
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DATASOURCE_T drop constraint FK_DS_CONNECT4311
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DT_T drop constraint FK_DT4221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FLEX_FIELD_T drop constraint FK_FF_OBJECTS4221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FIELD_T drop constraint FK_FIELD_ENTITY4221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FIELD_T drop constraint FK_FIELD_LINK4221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FIELD_LOOKUP_T drop constraint FK_FLOOKUP_FIELD4221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_GRP_ACTION_T drop constraint FK_GRPACTION_TECH4221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_INDEX_TYPE_T drop constraint FK_IDXTYPE_TEC4321
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_INST_OBJ_T drop constraint FK_INST_OBJ14221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LANG_ELT_T drop constraint FK_LANG_ELT4221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LANG_TECHNO_T drop constraint FK_LANG_TECHNO14221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LANG_TECHNO_T drop constraint FK_LANG_TECHNO24221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LB_AGENT_T drop constraint FK_LB_AGENT_MASTER4221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LB_AGENT_T drop constraint FK_LB_AGENT_SLAVE4221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LE_TECHNO_T drop constraint FK_LE_TECHNO14221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LE_TECHNO_T drop constraint FK_LE_TECHNO24221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINE_ACTION_T drop constraint FK_LINE_ACTION14221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINK_T drop constraint FK_LINK_ENTITY_FRM4221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINK_T drop constraint FK_LINK_ENTITY_TO4221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LSCHEMA_T drop constraint FK_LSCHEMA4221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_METHOD_T drop constraint FK_METHOD4221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MTXT_PART_T drop constraint FK_MTXT_PART4221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PROF_METH_T drop constraint FK_PROF_METH14221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PROF_METH_T drop constraint FK_PROF_METH24221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PSCHEMA_T drop constraint FK_PSCHEMA4221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PSCHEMA_CONT_T drop constraint FK_PSCHEMA_CONT14221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PSCHEMA_CONT_T drop constraint FK_PSCHEMA_CONT24221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PSCHEMA_CONT_T drop constraint FK_PSCHEMA_CONT34221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PWD_RULE_T drop constraint FK_PWD_RULE_POLICY4221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REM_REP_T drop constraint FK_REM_REP4221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_HOST_MOD_T drop constraint FK_SNP_HOST4221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_HOST_MOD_T drop constraint FK_SNP_MOD4221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOL_ELT_T drop constraint FK_SOL_ELT_SNP_SOL4221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SUB_LANG_T drop constraint FK_SUB_LANG4221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_METH_T drop constraint FK_USER_METH14221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_METH_T drop constraint FK_USER_METH24221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_OBJ_METH_T drop constraint FK_USER_OBJ_METH24221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_OBJ_METH_T drop constraint FK_USER_OBJ_METH34221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_OBJ_METH_T drop constraint FK_USER_OBJ_METH44221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_OBJ_METH_T drop constraint FK_USER_OBJ_METH54221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_PROF_T drop constraint FK_USER_PROF14221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_PROF_T drop constraint FK_USER_PROF24221
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_VERSION_T drop constraint FK_VERSION_SNP_DAT4221
+
+]]></Field>
+</Object>
+</SunopsisRepository>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (MODIFY) Table: SNP_LPI_EXC_LOG -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_EXC_LOG add SESS_KEYWORDS VARCHAR(250) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_LPI_STEP_LOG -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_STEP_LOG add SESS_KEYWORDS VARCHAR(250) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_LPI_VAR -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_VAR add IND_VAL_UNDEFINED VARCHAR(1) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SCEN_REPORT -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SCEN_REPORT alter SCEN_RUN_NO type NUMERIC(19) 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_STEP_REPORT -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP_REPORT alter SCEN_RUN_NO type NUMERIC(19) 
+]]></Field>
+
+
+<!-- (CREATE) Index SNP_LPI_EC_VAR_LOG.LPI_EVLOG_SVAR_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index LPI_EVLOG_SVAR_FK on SNP_LPI_EC_VAR_LOG ( I_LP_INST , I_LP_STEP_EXCEPT , VAR_NAME  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_LPI_EC_VAR_LOG.FK_LPI_EVLOG_SVAR -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_EC_VAR_LOG
+ add constraint FK_LPI_EVLOG_SVAR foreign key ( I_LP_INST , I_LP_STEP_EXCEPT , VAR_NAME  )
+  references SNP_LPI_STEP_VAR ( I_LP_INST , I_LP_STEP , VAR_NAME  )
+]]></Field>
+
+</Object>
+</SunopsisRepository>

@@ -1,0 +1,2029 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (DROP) Foreign Key SNP_ACTION.FK_ACT_GRP_ACT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ACTION drop constraint FK_ACT_GRP_ACT
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_ALLOC_AGENT.FK_ALLOC_AGENT1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ALLOC_AGENT drop constraint FK_ALLOC_AGENT1
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_ALLOC_AGENT.FK_ALLOC_AGENT2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ALLOC_AGENT drop constraint FK_ALLOC_AGENT2
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_ALLOC_AGENT.FK_ALLOC_AGENT3 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ALLOC_AGENT drop constraint FK_ALLOC_AGENT3
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_CONNECT_PROP.FK_CONNECT_PROP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONNECT_PROP drop constraint FK_CONNECT_PROP
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_CONV_DT.FK_CONV_DT1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONV_DT drop constraint FK_CONV_DT1
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_CONV_DT.FK_CONV_DT2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONV_DT drop constraint FK_CONV_DT2
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_CONV_DT.FK_CONV_DT3 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONV_DT drop constraint FK_CONV_DT3
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_DATASOURCE.FK_DS_AGENT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DATASOURCE drop constraint FK_DS_AGENT
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_DATASOURCE.FK_DS_CONNECT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DATASOURCE drop constraint FK_DS_CONNECT
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_DT.FK_DT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DT drop constraint FK_DT
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_FLEX_FIELD.FK_FF_OBJECTS -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FLEX_FIELD drop constraint FK_FF_OBJECTS
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_FIELD.FK_FIELD_ENTITY -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FIELD drop constraint FK_FIELD_ENTITY
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_FIELD.FK_FIELD_LINK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FIELD drop constraint FK_FIELD_LINK
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_FIELD_LOOKUP.FK_FLOOKUP_FIELD -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FIELD_LOOKUP drop constraint FK_FLOOKUP_FIELD
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_GRP_ACTION.FK_GRPACTION_TECH -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_GRP_ACTION drop constraint FK_GRPACTION_TECH
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_INDEX_TYPE.FK_IDXTYPE_TEC -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_INDEX_TYPE drop constraint FK_IDXTYPE_TEC
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_INST_OBJ.FK_INST_OBJ1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_INST_OBJ drop constraint FK_INST_OBJ1
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_LANG_ELT.FK_LANG_ELT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LANG_ELT drop constraint FK_LANG_ELT
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_LANG_TECHNO.FK_LANG_TECHNO1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LANG_TECHNO drop constraint FK_LANG_TECHNO1
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_LANG_TECHNO.FK_LANG_TECHNO2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LANG_TECHNO drop constraint FK_LANG_TECHNO2
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_LB_AGENT.FK_LB_AGENT_MASTER -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LB_AGENT drop constraint FK_LB_AGENT_MASTER
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_LB_AGENT.FK_LB_AGENT_SLAVE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LB_AGENT drop constraint FK_LB_AGENT_SLAVE
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_LE_TECHNO.FK_LE_TECHNO1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LE_TECHNO drop constraint FK_LE_TECHNO1
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_LE_TECHNO.FK_LE_TECHNO2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LE_TECHNO drop constraint FK_LE_TECHNO2
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_LINE_ACTION.FK_LINE_ACTION1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINE_ACTION drop constraint FK_LINE_ACTION1
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_LINK.FK_LINK_ENTITY_FRM -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINK drop constraint FK_LINK_ENTITY_FRM
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_LINK.FK_LINK_ENTITY_TO -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINK drop constraint FK_LINK_ENTITY_TO
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_LSCHEMA.FK_LSCHEMA -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LSCHEMA drop constraint FK_LSCHEMA
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_METHOD.FK_METHOD -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_METHOD drop constraint FK_METHOD
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_MTXT_PART.FK_MTXT_PART -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MTXT_PART drop constraint FK_MTXT_PART
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_PROF_METH.FK_PROF_METH1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PROF_METH drop constraint FK_PROF_METH1
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_PROF_METH.FK_PROF_METH2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PROF_METH drop constraint FK_PROF_METH2
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_PSCHEMA.FK_PSCHEMA -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PSCHEMA drop constraint FK_PSCHEMA
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_PSCHEMA_CONT.FK_PSCHEMA_CONT1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PSCHEMA_CONT drop constraint FK_PSCHEMA_CONT1
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_PSCHEMA_CONT.FK_PSCHEMA_CONT2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PSCHEMA_CONT drop constraint FK_PSCHEMA_CONT2
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_PSCHEMA_CONT.FK_PSCHEMA_CONT3 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PSCHEMA_CONT drop constraint FK_PSCHEMA_CONT3
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_PWD_RULE.FK_PWD_RULE_POLICY -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PWD_RULE drop constraint FK_PWD_RULE_POLICY
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_REM_REP.FK_REM_REP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REM_REP drop constraint FK_REM_REP
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_HOST_MOD.FK_SNP_HOST -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_HOST_MOD drop constraint FK_SNP_HOST
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_HOST_MOD.FK_SNP_MOD -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_HOST_MOD drop constraint FK_SNP_MOD
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_SOL_ELT.FK_SOL_ELT_SNP_SOL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOL_ELT drop constraint FK_SOL_ELT_SNP_SOL
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_SUB_LANG.FK_SUB_LANG -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SUB_LANG drop constraint FK_SUB_LANG
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_USER_METH.FK_USER_METH1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_METH drop constraint FK_USER_METH1
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_USER_METH.FK_USER_METH2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_METH drop constraint FK_USER_METH2
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_USER_OBJ_METH.FK_USER_OBJ_METH2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_OBJ_METH drop constraint FK_USER_OBJ_METH2
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_USER_OBJ_METH.FK_USER_OBJ_METH3 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_OBJ_METH drop constraint FK_USER_OBJ_METH3
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_USER_OBJ_METH.FK_USER_OBJ_METH4 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_OBJ_METH drop constraint FK_USER_OBJ_METH4
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_USER_OBJ_METH.FK_USER_OBJ_METH5 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_OBJ_METH drop constraint FK_USER_OBJ_METH5
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_USER_PROF.FK_USER_PROF1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_PROF drop constraint FK_USER_PROF1
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_USER_PROF.FK_USER_PROF2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_PROF drop constraint FK_USER_PROF2
+]]></Field>
+
+<!-- (DROP) Foreign Key SNP_VERSION.FK_VERSION_SNP_DAT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_VERSION drop constraint FK_VERSION_SNP_DAT
+]]></Field>
+
+<!-- (DROP) Index SNP_DATASOURCE.DS_AGENT_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_DATASOURCE.DS_AGENT_FK
+]]></Field>
+
+<!-- (DROP) Index SNP_DATASOURCE.DS_CONNECT_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_DATASOURCE.DS_CONNECT_FK
+]]></Field>
+
+<!-- (DROP) Index SNP_ACTION.SNP_ACTION_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_ACTION.SNP_ACTION_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_ALLOC_AGENT.ALLOC_AGENT_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_ALLOC_AGENT.ALLOC_AGENT_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_ALLOC_AGENT.ALLOC_AGENT_FK3 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_ALLOC_AGENT.ALLOC_AGENT_FK3
+]]></Field>
+
+<!-- (DROP) Index SNP_ALLOC_AGENT.ALLOC_AGENT_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_ALLOC_AGENT.ALLOC_AGENT_FK2
+]]></Field>
+
+<!-- (DROP) Index SNP_CONNECT_PROP.CONNECT_PROP_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_CONNECT_PROP.CONNECT_PROP_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_CONV_DT.CONV_DT_FK3 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_CONV_DT.CONV_DT_FK3
+]]></Field>
+
+<!-- (DROP) Index SNP_CONV_DT.CONV_DT_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_CONV_DT.CONV_DT_FK2
+]]></Field>
+
+<!-- (DROP) Index SNP_CONV_DT.CONV_DT_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_CONV_DT.CONV_DT_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_DT.DT_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_DT.DT_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_FLEX_FIELD.FLEX_FIELD_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_FLEX_FIELD.FLEX_FIELD_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_FIELD.SNP_FIELD_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_FIELD.SNP_FIELD_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_FIELD.SNP_FIELD_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_FIELD.SNP_FIELD_FK2
+]]></Field>
+
+<!-- (DROP) Index SNP_FIELD_LOOKUP.FIELD_LOOKUP_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_FIELD_LOOKUP.FIELD_LOOKUP_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_GRP_ACTION.GRP_ACTION_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_GRP_ACTION.GRP_ACTION_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_INDEX_TYPE.IDXTYPE_TEC_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_INDEX_TYPE.IDXTYPE_TEC_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_INST_OBJ.INST_OBJ_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_INST_OBJ.INST_OBJ_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_LANG_ELT.LANG_ELT_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_LANG_ELT.LANG_ELT_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_LANG_TECHNO.LANG_TECHNO_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_LANG_TECHNO.LANG_TECHNO_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_LANG_TECHNO.LANG_TECHNO_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_LANG_TECHNO.LANG_TECHNO_FK2
+]]></Field>
+
+<!-- (DROP) Index SNP_LB_AGENT.SNP_LB_AGT_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_LB_AGENT.SNP_LB_AGT_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_LB_AGENT.SNP_LB_AGT_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_LB_AGENT.SNP_LB_AGT_FK2
+]]></Field>
+
+<!-- (DROP) Index SNP_LE_TECHNO.LE_TECHNO_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_LE_TECHNO.LE_TECHNO_FK2
+]]></Field>
+
+<!-- (DROP) Index SNP_LE_TECHNO.LE_TECHNO_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_LE_TECHNO.LE_TECHNO_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_LINE_ACTION.LINE_ACTION_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_LINE_ACTION.LINE_ACTION_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_LINK.SNP_LINK_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_LINK.SNP_LINK_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_LINK.SNP_LINK_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_LINK.SNP_LINK_FK2
+]]></Field>
+
+<!-- (DROP) Index SNP_LSCHEMA.LSCHEMA_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_LSCHEMA.LSCHEMA_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_METHOD.METHOD_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_METHOD.METHOD_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_MTXT_PART.MTXT_PART_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_MTXT_PART.MTXT_PART_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_PROF_METH.PROF_METH_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_PROF_METH.PROF_METH_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_PROF_METH.PROF_METH_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_PROF_METH.PROF_METH_FK2
+]]></Field>
+
+<!-- (DROP) Index SNP_PSCHEMA.PSCHEMA_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_PSCHEMA.PSCHEMA_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_PSCHEMA_CONT.PSCHEMA_CONT_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_PSCHEMA_CONT.PSCHEMA_CONT_FK2
+]]></Field>
+
+<!-- (DROP) Index SNP_PSCHEMA_CONT.PSCHEMA_CONT_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_PSCHEMA_CONT.PSCHEMA_CONT_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_PSCHEMA_CONT.PSCHEMA_CONT_FK3 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_PSCHEMA_CONT.PSCHEMA_CONT_FK3
+]]></Field>
+
+<!-- (DROP) Index SNP_PWD_RULE.SNP_PWD_RULE_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_PWD_RULE.SNP_PWD_RULE_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_REM_REP.REM_REP_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_REM_REP.REM_REP_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_HOST_MOD.SNP_HM_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_HOST_MOD.SNP_HM_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_HOST_MOD.SNP_HM_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_HOST_MOD.SNP_HM_FK2
+]]></Field>
+
+<!-- (DROP) Index SNP_SOL_ELT.SNP_SOL_ELT_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_SOL_ELT.SNP_SOL_ELT_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_SUB_LANG.SUB_LANG_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_SUB_LANG.SUB_LANG_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_USER_METH.USER_METH_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_USER_METH.USER_METH_FK2
+]]></Field>
+
+<!-- (DROP) Index SNP_USER_METH.USER_METH_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_USER_METH.USER_METH_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_USER_OBJ_METH.USER_OBJ_METH_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_USER_OBJ_METH.USER_OBJ_METH_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_USER_OBJ_METH.USER_OBJ_METH_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_USER_OBJ_METH.USER_OBJ_METH_FK2
+]]></Field>
+
+<!-- (DROP) Index SNP_USER_OBJ_METH.USER_OBJ_METH_FK4 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_USER_OBJ_METH.USER_OBJ_METH_FK4
+]]></Field>
+
+<!-- (DROP) Index SNP_USER_OBJ_METH.USER_OBJ_METH_FK3 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_USER_OBJ_METH.USER_OBJ_METH_FK3
+]]></Field>
+
+<!-- (DROP) Index SNP_USER_PROF.USER_PROF_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_USER_PROF.USER_PROF_FK2
+]]></Field>
+
+<!-- (DROP) Index SNP_USER_PROF.USER_PROF_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_USER_PROF.USER_PROF_FK1
+]]></Field>
+
+<!-- (DROP) Index SNP_VERSION.SNP_VERSION_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+drop index SNP_VERSION.SNP_VERSION_FK1
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_ACTION.AK_ACTION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ACTION drop constraint AK_ACTION
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_AGENT.AK_AGENT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_AGENT drop constraint AK_AGENT
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_CONNECT.AK_CONNECT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONNECT drop constraint AK_CONNECT
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_CONTEXT.AK_CONTEXT2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONTEXT drop constraint AK_CONTEXT2
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_DT.AK_DT1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DT drop constraint AK_DT1
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_DT.AK_DT2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DT drop constraint AK_DT2
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_ESS.AK_ESS -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ESS drop constraint AK_ESS
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_GRP_ACTION.AK_GRP_ACTION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_GRP_ACTION drop constraint AK_GRP_ACTION
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_GRP_ACTION.AK_GRP_ACTION2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_GRP_ACTION drop constraint AK_GRP_ACTION2
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_INDEX_TYPE.AK_INDEX_TYPE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_INDEX_TYPE drop constraint AK_INDEX_TYPE
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_LAGENT.AK_LAGENT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LAGENT drop constraint AK_LAGENT
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_LANG.AK_LANG -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LANG drop constraint AK_LANG
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_LANG_ELT.AK_LANG_ELT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LANG_ELT drop constraint AK_LANG_ELT
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_LSCHEMA.AK_LSCHEMA -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LSCHEMA drop constraint AK_LSCHEMA
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_OBJECT.AK_OBJECT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_OBJECT drop constraint AK_OBJECT
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_OPEN_TOOL.AK_OPEN_TOOL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_OPEN_TOOL drop constraint AK_OPEN_TOOL
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_PSCHEMA.AK_PSCHEMA -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PSCHEMA drop constraint AK_PSCHEMA
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_PWD_POLICY.AK_PWD_POLICY -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PWD_POLICY drop constraint AK_PWD_POLICY
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_ENTITY.AK_SNP_ENTITY -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ENTITY drop constraint AK_SNP_ENTITY
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_FLEX_FIELD.AK_SNP_FLEX_FIELD -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FLEX_FIELD drop constraint AK_SNP_FLEX_FIELD
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_HOST.AK_SNP_HOST -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_HOST drop constraint AK_SNP_HOST
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_LOOKUP.AK_SNP_LOOKUP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LOOKUP drop constraint AK_SNP_LOOKUP
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_MODULE.AK_SNP_MODULE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODULE drop constraint AK_SNP_MODULE
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_SOLUTION.AK_SOLUTION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOLUTION drop constraint AK_SOLUTION
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_TECHNO.AK_TECHNO -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TECHNO drop constraint AK_TECHNO
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_USER.AK_USER -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER drop constraint AK_USER
+]]></Field>
+
+<!-- (DROP) Unique Key SNP_USER_OBJ_METH.AK_USER_OBJ_METH -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_OBJ_METH drop constraint AK_USER_OBJ_METH
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_ACTION.PK_ACTION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ACTION drop constraint PK_ACTION
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_AGENT.PK_AGENT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_AGENT drop constraint PK_AGENT
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_ALLOC_AGENT.PK_ALLOC_AGENT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ALLOC_AGENT drop constraint PK_ALLOC_AGENT
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_CONNECT.PK_CONNECT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONNECT drop constraint PK_CONNECT
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_CONNECT_PROP.PK_CONNECT_PROP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONNECT_PROP drop constraint PK_CONNECT_PROP
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_CONTEXT.PK_CONTEXT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONTEXT drop constraint PK_CONTEXT
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_CONV_DT.PK_CONV_DT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONV_DT drop constraint PK_CONV_DT
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_DATA.PK_DATA -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DATA drop constraint PK_DATA
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_DATASOURCE.PK_DATASOURCE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DATASOURCE drop constraint PK_DATASOURCE
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_DT.PK_DT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DT drop constraint PK_DT
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_ENT_ID.PK_ENT_ID -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ENT_ID drop constraint PK_ENT_ID
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_ESS.PK_ESS -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ESS drop constraint PK_ESS
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_GRP_ACTION.PK_GRP_ACTION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_GRP_ACTION drop constraint PK_GRP_ACTION
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_HIST_VERSION.PK_HIST_VERSION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_HIST_VERSION drop constraint PK_HIST_VERSION
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_INST_OBJ.PK_INST_OBJ -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_INST_OBJ drop constraint PK_INST_OBJ
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_LAGENT.PK_LAGENT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LAGENT drop constraint PK_LAGENT
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_LANG.PK_LANG -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LANG drop constraint PK_LANG
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_LANG_ELT.PK_LANG_ELT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LANG_ELT drop constraint PK_LANG_ELT
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_LANG_TECHNO.PK_LANG_TECHNO -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LANG_TECHNO drop constraint PK_LANG_TECHNO
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_LB_AGENT.PK_LB_AGENT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LB_AGENT drop constraint PK_LB_AGENT
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_LE_TECHNO.PK_LE_TECHNO -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LE_TECHNO drop constraint PK_LE_TECHNO
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_LINE_ACTION.PK_LINE_ACTION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINE_ACTION drop constraint PK_LINE_ACTION
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_LOC_REP.PK_LOC_REP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LOC_REP drop constraint PK_LOC_REP
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_LSCHEMA.PK_LSCHEMA -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LSCHEMA drop constraint PK_LSCHEMA
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_METHOD.PK_METHOD -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_METHOD drop constraint PK_METHOD
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_MTXT.PK_MTXT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MTXT drop constraint PK_MTXT
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_MTXT_PART.PK_MTXT_P -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MTXT_PART drop constraint PK_MTXT_P
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_OBJECT.PK_OBJECT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_OBJECT drop constraint PK_OBJECT
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_OPEN_TOOL.PK_OPEN_TOOL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_OPEN_TOOL drop constraint PK_OPEN_TOOL
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_PROFILE.PK_PROFILE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PROFILE drop constraint PK_PROFILE
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_PROF_METH.PK_PROF_METH -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PROF_METH drop constraint PK_PROF_METH
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_PSCHEMA.PK_PSCHEMA -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PSCHEMA drop constraint PK_PSCHEMA
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_PSCHEMA_CONT.PK_PSCHEMA_CONT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PSCHEMA_CONT drop constraint PK_PSCHEMA_CONT
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_PWD_POLICY.PK_PWD_POLICY -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PWD_POLICY drop constraint PK_PWD_POLICY
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_PWD_RULE.PK_PWD_RULE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PWD_RULE drop constraint PK_PWD_RULE
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_REM_REP.PK_REM_REP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REM_REP drop constraint PK_REM_REP
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_ENTITY.PK_SNP_ENTITY -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ENTITY drop constraint PK_SNP_ENTITY
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_FF_VALUEM.PK_SNP_FF_VALUEM -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FF_VALUEM drop constraint PK_SNP_FF_VALUEM
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_FIELD.PK_SNP_FIELD -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FIELD drop constraint PK_SNP_FIELD
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_FLEX_FIELD.PK_SNP_FLEX_FIELD -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FLEX_FIELD drop constraint PK_SNP_FLEX_FIELD
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_FIELD_LOOKUP.PK_SNP_FLOOKUP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FIELD_LOOKUP drop constraint PK_SNP_FLOOKUP
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_HOST.PK_SNP_HOST -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_HOST drop constraint PK_SNP_HOST
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_HOST_MOD.PK_SNP_HOST_MOD2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_HOST_MOD drop constraint PK_SNP_HOST_MOD2
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_INDEX_TYPE.PK_SNP_INDEX_TYPE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_INDEX_TYPE drop constraint PK_SNP_INDEX_TYPE
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_LICENSE.PK_SNP_LICENSE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LICENSE drop constraint PK_SNP_LICENSE
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_LINK.PK_SNP_LINK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINK drop constraint PK_SNP_LINK
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_LOOKUP_VALUE.PK_SNP_LK_VALUE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LOOKUP_VALUE drop constraint PK_SNP_LK_VALUE
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_LOOKUP.PK_SNP_LOOKUP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LOOKUP drop constraint PK_SNP_LOOKUP
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_MODULE.PK_SNP_MODULE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODULE drop constraint PK_SNP_MODULE
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_SOLUTION.PK_SOLUTION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOLUTION drop constraint PK_SOLUTION
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_SOL_ELT.PK_SOL_ELT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOL_ELT drop constraint PK_SOL_ELT
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_SUB_LANG.PK_SUB_LANG -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SUB_LANG drop constraint PK_SUB_LANG
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_TECHNO.PK_TECHNO -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TECHNO drop constraint PK_TECHNO
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_U_O_M_REP.PK_UOM_REP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_U_O_M_REP drop constraint PK_UOM_REP
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_USER.PK_USER -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER drop constraint PK_USER
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_USER_METH.PK_USER_METH -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_METH drop constraint PK_USER_METH
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_USER_PREF.PK_USER_PREF -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_PREF drop constraint PK_USER_PREF
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_USER_PROF.PK_USER_PROF -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_PROF drop constraint PK_USER_PROF
+]]></Field>
+
+<!-- (DROP) Primary Key SNP_VERSION.PK_VERSION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_VERSION drop constraint PK_VERSION
+]]></Field>
+
+<!-- (MODIFY) Table: SNP_ESS -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ESS add WS_CALLBACK_URL <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ESS add SECU_RUNTIME_PRINCIPAL <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ESS add SECU_RUNTIME_CREDENTIALS <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> NULL
+]]></Field>
+
+
+
+<!-- (CREATE) Primary Key SNP_ACTION.PK_ACTION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ACTION add constraint PK_ACTION primary key ( I_ACTION  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_AGENT.PK_AGENT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_AGENT add constraint PK_AGENT primary key ( I_AGENT  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_ALLOC_AGENT.PK_ALLOC_AGENT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ALLOC_AGENT add constraint PK_ALLOC_AGENT primary key ( I_CONTEXT , I_LAGENT  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_CONNECT.PK_CONNECT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONNECT add constraint PK_CONNECT primary key ( I_CONNECT  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_CONNECT_PROP.PK_CONNECT_PROP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONNECT_PROP add constraint PK_CONNECT_PROP primary key ( I_CONNECT , PROP_KEY  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_CONTEXT.PK_CONTEXT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONTEXT add constraint PK_CONTEXT primary key ( I_CONTEXT  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_CONV_DT.PK_CONV_DT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONV_DT add constraint PK_CONV_DT primary key ( SRC_DT , I_TARG_TECHNO  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_DATA.PK_DATA -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DATA add constraint PK_DATA primary key ( I_DATA  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_DATASOURCE.PK_DATASOURCE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DATASOURCE add constraint PK_DATASOURCE primary key ( I_CONNECT , I_AGENT  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_DT.PK_DT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DT add constraint PK_DT primary key ( I_DT  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_ENT_ID.PK_ENT_ID -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ENT_ID add constraint PK_ENT_ID primary key ( ID_SEQ , ID_TBL  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_ESS.PK_ESS -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ESS add constraint PK_ESS primary key ( I_ESS  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_GRP_ACTION.PK_GRP_ACTION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_GRP_ACTION add constraint PK_GRP_ACTION primary key ( I_GRP_ACTION  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_HIST_VERSION.PK_HIST_VERSION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_HIST_VERSION add constraint PK_HIST_VERSION primary key ( I_OBJECT , ID_OBJECT , INT_VERSION , PRV_VERSION  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_INST_OBJ.PK_INST_OBJ -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_INST_OBJ add constraint PK_INST_OBJ primary key ( I_OBJECTS , I_INSTANCE  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_LAGENT.PK_LAGENT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LAGENT add constraint PK_LAGENT primary key ( I_LAGENT  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_LANG.PK_LANG -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LANG add constraint PK_LANG primary key ( I_LANG  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_LANG_ELT.PK_LANG_ELT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LANG_ELT add constraint PK_LANG_ELT primary key ( I_LANG_ELT  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_LANG_TECHNO.PK_LANG_TECHNO -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LANG_TECHNO add constraint PK_LANG_TECHNO primary key ( I_TECHNO , I_LANG  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_LB_AGENT.PK_LB_AGENT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LB_AGENT add constraint PK_LB_AGENT primary key ( I_MASTER , I_SLAVE  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_LE_TECHNO.PK_LE_TECHNO -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LE_TECHNO add constraint PK_LE_TECHNO primary key ( I_LANG_ELT , I_TECHNO  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_LINE_ACTION.PK_LINE_ACTION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINE_ACTION add constraint PK_LINE_ACTION primary key ( I_ACTION , ORD_ACTION  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_LOC_REP.PK_LOC_REP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LOC_REP add constraint PK_LOC_REP primary key ( REP_SHORT_ID  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_LSCHEMA.PK_LSCHEMA -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LSCHEMA add constraint PK_LSCHEMA primary key ( I_LSCHEMA  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_METHOD.PK_METHOD -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_METHOD add constraint PK_METHOD primary key ( I_METH  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_MTXT.PK_MTXT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MTXT add constraint PK_MTXT primary key ( I_TXT  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_MTXT_PART.PK_MTXT_P -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MTXT_PART add constraint PK_MTXT_P primary key ( I_TXT , TXT_ORD  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_OBJECT.PK_OBJECT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_OBJECT add constraint PK_OBJECT primary key ( I_OBJECTS  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_OPEN_TOOL.PK_OPEN_TOOL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_OPEN_TOOL add constraint PK_OPEN_TOOL primary key ( I_OPEN_TOOL  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_PROFILE.PK_PROFILE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PROFILE add constraint PK_PROFILE primary key ( I_PROF  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_PROF_METH.PK_PROF_METH -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PROF_METH add constraint PK_PROF_METH primary key ( I_PROF , I_METH  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_PSCHEMA.PK_PSCHEMA -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PSCHEMA add constraint PK_PSCHEMA primary key ( I_PSCHEMA  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_PSCHEMA_CONT.PK_PSCHEMA_CONT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PSCHEMA_CONT add constraint PK_PSCHEMA_CONT primary key ( I_CONTEXT , I_LSCHEMA  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_PWD_POLICY.PK_PWD_POLICY -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PWD_POLICY add constraint PK_PWD_POLICY primary key ( I_PWD_POLICY  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_PWD_RULE.PK_PWD_RULE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PWD_RULE add constraint PK_PWD_RULE primary key ( I_PWD_RULE  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_REM_REP.PK_REM_REP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REM_REP add constraint PK_REM_REP primary key ( REP_ID  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_ENTITY.PK_SNP_ENTITY -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ENTITY add constraint PK_SNP_ENTITY primary key ( I_ENTITY  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_FF_VALUEM.PK_SNP_FF_VALUEM -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FF_VALUEM add constraint PK_SNP_FF_VALUEM primary key ( FF_CODE , I_INSTANCE  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_FIELD.PK_SNP_FIELD -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FIELD add constraint PK_SNP_FIELD primary key ( I_FIELD  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_FLEX_FIELD.PK_SNP_FLEX_FIELD -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FLEX_FIELD add constraint PK_SNP_FLEX_FIELD primary key ( I_FF  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_FIELD_LOOKUP.PK_SNP_FLOOKUP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FIELD_LOOKUP add constraint PK_SNP_FLOOKUP primary key ( CODE , I_FIELD  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_HOST.PK_SNP_HOST -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_HOST add constraint PK_SNP_HOST primary key ( I_HOST  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_HOST_MOD.PK_SNP_HOST_MOD2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_HOST_MOD add constraint PK_SNP_HOST_MOD2 primary key ( I_HOST , I_MODULE  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_INDEX_TYPE.PK_SNP_INDEX_TYPE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_INDEX_TYPE add constraint PK_SNP_INDEX_TYPE primary key ( I_INDEX_TYPE  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_LICENSE.PK_SNP_LICENSE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LICENSE add constraint PK_SNP_LICENSE primary key ( L_KEY  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_LINK.PK_SNP_LINK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINK add constraint PK_SNP_LINK primary key ( I_LINK  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_LOOKUP_VALUE.PK_SNP_LK_VALUE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LOOKUP_VALUE add constraint PK_SNP_LK_VALUE primary key ( I_LOOKUP , LK_CODE  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_LOOKUP.PK_SNP_LOOKUP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LOOKUP add constraint PK_SNP_LOOKUP primary key ( I_LOOKUP  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_MODULE.PK_SNP_MODULE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODULE add constraint PK_SNP_MODULE primary key ( I_MODULE  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_SOLUTION.PK_SOLUTION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOLUTION add constraint PK_SOLUTION primary key ( I_SOLUTION  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_SOL_ELT.PK_SOL_ELT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOL_ELT add constraint PK_SOL_ELT primary key ( I_OBJECTS , I_INSTANCE , EXT_VERSION , I_SOLUTION  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_SUB_LANG.PK_SUB_LANG -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SUB_LANG add constraint PK_SUB_LANG primary key ( I_SUB_LANG  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_TECHNO.PK_TECHNO -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TECHNO add constraint PK_TECHNO primary key ( I_TECHNO  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_U_O_M_REP.PK_UOM_REP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_U_O_M_REP add constraint PK_UOM_REP primary key ( I_WUSER , I_METH , I_OBJECTS , I_INSTANCE , REP_ID  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_USER.PK_USER -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER add constraint PK_USER primary key ( I_WUSER  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_USER_METH.PK_USER_METH -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_METH add constraint PK_USER_METH primary key ( I_WUSER , I_METH  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_USER_PREF.PK_USER_PREF -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_PREF add constraint PK_USER_PREF primary key ( I_WUSER , I_PREF  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_USER_PROF.PK_USER_PROF -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_PROF add constraint PK_USER_PROF primary key ( I_WUSER , I_PROF  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_VERSION.PK_VERSION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_VERSION add constraint PK_VERSION primary key ( I_OBJECTS , I_INSTANCE , EXT_VERSION  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_ACTION.AK_ACTION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ACTION add constraint AK_ACTION unique ( I_GRP_ACTION , ACTION_NAME  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_AGENT.AK_AGENT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_AGENT add constraint AK_AGENT unique ( AGENT_NAME  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_CONNECT.AK_CONNECT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONNECT add constraint AK_CONNECT unique ( CON_NAME  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_CONTEXT.AK_CONTEXT2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONTEXT add constraint AK_CONTEXT2 unique ( CONTEXT_CODE  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_DT.AK_DT1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DT add constraint AK_DT1 unique ( I_TECHNO , DT_DRIVER  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_DT.AK_DT2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DT add constraint AK_DT2 unique ( I_TECHNO , DT_SOURCE  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_ESS.AK_ESS -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ESS add constraint AK_ESS unique ( ESS_NAME  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_GRP_ACTION.AK_GRP_ACTION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_GRP_ACTION add constraint AK_GRP_ACTION unique ( I_TECHNO , GRP_NAME  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_GRP_ACTION.AK_GRP_ACTION2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_GRP_ACTION add constraint AK_GRP_ACTION2 unique ( I_TECHNO , GRP_CODE  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_INDEX_TYPE.AK_INDEX_TYPE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_INDEX_TYPE add constraint AK_INDEX_TYPE unique ( I_TECHNO , INDEX_TYPE_CODE  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_LAGENT.AK_LAGENT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LAGENT add constraint AK_LAGENT unique ( LAGENT_NAME  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_LANG.AK_LANG -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LANG add constraint AK_LANG unique ( LANG_NAME  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_LANG_ELT.AK_LANG_ELT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LANG_ELT add constraint AK_LANG_ELT unique ( LE_NAME , I_LANG  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_LSCHEMA.AK_LSCHEMA -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LSCHEMA add constraint AK_LSCHEMA unique ( LSCHEMA_NAME  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_OBJECT.AK_OBJECT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_OBJECT add constraint AK_OBJECT unique ( INT_JAVA_NAME  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_OPEN_TOOL.AK_OPEN_TOOL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_OPEN_TOOL add constraint AK_OPEN_TOOL unique ( I_TXT_CLASS_NAME  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_PSCHEMA.AK_PSCHEMA -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PSCHEMA add constraint AK_PSCHEMA unique ( I_CONNECT , CATALOG_NAME , SCHEMA_NAME  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_PWD_POLICY.AK_PWD_POLICY -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PWD_POLICY add constraint AK_PWD_POLICY unique ( PWD_POLICY_NAME  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_REM_REP.AK_REP_NAME -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REM_REP add constraint AK_REP_NAME unique ( REP_NAME  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_ENTITY.AK_SNP_ENTITY -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ENTITY add constraint AK_SNP_ENTITY unique ( NAME  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_FLEX_FIELD.AK_SNP_FLEX_FIELD -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FLEX_FIELD add constraint AK_SNP_FLEX_FIELD unique ( FF_CODE  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_HOST.AK_SNP_HOST -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_HOST add constraint AK_SNP_HOST unique ( HOST_NAME  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_LOOKUP.AK_SNP_LOOKUP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LOOKUP add constraint AK_SNP_LOOKUP unique ( LOOKUP_NAME  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_MODULE.AK_SNP_MODULE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODULE add constraint AK_SNP_MODULE unique ( MODULE_NAME  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_SOLUTION.AK_SOLUTION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOLUTION add constraint AK_SOLUTION unique ( SOL_NAME  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_TECHNO.AK_TECHNO -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TECHNO add constraint AK_TECHNO unique ( TECH_INT_NAME  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_USER.AK_USER -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER add constraint AK_USER unique ( WUSER_NAME  )
+]]></Field>
+
+<!-- (CREATE) Unique Key SNP_USER_OBJ_METH.AK_USER_OBJ_METH -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_OBJ_METH add constraint AK_USER_OBJ_METH unique ( I_METH , I_WUSER , I_CONTEXT , I_OBJECTS , I_INSTANCE  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_DATASOURCE.DS_AGENT_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index DS_AGENT_FK on SNP_DATASOURCE ( I_AGENT  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_DATASOURCE.DS_CONNECT_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index DS_CONNECT_FK on SNP_DATASOURCE ( I_CONNECT  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_ACTION.SNP_ACTION_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index SNP_ACTION_FK1 on SNP_ACTION ( I_GRP_ACTION  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_ALLOC_AGENT.ALLOC_AGENT_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index ALLOC_AGENT_FK1 on SNP_ALLOC_AGENT ( I_CONTEXT  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_ALLOC_AGENT.ALLOC_AGENT_FK3 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index ALLOC_AGENT_FK3 on SNP_ALLOC_AGENT ( I_LAGENT  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_ALLOC_AGENT.ALLOC_AGENT_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index ALLOC_AGENT_FK2 on SNP_ALLOC_AGENT ( I_AGENT  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_CONNECT_PROP.CONNECT_PROP_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index CONNECT_PROP_FK1 on SNP_CONNECT_PROP ( I_CONNECT  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_CONV_DT.CONV_DT_FK3 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index CONV_DT_FK3 on SNP_CONV_DT ( I_TARG_TECHNO  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_CONV_DT.CONV_DT_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index CONV_DT_FK2 on SNP_CONV_DT ( TARG_DT  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_CONV_DT.CONV_DT_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index CONV_DT_FK1 on SNP_CONV_DT ( SRC_DT  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_DT.DT_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index DT_FK1 on SNP_DT ( I_TECHNO  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_FLEX_FIELD.FLEX_FIELD_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index FLEX_FIELD_FK1 on SNP_FLEX_FIELD ( I_OBJECTS  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_FIELD.SNP_FIELD_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index SNP_FIELD_FK1 on SNP_FIELD ( I_ENTITY  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_FIELD.SNP_FIELD_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index SNP_FIELD_FK2 on SNP_FIELD ( I_LINK  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_FIELD_LOOKUP.FIELD_LOOKUP_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index FIELD_LOOKUP_FK1 on SNP_FIELD_LOOKUP ( I_FIELD  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_GRP_ACTION.GRP_ACTION_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index GRP_ACTION_FK1 on SNP_GRP_ACTION ( I_TECHNO  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_INDEX_TYPE.IDXTYPE_TEC_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index IDXTYPE_TEC_FK1 on SNP_INDEX_TYPE ( I_TECHNO  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_INST_OBJ.INST_OBJ_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index INST_OBJ_FK1 on SNP_INST_OBJ ( I_OBJECTS  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_LANG_ELT.LANG_ELT_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index LANG_ELT_FK1 on SNP_LANG_ELT ( I_SUB_LANG  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_LANG_TECHNO.LANG_TECHNO_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index LANG_TECHNO_FK1 on SNP_LANG_TECHNO ( I_LANG  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_LANG_TECHNO.LANG_TECHNO_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index LANG_TECHNO_FK2 on SNP_LANG_TECHNO ( I_TECHNO  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_LB_AGENT.SNP_LB_AGT_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index SNP_LB_AGT_FK1 on SNP_LB_AGENT ( I_MASTER  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_LB_AGENT.SNP_LB_AGT_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index SNP_LB_AGT_FK2 on SNP_LB_AGENT ( I_SLAVE  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_LE_TECHNO.LE_TECHNO_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index LE_TECHNO_FK2 on SNP_LE_TECHNO ( I_TECHNO  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_LE_TECHNO.LE_TECHNO_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index LE_TECHNO_FK1 on SNP_LE_TECHNO ( I_LANG_ELT  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_LINE_ACTION.LINE_ACTION_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index LINE_ACTION_FK1 on SNP_LINE_ACTION ( I_ACTION  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_LINK.SNP_LINK_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index SNP_LINK_FK1 on SNP_LINK ( I_ENTITY_FROM  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_LINK.SNP_LINK_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index SNP_LINK_FK2 on SNP_LINK ( I_ENTITY_TO  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_LSCHEMA.LSCHEMA_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index LSCHEMA_FK1 on SNP_LSCHEMA ( I_TECHNO  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_METHOD.METHOD_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index METHOD_FK1 on SNP_METHOD ( I_OBJECTS  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_MTXT_PART.MTXT_PART_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index MTXT_PART_FK1 on SNP_MTXT_PART ( I_TXT  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_PROF_METH.PROF_METH_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index PROF_METH_FK1 on SNP_PROF_METH ( I_PROF  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_PROF_METH.PROF_METH_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index PROF_METH_FK2 on SNP_PROF_METH ( I_METH  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_PSCHEMA.PSCHEMA_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index PSCHEMA_FK1 on SNP_PSCHEMA ( I_CONNECT  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_PSCHEMA_CONT.PSCHEMA_CONT_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index PSCHEMA_CONT_FK2 on SNP_PSCHEMA_CONT ( I_PSCHEMA  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_PSCHEMA_CONT.PSCHEMA_CONT_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index PSCHEMA_CONT_FK1 on SNP_PSCHEMA_CONT ( I_CONTEXT  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_PSCHEMA_CONT.PSCHEMA_CONT_FK3 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index PSCHEMA_CONT_FK3 on SNP_PSCHEMA_CONT ( I_LSCHEMA  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_PWD_RULE.SNP_PWD_RULE_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index SNP_PWD_RULE_FK1 on SNP_PWD_RULE ( I_PWD_POLICY  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_REM_REP.REM_REP_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index REM_REP_FK1 on SNP_REM_REP ( I_CONNECT  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_HOST_MOD.SNP_HM_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index SNP_HM_FK1 on SNP_HOST_MOD ( I_HOST  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_HOST_MOD.SNP_HM_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index SNP_HM_FK2 on SNP_HOST_MOD ( I_MODULE  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_SOL_ELT.SNP_SOL_ELT_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index SNP_SOL_ELT_FK1 on SNP_SOL_ELT ( I_SOLUTION  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_SUB_LANG.SUB_LANG_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index SUB_LANG_FK1 on SNP_SUB_LANG ( I_LANG  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_USER_METH.USER_METH_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index USER_METH_FK2 on SNP_USER_METH ( I_METH  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_USER_METH.USER_METH_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index USER_METH_FK1 on SNP_USER_METH ( I_WUSER  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_USER_OBJ_METH.USER_OBJ_METH_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index USER_OBJ_METH_FK1 on SNP_USER_OBJ_METH ( I_METH  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_USER_OBJ_METH.USER_OBJ_METH_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index USER_OBJ_METH_FK2 on SNP_USER_OBJ_METH ( I_WUSER  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_USER_OBJ_METH.USER_OBJ_METH_FK4 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index USER_OBJ_METH_FK4 on SNP_USER_OBJ_METH ( I_CONTEXT  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_USER_OBJ_METH.USER_OBJ_METH_FK3 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index USER_OBJ_METH_FK3 on SNP_USER_OBJ_METH ( I_OBJECTS , I_INSTANCE  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_USER_PROF.USER_PROF_FK2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index USER_PROF_FK2 on SNP_USER_PROF ( I_PROF  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_USER_PROF.USER_PROF_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index USER_PROF_FK1 on SNP_USER_PROF ( I_WUSER  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_VERSION.SNP_VERSION_FK1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index SNP_VERSION_FK1 on SNP_VERSION ( I_DATA  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_ACTION.FK_ACT_GRP_ACT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ACTION
+ add constraint FK_ACT_GRP_ACT foreign key ( I_GRP_ACTION  )
+  references SNP_GRP_ACTION ( I_GRP_ACTION  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_ALLOC_AGENT.FK_ALLOC_AGENT1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ALLOC_AGENT
+ add constraint FK_ALLOC_AGENT1 foreign key ( I_CONTEXT  )
+  references SNP_CONTEXT ( I_CONTEXT  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_ALLOC_AGENT.FK_ALLOC_AGENT2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ALLOC_AGENT
+ add constraint FK_ALLOC_AGENT2 foreign key ( I_LAGENT  )
+  references SNP_LAGENT ( I_LAGENT  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_ALLOC_AGENT.FK_ALLOC_AGENT3 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ALLOC_AGENT
+ add constraint FK_ALLOC_AGENT3 foreign key ( I_AGENT  )
+  references SNP_AGENT ( I_AGENT  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_CONNECT_PROP.FK_CONNECT_PROP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONNECT_PROP
+ add constraint FK_CONNECT_PROP foreign key ( I_CONNECT  )
+  references SNP_CONNECT ( I_CONNECT  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_CONV_DT.FK_CONV_DT1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONV_DT
+ add constraint FK_CONV_DT1 foreign key ( I_TARG_TECHNO  )
+  references SNP_TECHNO ( I_TECHNO  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_CONV_DT.FK_CONV_DT2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONV_DT
+ add constraint FK_CONV_DT2 foreign key ( TARG_DT  )
+  references SNP_DT ( I_DT  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_CONV_DT.FK_CONV_DT3 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_CONV_DT
+ add constraint FK_CONV_DT3 foreign key ( SRC_DT  )
+  references SNP_DT ( I_DT  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_DATASOURCE.FK_DS_AGENT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DATASOURCE
+ add constraint FK_DS_AGENT foreign key ( I_AGENT  )
+  references SNP_AGENT ( I_AGENT  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_DATASOURCE.FK_DS_CONNECT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DATASOURCE
+ add constraint FK_DS_CONNECT foreign key ( I_CONNECT  )
+  references SNP_CONNECT ( I_CONNECT  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_DT.FK_DT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DT
+ add constraint FK_DT foreign key ( I_TECHNO  )
+  references SNP_TECHNO ( I_TECHNO  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_FLEX_FIELD.FK_FF_OBJECTS -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FLEX_FIELD
+ add constraint FK_FF_OBJECTS foreign key ( I_OBJECTS  )
+  references SNP_OBJECT ( I_OBJECTS  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_FIELD.FK_FIELD_ENTITY -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FIELD
+ add constraint FK_FIELD_ENTITY foreign key ( I_ENTITY  )
+  references SNP_ENTITY ( I_ENTITY  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_FIELD.FK_FIELD_LINK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FIELD
+ add constraint FK_FIELD_LINK foreign key ( I_LINK  )
+  references SNP_LINK ( I_LINK  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_FIELD_LOOKUP.FK_FLOOKUP_FIELD -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FIELD_LOOKUP
+ add constraint FK_FLOOKUP_FIELD foreign key ( I_FIELD  )
+  references SNP_FIELD ( I_FIELD  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_GRP_ACTION.FK_GRPACTION_TECH -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_GRP_ACTION
+ add constraint FK_GRPACTION_TECH foreign key ( I_TECHNO  )
+  references SNP_TECHNO ( I_TECHNO  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_INDEX_TYPE.FK_IDXTYPE_TEC -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_INDEX_TYPE
+ add constraint FK_IDXTYPE_TEC foreign key ( I_TECHNO  )
+  references SNP_TECHNO ( I_TECHNO  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_INST_OBJ.FK_INST_OBJ1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_INST_OBJ
+ add constraint FK_INST_OBJ1 foreign key ( I_OBJECTS  )
+  references SNP_OBJECT ( I_OBJECTS  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_LANG_ELT.FK_LANG_ELT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LANG_ELT
+ add constraint FK_LANG_ELT foreign key ( I_SUB_LANG  )
+  references SNP_SUB_LANG ( I_SUB_LANG  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_LANG_TECHNO.FK_LANG_TECHNO1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LANG_TECHNO
+ add constraint FK_LANG_TECHNO1 foreign key ( I_LANG  )
+  references SNP_LANG ( I_LANG  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_LANG_TECHNO.FK_LANG_TECHNO2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LANG_TECHNO
+ add constraint FK_LANG_TECHNO2 foreign key ( I_TECHNO  )
+  references SNP_TECHNO ( I_TECHNO  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_LB_AGENT.FK_LB_AGENT_MASTER -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LB_AGENT
+ add constraint FK_LB_AGENT_MASTER foreign key ( I_MASTER  )
+  references SNP_AGENT ( I_AGENT  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_LB_AGENT.FK_LB_AGENT_SLAVE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LB_AGENT
+ add constraint FK_LB_AGENT_SLAVE foreign key ( I_SLAVE  )
+  references SNP_AGENT ( I_AGENT  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_LE_TECHNO.FK_LE_TECHNO1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LE_TECHNO
+ add constraint FK_LE_TECHNO1 foreign key ( I_TECHNO  )
+  references SNP_TECHNO ( I_TECHNO  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_LE_TECHNO.FK_LE_TECHNO2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LE_TECHNO
+ add constraint FK_LE_TECHNO2 foreign key ( I_LANG_ELT  )
+  references SNP_LANG_ELT ( I_LANG_ELT  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_LINE_ACTION.FK_LINE_ACTION1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINE_ACTION
+ add constraint FK_LINE_ACTION1 foreign key ( I_ACTION  )
+  references SNP_ACTION ( I_ACTION  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_LINK.FK_LINK_ENTITY_FRM -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINK
+ add constraint FK_LINK_ENTITY_FRM foreign key ( I_ENTITY_FROM  )
+  references SNP_ENTITY ( I_ENTITY  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_LINK.FK_LINK_ENTITY_TO -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINK
+ add constraint FK_LINK_ENTITY_TO foreign key ( I_ENTITY_TO  )
+  references SNP_ENTITY ( I_ENTITY  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_LSCHEMA.FK_LSCHEMA -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LSCHEMA
+ add constraint FK_LSCHEMA foreign key ( I_TECHNO  )
+  references SNP_TECHNO ( I_TECHNO  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_METHOD.FK_METHOD -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_METHOD
+ add constraint FK_METHOD foreign key ( I_OBJECTS  )
+  references SNP_OBJECT ( I_OBJECTS  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_MTXT_PART.FK_MTXT_PART -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MTXT_PART
+ add constraint FK_MTXT_PART foreign key ( I_TXT  )
+  references SNP_MTXT ( I_TXT  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_PROF_METH.FK_PROF_METH1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PROF_METH
+ add constraint FK_PROF_METH1 foreign key ( I_PROF  )
+  references SNP_PROFILE ( I_PROF  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_PROF_METH.FK_PROF_METH2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PROF_METH
+ add constraint FK_PROF_METH2 foreign key ( I_METH  )
+  references SNP_METHOD ( I_METH  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_PSCHEMA.FK_PSCHEMA -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PSCHEMA
+ add constraint FK_PSCHEMA foreign key ( I_CONNECT  )
+  references SNP_CONNECT ( I_CONNECT  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_PSCHEMA_CONT.FK_PSCHEMA_CONT1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PSCHEMA_CONT
+ add constraint FK_PSCHEMA_CONT1 foreign key ( I_PSCHEMA  )
+  references SNP_PSCHEMA ( I_PSCHEMA  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_PSCHEMA_CONT.FK_PSCHEMA_CONT2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PSCHEMA_CONT
+ add constraint FK_PSCHEMA_CONT2 foreign key ( I_CONTEXT  )
+  references SNP_CONTEXT ( I_CONTEXT  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_PSCHEMA_CONT.FK_PSCHEMA_CONT3 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PSCHEMA_CONT
+ add constraint FK_PSCHEMA_CONT3 foreign key ( I_LSCHEMA  )
+  references SNP_LSCHEMA ( I_LSCHEMA  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_PWD_RULE.FK_PWD_RULE_POLICY -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PWD_RULE
+ add constraint FK_PWD_RULE_POLICY foreign key ( I_PWD_POLICY  )
+  references SNP_PWD_POLICY ( I_PWD_POLICY  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_REM_REP.FK_REM_REP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REM_REP
+ add constraint FK_REM_REP foreign key ( I_CONNECT  )
+  references SNP_CONNECT ( I_CONNECT  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_HOST_MOD.FK_SNP_HOST -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_HOST_MOD
+ add constraint FK_SNP_HOST foreign key ( I_HOST  )
+  references SNP_HOST ( I_HOST  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_HOST_MOD.FK_SNP_MOD -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_HOST_MOD
+ add constraint FK_SNP_MOD foreign key ( I_MODULE  )
+  references SNP_MODULE ( I_MODULE  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_SOL_ELT.FK_SOL_ELT_SNP_SOL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOL_ELT
+ add constraint FK_SOL_ELT_SNP_SOL foreign key ( I_SOLUTION  )
+  references SNP_SOLUTION ( I_SOLUTION  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_SUB_LANG.FK_SUB_LANG -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SUB_LANG
+ add constraint FK_SUB_LANG foreign key ( I_LANG  )
+  references SNP_LANG ( I_LANG  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_USER_METH.FK_USER_METH1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_METH
+ add constraint FK_USER_METH1 foreign key ( I_METH  )
+  references SNP_METHOD ( I_METH  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_USER_METH.FK_USER_METH2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_METH
+ add constraint FK_USER_METH2 foreign key ( I_WUSER  )
+  references SNP_USER ( I_WUSER  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_USER_OBJ_METH.FK_USER_OBJ_METH2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_OBJ_METH
+ add constraint FK_USER_OBJ_METH2 foreign key ( I_METH  )
+  references SNP_METHOD ( I_METH  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_USER_OBJ_METH.FK_USER_OBJ_METH3 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_OBJ_METH
+ add constraint FK_USER_OBJ_METH3 foreign key ( I_WUSER  )
+  references SNP_USER ( I_WUSER  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_USER_OBJ_METH.FK_USER_OBJ_METH4 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_OBJ_METH
+ add constraint FK_USER_OBJ_METH4 foreign key ( I_CONTEXT  )
+  references SNP_CONTEXT ( I_CONTEXT  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_USER_OBJ_METH.FK_USER_OBJ_METH5 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_OBJ_METH
+ add constraint FK_USER_OBJ_METH5 foreign key ( I_OBJECTS , I_INSTANCE  )
+  references SNP_INST_OBJ ( I_OBJECTS , I_INSTANCE  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_USER_PROF.FK_USER_PROF1 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_PROF
+ add constraint FK_USER_PROF1 foreign key ( I_PROF  )
+  references SNP_PROFILE ( I_PROF  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_USER_PROF.FK_USER_PROF2 -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_PROF
+ add constraint FK_USER_PROF2 foreign key ( I_WUSER  )
+  references SNP_USER ( I_WUSER  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_VERSION.FK_VERSION_SNP_DAT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_VERSION
+ add constraint FK_VERSION_SNP_DAT foreign key ( I_DATA  )
+  references SNP_DATA ( I_DATA  )
+]]></Field>
+
+</Object>
+</SunopsisRepository>

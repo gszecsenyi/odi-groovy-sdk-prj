@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (DROP) Primary Key SNP_REV_JOIN_COL.PK_REV_JOIN_COL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_JOIN_COL drop constraint PK_REV_JOIN_COL
+]]></Field>
+
+<!-- (MODIFY) Table: SNP_JOIN -->
+<!-- Change column type -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN alter PK_TABLE_NAME drop not null
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_REV_COL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_COL add I_TXT_COL_DESC NUMERIC(10) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_REV_JOIN_COL -->
+
+<!-- (MODIFY) Table: SNP_REV_PARTITION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_PARTITION add I_TXT_DESC NUMERIC(10) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_REV_TABLE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_TABLE add I_TXT_DESC NUMERIC(10) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_TXT_CROSSR -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TXT_CROSSR alter STRING_ELT type VARCHAR(1000) 
+]]></Field>
+
+
+<!-- (CREATE) Primary Key SNP_REV_JOIN_COL.PK_REV_JOIN_COL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_JOIN_COL add constraint PK_REV_JOIN_COL primary key ( I_MOD , FK_NAME , FK_COL_NAME , FK_TABLE_NAME  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_TXT_CROSSR.TXT_XR_TXT_IDX -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index TXT_XR_TXT_IDX on SNP_TXT_CROSSR ( I_TXT  )
+]]></Field>
+
+</Object>
+</SunopsisRepository>

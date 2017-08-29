@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (DROP) Primary Key SNP_REV_JOIN_COL.PK_REV_JOIN_COL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_JOIN_COL_T drop unique ( I_MOD , FK_NAME , FK_COL_NAME  ) drop index
+
+]]></Field>
+
+<!-- (MODIFY) Table: SNP_JOIN -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN modify PK_TABLE_NAME  NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_REV_COL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_COL add I_TXT_COL_DESC NUMBER(10) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_REV_JOIN_COL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_JOIN_COL modify FK_TABLE_NAME  
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_REV_PARTITION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_PARTITION add I_TXT_DESC NUMBER(10) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_REV_TABLE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_TABLE add I_TXT_DESC NUMBER(10) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_TXT_CROSSR -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TXT_CROSSR modify STRING_ELT VARCHAR2(1000 CHAR) 
+]]></Field>
+
+
+<!-- (CREATE) Primary Key SNP_REV_JOIN_COL.PK_REV_JOIN_COL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_JOIN_COL_T add constraint PK_REV_JOIN_COL4342 unique ( I_MOD , FK_NAME , FK_COL_NAME , FK_TABLE_NAME  )
+
+]]></Field>
+
+<!-- (CREATE) Index SNP_TXT_CROSSR.TXT_XR_TXT_IDX -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index TXT_XR_TXT_IDX4342 on SNP_TXT_CROSSR_T ( I_TXT  )
+
+]]></Field>
+
+</Object>
+</SunopsisRepository>

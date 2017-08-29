@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (MODIFY) Table: SNP_ESS -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ESS add WS_CALLBACK_URL <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ESS add SECU_RUNTIME_PRINCIPAL <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_ESS add SECU_RUNTIME_CREDENTIALS <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> NULL
+]]></Field>
+
+
+<!-- (CREATE) Unique Key SNP_REM_REP.AK_REP_NAME -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REM_REP add constraint AK_REP_NAME unique ( REP_NAME  )
+]]></Field>
+
+</Object>
+</SunopsisRepository>

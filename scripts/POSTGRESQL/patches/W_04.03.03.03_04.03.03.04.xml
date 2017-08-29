@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (MODIFY) Table: SNP_FOLDER -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FOLDER add RELEASE_TAG VARCHAR(400) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_JOIN -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN add I_SC_TABLE_PK NUMERIC(10) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_MODEL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODEL add RELEASE_TAG VARCHAR(400) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_PACKAGE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PACKAGE add I_SC_PACKAGE NUMERIC(10) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PACKAGE add I_SC_BASE_PACKAGE NUMERIC(10) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PACKAGE add I_SC_ORIG_PACKAGE NUMERIC(10) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_POP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP add I_SC_POP NUMERIC(10) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP add I_SC_BASE_POP NUMERIC(10) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP add I_SC_ORIG_POP NUMERIC(10) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP add I_SC_TABLE NUMERIC(10) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SOURCE_TAB -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOURCE_TAB add I_SC_TABLE NUMERIC(10) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOURCE_TAB add I_SC_POP_SUB NUMERIC(10) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_STEP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP add I_SC_TABLE NUMERIC(10) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP add I_SC_TRT NUMERIC(10) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP add I_SC_POP NUMERIC(10) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_TABLE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TABLE add I_SC_TABLE NUMERIC(10) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TABLE add I_SC_BASE_TABLE NUMERIC(10) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TABLE add I_SC_ORIG_TABLE NUMERIC(10) NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_TRT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TRT add I_SC_TRT NUMERIC(10) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TRT add I_SC_BASE_TRT NUMERIC(10) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TRT add I_SC_ORIG_TRT NUMERIC(10) NULL
+]]></Field>
+
+
+<!-- (CREATE) Index SNP_JOIN.JOIN_SC_TAB_PK_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index JOIN_SC_TAB_PK_FK on SNP_JOIN ( I_SC_TABLE_PK  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_PACKAGE.PACK_SHORTCUT_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index PACK_SHORTCUT_FK on SNP_PACKAGE ( I_SC_PACKAGE  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_POP.POP_SC_TABLE_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index POP_SC_TABLE_FK on SNP_POP ( I_SC_TABLE  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_POP.POP_SHORTCUT_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index POP_SHORTCUT_FK on SNP_POP ( I_SC_POP  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_SOURCE_TAB.SRC_TAB_SC_POP_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index SRC_TAB_SC_POP_FK on SNP_SOURCE_TAB ( I_SC_POP_SUB  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_SOURCE_TAB.SRC_TAB_SC_TAB_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index SRC_TAB_SC_TAB_FK on SNP_SOURCE_TAB ( I_SC_TABLE  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_STEP.STEP_SC_POP_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index STEP_SC_POP_FK on SNP_STEP ( I_SC_POP  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_STEP.STEP_SC_TABLE_Fk -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index STEP_SC_TABLE_Fk on SNP_STEP ( I_SC_TABLE  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_STEP.STEP_SC_TRT_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index STEP_SC_TRT_FK on SNP_STEP ( I_SC_TRT  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_TABLE.TABLE_SHORTCUT_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index TABLE_SHORTCUT_FK on SNP_TABLE ( I_SC_TABLE  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_TRT.TRT_SHORTCUT_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index TRT_SHORTCUT_FK on SNP_TRT ( I_SC_TRT  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_JOIN.FK_JOIN_SC_TAB_PK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN
+ add constraint FK_JOIN_SC_TAB_PK foreign key ( I_SC_TABLE_PK  )
+  references SNP_TABLE ( I_TABLE  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_PACKAGE.FK_PACK_SHORTCUT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PACKAGE
+ add constraint FK_PACK_SHORTCUT foreign key ( I_SC_PACKAGE  )
+  references SNP_PACKAGE ( I_PACKAGE  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_POP.FK_POP_SC_TABLE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP
+ add constraint FK_POP_SC_TABLE foreign key ( I_SC_TABLE  )
+  references SNP_TABLE ( I_TABLE  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_POP.FK_POP_SHORTCUT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP
+ add constraint FK_POP_SHORTCUT foreign key ( I_SC_POP  )
+  references SNP_POP ( I_POP  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_SOURCE_TAB.FK_SRC_TAB_SC_POP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOURCE_TAB
+ add constraint FK_SRC_TAB_SC_POP foreign key ( I_SC_POP_SUB  )
+  references SNP_POP ( I_POP  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_SOURCE_TAB.FK_SRC_TAB_SC_TAB -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOURCE_TAB
+ add constraint FK_SRC_TAB_SC_TAB foreign key ( I_SC_TABLE  )
+  references SNP_TABLE ( I_TABLE  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_STEP.FK_STEP_SC_POP -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP
+ add constraint FK_STEP_SC_POP foreign key ( I_SC_POP  )
+  references SNP_POP ( I_POP  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_STEP.FK_STEP_SC_TABLE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP
+ add constraint FK_STEP_SC_TABLE foreign key ( I_SC_TABLE  )
+  references SNP_TABLE ( I_TABLE  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_STEP.FK_STEP_SC_TRT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP
+ add constraint FK_STEP_SC_TRT foreign key ( I_SC_TRT  )
+  references SNP_TRT ( I_TRT  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_TABLE.FK_TABLE_SHORTCUT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TABLE
+ add constraint FK_TABLE_SHORTCUT foreign key ( I_SC_TABLE  )
+  references SNP_TABLE ( I_TABLE  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_TRT.FK_TRT_SHORTCUT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TRT
+ add constraint FK_TRT_SHORTCUT foreign key ( I_SC_TRT  )
+  references SNP_TRT ( I_TRT  )
+]]></Field>
+
+</Object>
+</SunopsisRepository>

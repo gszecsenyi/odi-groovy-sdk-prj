@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (MODIFY) Table: SNP_MTXT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MTXT add FULL_TXT CLOB NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_TECHNO -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TECHNO add DEF_INT_PRF_TAB VARCHAR2(35 CHAR) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TECHNO add DEF_COL_PRF_TAB VARCHAR2(35 CHAR) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TECHNO add DEF_ERR_PRF_TAB VARCHAR2(35 CHAR) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TECHNO add DEF_JRN_PRF_TAB VARCHAR2(35 CHAR) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TECHNO add DEF_JRN_PRF_VIE VARCHAR2(35 CHAR) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TECHNO add DEF_JRN_PRF_TRG VARCHAR2(35 CHAR) NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TECHNO add DEF_IDX_PRF_TAB VARCHAR2(25 CHAR) NULL
+]]></Field>
+
+
+</Object>
+</SunopsisRepository>

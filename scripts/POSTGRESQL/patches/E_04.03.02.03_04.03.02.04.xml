@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (MODIFY) Table: SNP_SESS_STEP -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_STEP alter I_TXT_VAR_VALUE type <?=snpRef.getDataType("SRC_NUMERIC", "19", "")?> 
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_VAR_PLAN_AGENT -->
+<!-- Change column to nullable -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_VAR_PLAN_AGENT alter I_TXT_VAR_VALUE type <?=snpRef.getDataType("SRC_NUMERIC", "19", "")?> 
+]]></Field>
+
+
+</Object>
+</SunopsisRepository>

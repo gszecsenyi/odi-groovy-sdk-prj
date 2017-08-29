@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (CREATE) Table SNP_LPI_EC_VAR_LOG -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create table SNP_LPI_EC_VAR_LOG
+(
+
+	I_LP_INST NUMBER(19) NOT NULL ,
+
+	I_LP_STEP NUMBER(19) NOT NULL ,
+
+	NB_RUN NUMBER(10) NOT NULL ,
+
+	I_LP_STEP_EXCEPT NUMBER(19) NOT NULL ,
+
+	VAR_NAME VARCHAR2(436 CHAR) NOT NULL ,
+
+	START_DATE DATE NOT NULL ,
+
+	END_DATE DATE NULL ,
+
+	DURATION NUMBER(10, 2) NULL ,
+
+	STATUS VARCHAR2(2 CHAR) NULL ,
+
+	RETURN_CODE VARCHAR2(35 CHAR) NULL ,
+
+	I_TXT_MESS NUMBER(19) NULL ,
+
+	VAR_VALUE VARCHAR2(250 CHAR) NULL ,
+
+	I_TXT_VAR_VALUE NUMBER(19) NULL ,
+
+	ERROR_MESSAGE CLOB NULL ,
+
+	VAR_LONG_VALUE CLOB NULL ,
+
+	REFRESH_SQL CLOB NULL 
+
+)
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_LPI_EC_VAR_LOG.PK_LPI_EC_VAR_LOG -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_EC_VAR_LOG add constraint PK_LPI_EC_VAR_LOG primary key ( I_LP_INST , I_LP_STEP , NB_RUN , I_LP_STEP_EXCEPT , VAR_NAME  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_LPI_EC_VAR_LOG.LPI_EVLOG_ELOG_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index LPI_EVLOG_ELOG_FK on SNP_LPI_EC_VAR_LOG ( I_LP_INST , I_LP_STEP , NB_RUN , I_LP_STEP_EXCEPT  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_LPI_EC_VAR_LOG.FK_LPI_EVLOG_ELOG -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_EC_VAR_LOG
+ add constraint FK_LPI_EVLOG_ELOG foreign key ( I_LP_INST , I_LP_STEP , NB_RUN , I_LP_STEP_EXCEPT  )
+  references SNP_LPI_EXC_LOG ( I_LP_INST , I_LP_STEP , NB_RUN , I_LP_STEP_EXCEPT  )
+]]></Field>
+
+</Object>
+</SunopsisRepository>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (MODIFY) Table: SNP_AGENT -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_AGENT add SCHED_CLEANUP_HH <?=snpRef.getDataType("SRC_VARCHAR", "2", "")?> NULL
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_AGENT add SCHED_CLEANUP_MM <?=snpRef.getDataType("SRC_VARCHAR", "2", "")?> NULL
+]]></Field>
+
+
+</Object>
+</SunopsisRepository>

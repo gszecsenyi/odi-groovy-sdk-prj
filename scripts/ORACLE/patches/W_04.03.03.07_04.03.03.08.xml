@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (DROP) Unique Key SNP_KEY_COL.AK_KEY_COL -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_KEY_COL drop unique ( I_KEY , POS  ) drop index
+]]></Field>
+
+<!-- (MODIFY) Table: SNP_SEQUENCE -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SEQUENCE add I_TXT_SPC_WHERE NUMBER(10) NULL
+]]></Field>
+
+
+<!-- (CREATE) Table SNP_REV_COL_FFV -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create table SNP_REV_COL_FFV
+(
+
+	I_MOD NUMBER(10) NOT NULL ,
+
+	TABLE_NAME VARCHAR2(128 CHAR) NOT NULL ,
+
+	COL_NAME VARCHAR2(128 CHAR) NOT NULL ,
+
+	FF_CODE VARCHAR2(35 CHAR) NOT NULL ,
+
+	NUM_VALUE NUMBER(10) NULL ,
+
+	SHORT_TXT_VALUE VARCHAR2(250 CHAR) NULL 
+
+)
+]]></Field>
+
+<!-- (CREATE) Table SNP_REV_COND_FFV -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create table SNP_REV_COND_FFV
+(
+
+	I_MOD NUMBER(10) NOT NULL ,
+
+	TABLE_NAME VARCHAR2(128 CHAR) NOT NULL ,
+
+	COND_NAME VARCHAR2(128 CHAR) NOT NULL ,
+
+	FF_CODE VARCHAR2(35 CHAR) NOT NULL ,
+
+	NUM_VALUE NUMBER(10) NULL ,
+
+	SHORT_TXT_VALUE VARCHAR2(250 CHAR) NULL 
+
+)
+]]></Field>
+
+<!-- (CREATE) Table SNP_REV_JOIN_FFV -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create table SNP_REV_JOIN_FFV
+(
+
+	I_MOD NUMBER(10) NOT NULL ,
+
+	FK_NAME VARCHAR2(128 CHAR) NOT NULL ,
+
+	FF_CODE VARCHAR2(35 CHAR) NOT NULL ,
+
+	NUM_VALUE NUMBER(10) NULL ,
+
+	SHORT_TXT_VALUE VARCHAR2(250 CHAR) NULL 
+
+)
+]]></Field>
+
+<!-- (CREATE) Table SNP_REV_KEY_FFV -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create table SNP_REV_KEY_FFV
+(
+
+	I_MOD NUMBER(10) NOT NULL ,
+
+	TABLE_NAME VARCHAR2(128 CHAR) NOT NULL ,
+
+	KEY_NAME VARCHAR2(128 CHAR) NOT NULL ,
+
+	FF_CODE VARCHAR2(35 CHAR) NOT NULL ,
+
+	NUM_VALUE NUMBER(10) NULL ,
+
+	SHORT_TXT_VALUE VARCHAR2(250 CHAR) NULL 
+
+)
+]]></Field>
+
+<!-- (CREATE) Table SNP_REV_MODEL_FFV -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create table SNP_REV_MODEL_FFV
+(
+
+	I_MOD NUMBER(10) NOT NULL ,
+
+	FF_CODE VARCHAR2(35 CHAR) NOT NULL ,
+
+	NUM_VALUE NUMBER(10) NULL ,
+
+	SHORT_TXT_VALUE VARCHAR2(250 CHAR) NULL 
+
+)
+]]></Field>
+
+<!-- (CREATE) Table SNP_REV_TABLE_FFV -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create table SNP_REV_TABLE_FFV
+(
+
+	I_MOD NUMBER(10) NOT NULL ,
+
+	TABLE_NAME VARCHAR2(128 CHAR) NOT NULL ,
+
+	FF_CODE VARCHAR2(35 CHAR) NOT NULL ,
+
+	NUM_VALUE NUMBER(10) NULL ,
+
+	SHORT_TXT_VALUE VARCHAR2(250 CHAR) NULL 
+
+)
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_REV_COL_FFV.PK_REV_COL_FFV -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_COL_FFV add constraint PK_REV_COL_FFV primary key ( I_MOD , TABLE_NAME , COL_NAME , FF_CODE  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_REV_COND_FFV.PK_REV_COND_FFV -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_COND_FFV add constraint PK_REV_COND_FFV primary key ( I_MOD , TABLE_NAME , COND_NAME , FF_CODE  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_REV_JOIN_FFV.PK_REV_JOIN_FFV -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_JOIN_FFV add constraint PK_REV_JOIN_FFV primary key ( I_MOD , FK_NAME , FF_CODE  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_REV_KEY_FFV.PK_REV_KEY_FFV -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_KEY_FFV add constraint PK_REV_KEY_FFV primary key ( I_MOD , TABLE_NAME , KEY_NAME , FF_CODE  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_REV_MODEL_FFV.PK_REV_MODEL_FFV -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_MODEL_FFV add constraint PK_REV_MODEL_FFV primary key ( I_MOD , FF_CODE  )
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_REV_TABLE_FFV.PK_REV_TABLE_FFV -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_REV_TABLE_FFV add constraint PK_REV_TABLE_FFV primary key ( I_MOD , TABLE_NAME , FF_CODE  )
+]]></Field>
+
+</Object>
+</SunopsisRepository>

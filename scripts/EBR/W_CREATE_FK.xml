@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_COL_T
+ add constraint FK_COL4221 foreign key ( I_TABLE4221  )
+  references SNP_TABLE_T ( I_TABLE4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_COL_T
+ add constraint FK_COL_COL4221 foreign key ( I_SRC_COL4221  )
+  references SNP_COL_T ( I_COL4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_COND_T
+ add constraint FK_COND14221 foreign key ( I_MOD4221  )
+  references SNP_MODEL_T ( I_MOD4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_COND_T
+ add constraint FK_COND24221 foreign key ( I_TABLE4221  )
+  references SNP_TABLE_T ( I_TABLE4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DATA_SET_T
+ add constraint FK_DATA_SET_POP4311 foreign key ( I_POP4311  )
+  references SNP_POP_T ( I_POP4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DIAGRAM_T
+ add constraint FK_DIAG_DATA_SET4321 foreign key ( I_DATA_SET4311  )
+  references SNP_DATA_SET_T ( I_DATA_SET4311  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_FOLDER_T
+ add constraint FK_FOLDER4221 foreign key ( PAR_I_FOLDER4221  )
+  references SNP_FOLDER_T ( I_FOLDER4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_GRP_STATE_T
+ add constraint FK_GRP_STT_SNP_PRJ4221 foreign key ( I_PROJECT4221  )
+  references SNP_PROJECT_T ( I_PROJECT4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_INDIRECT_MREF_T
+ add constraint FK_IND_MREF_FK4221 foreign key ( ID_OBJECT_PK4221 , ID_OBJECT_FK4221 , REF_KEY_NAME4221  )
+  references SNP_MISSING_REF_T ( ID_OBJECT_PK4221 , ID_OBJECT_FK4221 , REF_KEY_NAME4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODEL_T
+ add constraint FK_I_MOD_FOLDER4221 foreign key ( I_MOD_FOLDER4221  )
+  references SNP_MOD_FOLDER_T ( I_MOD_FOLDER4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN_T
+ add constraint FK_JOIN24221 foreign key ( I_TABLE_FK4221  )
+  references SNP_TABLE_T ( I_TABLE4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN_T
+ add constraint FK_JOIN34221 foreign key ( I_TABLE_PK4221  )
+  references SNP_TABLE_T ( I_TABLE4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN_COL_T
+ add constraint FK_JOIN_COL14221 foreign key ( I_JOIN4221  )
+  references SNP_JOIN_T ( I_JOIN4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN_COL_T
+ add constraint FK_JOIN_COL24221 foreign key ( I_COL_FK4221  )
+  references SNP_COL_T ( I_COL4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN_COL_T
+ add constraint FK_JOIN_COL34221 foreign key ( I_COL_PK4221  )
+  references SNP_COL_T ( I_COL4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_JOIN_T
+ add constraint FK_JOIN_SC_TAB_PK4334 foreign key ( I_SC_TABLE_PK4334  )
+  references SNP_TABLE_T ( I_TABLE4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_KEY_T
+ add constraint FK_KEY4221 foreign key ( I_TABLE4221  )
+  references SNP_TABLE_T ( I_TABLE4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_KEY_COL_T
+ add constraint FK_KEY_COL14221 foreign key ( I_KEY4221  )
+  references SNP_KEY_T ( I_KEY4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_KEY_COL_T
+ add constraint FK_KEY_COL24221 foreign key ( I_COL4221  )
+  references SNP_COL_T ( I_COL4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINE_TRT_T
+ add constraint FK_LINE_TRT4221 foreign key ( I_TRT4221  )
+  references SNP_TRT_T ( I_TRT4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINE_TRT_UE_T
+ add constraint FK_LINE_TRT_UE14221 foreign key ( I_USER_EXIT4221  )
+  references SNP_USER_EXIT_T ( I_USER_EXIT4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINE_TRT_UE_T
+ add constraint FK_LINE_TRT_UE24221 foreign key ( I_TRT4221 , ORD_TRT4221  )
+  references SNP_LINE_TRT_T ( I_TRT4221 , ORD_TRT4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINK_DIAG_T
+ add constraint FK_LINK_SNP_OBJ_DG4221 foreign key ( I_DIAGRAM4221 , I_OBJECTS4221 , I_INSTANCE4221 , SYN_NUMB4221  )
+  references SNP_OBJ_DIAG_T ( I_DIAGRAM4221 , I_OBJECTS4221 , I_INSTANCE4221 , SYN_NUMB4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINK_DIAG_T
+ add constraint FK_LINK_SNP_OBJ_FR4221 foreign key ( I_DIAGRAM_TO4221 , I_OBJECTS_TO4221 , I_INSTANCE_TO4221 , SYN_NUMB_TO4221  )
+  references SNP_OBJ_DIAG_T ( I_DIAGRAM4221 , I_OBJECTS4221 , I_INSTANCE4221 , SYN_NUMB4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINK_DIAG_T
+ add constraint FK_LINK_SNP_OBJ_TO4221 foreign key ( I_DIAGRAM_FROM4221 , I_OBJECTS_FROM4221 , I_INSTANCE_FROM4221 , SYN_NUMB_FROM4221  )
+  references SNP_OBJ_DIAG_T ( I_DIAGRAM4221 , I_OBJECTS4221 , I_INSTANCE4221 , SYN_NUMB4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODEL_T
+ add constraint FK_MODEL_FOLDER4221 foreign key ( I_DEF_FOLDER4221  )
+  references SNP_FOLDER_T ( I_FOLDER4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODEL_T
+ add constraint FK_MODEL_KCM4221 foreign key ( I_TRT_KCM4221  )
+  references SNP_TRT_T ( I_TRT4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODEL_T
+ add constraint FK_MODEL_KDM4221 foreign key ( I_TRT_KDM4221  )
+  references SNP_TRT_T ( I_TRT4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODEL_T
+ add constraint FK_MODEL_KJM4221 foreign key ( I_TRT_KJM4221  )
+  references SNP_TRT_T ( I_TRT4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MODEL_T
+ add constraint FK_MODEL_SKM4221 foreign key ( I_TRT_SKM4221  )
+  references SNP_TRT_T ( I_TRT4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MOD_FOLDER_T
+ add constraint FK_MOD_FOLDER4221 foreign key ( PAR_I_MOD_FOLDER4221  )
+  references SNP_MOD_FOLDER_T ( I_MOD_FOLDER4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MISSING_REF_T
+ add constraint FK_MREF_ID_FK4221 foreign key ( ID_OBJECT_FK4221  )
+  references SNP_OBJECT_ID_T ( I_OBJECT_ID4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_MISSING_REF_T
+ add constraint FK_MREF_ID_PK4221 foreign key ( ID_OBJECT_PK4221  )
+  references SNP_OBJECT_ID_T ( I_OBJECT_ID4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_OBJ_STATE_T
+ add constraint FK_OBJ_STT_SNP_STT4221 foreign key ( I_STATE4221  )
+  references SNP_STATE2_T ( I_STATE4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_OBJ_DIAG_T
+ add constraint FK_ODIAG_SNP_DIAG4221 foreign key ( I_DIAGRAM4221  )
+  references SNP_DIAGRAM_T ( I_DIAGRAM4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_OBJECT_ID_COL_T
+ add constraint FK_OID_COL_OID4221 foreign key ( I_OBJECT_ID4221  )
+  references SNP_OBJECT_ID_T ( I_OBJECT_ID4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PACKAGE_T
+ add constraint FK_PACKAGE14221 foreign key ( I_FOLDER4221  )
+  references SNP_FOLDER_T ( I_FOLDER4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PACKAGE_T
+ add constraint FK_PACK_SHORTCUT4334 foreign key ( I_SC_PACKAGE4334  )
+  references SNP_PACKAGE_T ( I_PACKAGE4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PARTITION_T
+ add constraint FK_PARTITION_TABLE4311 foreign key ( I_TABLE4311  )
+  references SNP_TABLE_T ( I_TABLE4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PARTITION_T
+ add constraint FK_PART_PARTITION4311 foreign key ( I_PAR_PARTITION4311  )
+  references SNP_PARTITION_T ( I_PARTITION4311  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_MAPPING_T
+ add constraint FK_PMAP_PCOL4321 foreign key ( I_POP_COL4311  )
+  references SNP_POP_COL_T ( I_POP_COL4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_MAPPING_T
+ add constraint FK_PMAP_SSET4321 foreign key ( I_SRC_SET4311  )
+  references SNP_SRC_SET_T ( I_SRC_SET4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_MAPPING_T
+ add constraint FK_PMAP_STAB4321 foreign key ( I_SOURCE_TAB4311  )
+  references SNP_SOURCE_TAB_T ( I_SOURCE_TAB4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_T
+ add constraint FK_POP14221 foreign key ( I_TRT_KCM4221  )
+  references SNP_TRT_T ( I_TRT4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_T
+ add constraint FK_POP24221 foreign key ( I_TRT_KLM4221  )
+  references SNP_TRT_T ( I_TRT4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_T
+ add constraint FK_POP34221 foreign key ( I_FOLDER4221  )
+  references SNP_FOLDER_T ( I_FOLDER4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_T
+ add constraint FK_POP64221 foreign key ( I_TRT_KIM4221  )
+  references SNP_TRT_T ( I_TRT4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_T
+ add constraint FK_POP84221 foreign key ( I_TABLE4221  )
+  references SNP_TABLE_T ( I_TABLE4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_CLAUSE_T
+ add constraint FK_POP_CLAUSE14221 foreign key ( I_TABLE14221  )
+  references SNP_SOURCE_TAB_T ( I_SOURCE_TAB4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_CLAUSE_T
+ add constraint FK_POP_CLAUSE24221 foreign key ( I_SRC_SET4221  )
+  references SNP_SRC_SET_T ( I_SRC_SET4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_CLAUSE_T
+ add constraint FK_POP_CLAUSE34221 foreign key ( I_TABLE24221  )
+  references SNP_SOURCE_TAB_T ( I_SOURCE_TAB4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_CLAUSE_T
+ add constraint FK_POP_CLAUSE54311 foreign key ( I_DATA_SET4311  )
+  references SNP_DATA_SET_T ( I_DATA_SET4311  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_COL_T
+ add constraint FK_POP_COL4221 foreign key ( I_COL4221  )
+  references SNP_COL_T ( I_COL4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_COL_T
+ add constraint FK_POP_COL14221 foreign key ( I_SOURCE_TAB4221  )
+  references SNP_SOURCE_TAB_T ( I_SOURCE_TAB4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_COL_T
+ add constraint FK_POP_COL34221 foreign key ( I_POP4221  )
+  references SNP_POP_T ( I_POP4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_CONSTRAINT_T
+ add constraint FK_POP_CONSTRAINT4221 foreign key ( I_POP4221  )
+  references SNP_POP_T ( I_POP4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_MAPPING_T
+ add constraint FK_POP_MAPPING14311 foreign key ( I_DATA_SET4311  )
+  references SNP_DATA_SET_T ( I_DATA_SET4311  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_T
+ add constraint FK_POP_SC_TABLE4334 foreign key ( I_SC_TABLE4334  )
+  references SNP_TABLE_T ( I_TABLE4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_POP_T
+ add constraint FK_POP_SHORTCUT4334 foreign key ( I_SC_POP4334  )
+  references SNP_POP_T ( I_POP4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SEQUENCE_T
+ add constraint FK_SEQUENCE4221 foreign key ( I_PROJECT4221  )
+  references SNP_PROJECT_T ( I_PROJECT4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LINK_COORD_T
+ add constraint FK_SNP_COORD_LINK4221 foreign key ( I_LINK4221  )
+  references SNP_LINK_DIAG_T ( I_LINK4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DIAGRAM_T
+ add constraint FK_SNP_DIAG_PACK4311 foreign key ( I_PACKAGE4311  )
+  references SNP_PACKAGE_T ( I_PACKAGE4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DIAGRAM_T
+ add constraint FK_SNP_DIAG_POP4311 foreign key ( I_POP4311  )
+  references SNP_POP_T ( I_POP4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DIAG_PARAM_T
+ add constraint FK_SNP_DIAG_PRM_DG4221 foreign key ( I_DIAGRAM4221  )
+  references SNP_DIAGRAM_T ( I_DIAGRAM4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_DIAGRAM_T
+ add constraint FK_SNP_DIAG_SMOD4221 foreign key ( I_MOD4221 , I_SMOD4221  )
+  references SNP_SUB_MODEL_T ( I_MOD4221 , I_SMOD4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_UFUNC_IMPL_T
+ add constraint FK_SNP_UFUNC_IMPL4221 foreign key ( I_UFUNC4221  )
+  references SNP_UFUNC_T ( I_UFUNC4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOURCE_TAB_T
+ add constraint FK_SOURCE_TAB14221 foreign key ( I_SRC_SET4221  )
+  references SNP_SRC_SET_T ( I_SRC_SET4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOURCE_TAB_T
+ add constraint FK_SOURCE_TAB34221 foreign key ( I_TABLE4221  )
+  references SNP_TABLE_T ( I_TABLE4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SOURCE_TAB_T
+ add constraint FK_SOURCE_TAB44311 foreign key ( I_DATA_SET4311  )
+  references SNP_DATA_SET_T ( I_DATA_SET4311  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SRC_SET_T
+ add constraint FK_SRC_SET14221 foreign key ( I_TRT_KLM4221  )
+  references SNP_TRT_T ( I_TRT4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SRC_SET_T
+ add constraint FK_SRC_SET34311 foreign key ( I_DATA_SET4311  )
+  references SNP_DATA_SET_T ( I_DATA_SET4311  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STATE_T
+ add constraint FK_STATE4221 foreign key ( I_PROJECT4221  )
+  references SNP_PROJECT_T ( I_PROJECT4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP_T
+ add constraint FK_STEP34221 foreign key ( I_PACKAGE4221  )
+  references SNP_PACKAGE_T ( I_PACKAGE4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP_T
+ add constraint FK_STEP44221 foreign key ( I_VAR4221  )
+  references SNP_VAR_T ( I_VAR4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP_T
+ add constraint FK_STEP54221 foreign key ( I_POP4221  )
+  references SNP_POP_T ( I_POP4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP_T
+ add constraint FK_STEP64221 foreign key ( I_TRT4221  )
+  references SNP_TRT_T ( I_TRT4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP_T
+ add constraint FK_STEP_SC_POP4334 foreign key ( I_SC_POP4334  )
+  references SNP_POP_T ( I_POP4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP_T
+ add constraint FK_STEP_SC_TABLE4334 foreign key ( I_SC_TABLE4334  )
+  references SNP_TABLE_T ( I_TABLE4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP_T
+ add constraint FK_STEP_SC_TRT4334 foreign key ( I_SC_TRT4334  )
+  references SNP_TRT_T ( I_TRT4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP_T
+ add constraint FK_STEP_SMODEL4221 foreign key ( I_MOD4221 , I_SMOD4221  )
+  references SNP_SUB_MODEL_T ( I_MOD4221 , I_SMOD4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP_T
+ add constraint FK_STEP_TABLE4221 foreign key ( I_TABLE4221  )
+  references SNP_TABLE_T ( I_TABLE4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STATE2_T
+ add constraint FK_STT_SNP_GRP_STT4221 foreign key ( I_GRP_STATE4221  )
+  references SNP_GRP_STATE_T ( I_GRP_STATE4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SUB_MODEL_T
+ add constraint FK_SUB_MODEL4221 foreign key ( I_MOD4221  )
+  references SNP_MODEL_T ( I_MOD4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TABLE_T
+ add constraint FK_TABLE4221 foreign key ( I_MOD4221 , I_SUB_MODEL4221  )
+  references SNP_SUB_MODEL_T ( I_MOD4221 , I_SMOD4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TABLE_T
+ add constraint FK_TABLE_SHORTCUT4334 foreign key ( I_SC_TABLE4334  )
+  references SNP_TABLE_T ( I_TABLE4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TRT_T
+ add constraint FK_TRT14221 foreign key ( I_PROJECT4221  )
+  references SNP_PROJECT_T ( I_PROJECT4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TRT_T
+ add constraint FK_TRT24221 foreign key ( I_FOLDER4221  )
+  references SNP_FOLDER_T ( I_FOLDER4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TRT_T
+ add constraint FK_TRT_SHORTCUT4334 foreign key ( I_SC_TRT4334  )
+  references SNP_TRT_T ( I_TRT4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TXT_CROSSR_T
+ add constraint FK_TXT_CROSSR14221 foreign key ( I_TABLE4221  )
+  references SNP_TABLE_T ( I_TABLE4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TXT_CROSSR_T
+ add constraint FK_TXT_CROSSR24221 foreign key ( I_POP_COL4221  )
+  references SNP_POP_COL_T ( I_POP_COL4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TXT_CROSSR_T
+ add constraint FK_TXT_CROSSR34221 foreign key ( I_VAR4221  )
+  references SNP_VAR_T ( I_VAR4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TXT_CROSSR_T
+ add constraint FK_TXT_CROSSR54221 foreign key ( SEQ_ID4221  )
+  references SNP_SEQUENCE_T ( SEQ_ID4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TXT_CROSSR_T
+ add constraint FK_TXT_CROSSR64221 foreign key ( I_COL4221  )
+  references SNP_COL_T ( I_COL4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TXT_CROSSR_T
+ add constraint FK_TXT_CROSSR_UFUN4221 foreign key ( I_UFUNC4221  )
+  references SNP_UFUNC_T ( I_UFUNC4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_UE_USED_T
+ add constraint FK_UE_USED24221 foreign key ( I_USER_EXIT4221  )
+  references SNP_USER_EXIT_T ( I_USER_EXIT4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_UFUNC_TECHNO_T
+ add constraint FK_UFUNC_TECHNO4221 foreign key ( I_UFUNC_IMPL4221  )
+  references SNP_UFUNC_IMPL_T ( I_UFUNC_IMPL4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_USER_EXIT_T
+ add constraint FK_USER_EXIT4221 foreign key ( I_TRT4221  )
+  references SNP_TRT_T ( I_TRT4221  )
+
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_VAR_T
+ add constraint FK_VAR4221 foreign key ( I_PROJECT4221  )
+  references SNP_PROJECT_T ( I_PROJECT4221  )
+
+]]></Field>
+</Object>
+</SunopsisRepository>

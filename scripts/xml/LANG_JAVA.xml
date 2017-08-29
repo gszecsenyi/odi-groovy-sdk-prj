@@ -1,0 +1,2215 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisExport>
+<Admin RepositoryVersion="04.03.04.02" />
+<Object class="com.sunopsis.dwg.dbobj.SnpLang">
+		<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 14:33:13.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="LangName" type="java.lang.String"><![CDATA[JAVA]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:48.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LitDel" type="java.lang.String"><![CDATA[""]]></Field>
+	<Field name="ObjCaseSens" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="ObjDel" type="java.lang.String">null</Field>
+	<Field name="WordCaseSens" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="WordSep" type="java.lang.String"><![CDATA[ ,()+*-/|<>;!=&{}`\^%.#:[]?]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpSubLang">
+		<Field name="EditColor" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[25999]]></Field>
+	<Field name="SlName" type="java.lang.String"><![CDATA[SnpSubLang.ControlFlowStmts.label]]></Field>
+	<Field name="SlType" type="java.lang.String"><![CDATA[KW]]></Field>
+	<Field name="UsFilter" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="UsFrom" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="UsMapping" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="UsTask" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:45:12.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[640999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[25999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2976999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[break]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[break [$(label)s1]]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[A break statement transfers control out of an enclosing statement.
+A break statement with no label attempts to transfer control to the innermost enclosing switch, while, do, or for statement of the immediately enclosing method or initializer block; this statement, which is called the break target, then immediately completes normally. ]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2976999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[A break statement transfers control out of an enclosing statement.
+A break statement with no label attempts to transfer control to the innermost enclosing switch, while, do, or for statement of the immediately enclosing method or initializer block; this statement, which is called the break target, then immediately completes normally. ]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMorigTxt">
+		<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="OrigineName" type="java.lang.String"><![CDATA[MOrigTxt.LangElt.LeHelp]]></Field>
+	<Field name="SnpsCol" type="java.lang.String"><![CDATA[I_TXT_LE_HELP]]></Field>
+	<Field name="SnpsTable" type="java.lang.String"><![CDATA[SNP_LANG_ELT]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:47:31.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[642999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[25999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2978999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[case]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[case $(value)s1:]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[If one of the case constants is equal to the value of the expression, then we say that the case matches, and all statements after the matching case label in the switch block, if any, are executed in sequence. If all these statements complete normally, or if there are no statements after the matching case label, then the entire switch statement completes normally. ]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2978999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[If one of the case constants is equal to the value of the expression, then we say that the case matches, and all statements after the matching case label in the switch block, if any, are executed in sequence. If all these statements complete normally, or if there are no statements after the matching case label, then the entire switch statement completes normally. ]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:24:25.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[633999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[25999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2969999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[continue]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[continue]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[A continue statement may occur only in a while, do, or for statement; statements of these three kinds are called iteration statements. Control passes to the loop-continuation point of an iteration statement.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2969999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[A continue statement may occur only in a while, do, or for statement; statements of these three kinds are called iteration statements. Control passes to the loop-continuation point of an iteration statement.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:37:26.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[636999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[25999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2972999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[default]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[default:]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[If no case matches but there is a default label, then all statements after the matching default label in the switch block, if any, are executed in sequence. If all these statements complete normally, or if there are no statements after the default label, then the entire switch statement completes normally.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2972999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[If no case matches but there is a default label, then all statements after the matching default label in the switch block, if any, are executed in sequence. If all these statements complete normally, or if there are no statements after the default label, then the entire switch statement completes normally.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:42:42.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[638999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[25999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2974999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[do while]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[do $(statement)s1 while($(expression)s2)]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[The do statement executes a Statement and an Expression repeatedly until the value of the Expression is false.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2974999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[The do statement executes a Statement and an Expression repeatedly until the value of the Expression is false.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:46:01.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[641999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[25999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2977999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[else]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[else]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Statement to execute when the expression of the corresponding if is false]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2977999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Statement to execute when the expression of the corresponding if is false]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:28:33.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[634999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[25999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2970999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[for]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[for([$(init)s1];[$(expression)s2];[$(update)s3])]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[The basic for statement executes some initialization code, then executes an Expression, a Statement, and some update code repeatedly until the value of the Expression is false.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2970999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[The basic for statement executes some initialization code, then executes an Expression, a Statement, and some update code repeatedly until the value of the Expression is false.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:43:11.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[639999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[25999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2975999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[goto]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[goto]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Reserved for future use]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2975999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Reserved for future use]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:39:01.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[637999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[25999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2973999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[if]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[if($(expression)s1)]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[The if statement allows conditional execution of a statement or a conditional choice of two statements, executing one or the other but not both.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2973999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[The if statement allows conditional execution of a statement or a conditional choice of two statements, executing one or the other but not both.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:35:12.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[635999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[25999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2971999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[switch]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[switch($(expression)s1)]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[The switch statement transfers control to one of several statements depending on the value of an expression.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2971999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[The switch statement transfers control to one of several statements depending on the value of an expression.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpSubLang">
+		<Field name="EditColor" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="SlName" type="java.lang.String"><![CDATA[SnpSubLang.Keywords.label]]></Field>
+	<Field name="SlType" type="java.lang.String"><![CDATA[KW]]></Field>
+	<Field name="UsFilter" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="UsFrom" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="UsMapping" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="UsTask" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 15:39:50.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[600999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2936999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[abstract]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[abstract]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[An abstract class is a class that is incomplete, or to be considered incomplete.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2936999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[An abstract class is a class that is incomplete, or to be considered incomplete.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 15:44:09.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[602999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2938999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[assert]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[assert]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[An assertion is a statement containing a boolean expression. An assertion is either enabled or disabled. If the assertion is enabled, evaluation of the assertion causes evaluation of the boolean expression and an error is reported if the expression evaluates to false. If the assertion is disabled, evaluation of the assertion has no effect whatsoever.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2938999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[An assertion is a statement containing a boolean expression. An assertion is either enabled or disabled. If the assertion is enabled, evaluation of the assertion causes evaluation of the boolean expression and an error is reported if the expression evaluates to false. If the assertion is disabled, evaluation of the assertion has no effect whatsoever.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 16:46:49.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[616999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2952999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[catch]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[catch]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[A try statement executes a block. If a value is thrown and the try statement has one or more catch clauses that can catch it, then control will be transferred to the first such catch clause. If the try statement has a finally clause, then another block of code is executed, no matter whether the try block completes normally or abruptly, and no matter whether a catch clause is first given control.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2952999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[A try statement executes a block. If a value is thrown and the try statement has one or more catch clauses that can catch it, then control will be transferred to the first such catch clause. If the try statement has a finally clause, then another block of code is executed, no matter whether the try block completes normally or abruptly, and no matter whether a catch clause is first given control.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 17:17:25.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[624999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2960999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[class]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[class]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Class declarations define new reference types and describe how they are implemented]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2960999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Class declarations define new reference types and describe how they are implemented]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 09:51:48.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[627999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2963999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[const]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[const]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Reserved for future use]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2963999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Reserved for future use]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 16:37:41.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[613999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2949999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[enum]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[enum]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[The body of an enum type may contain enum constants. An enum constant defines an instance of the enum type. An enum type has no instances other than those defined by its enum constants.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2949999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[The body of an enum type may contain enum constants. An enum constant defines an instance of the enum type. An enum type has no instances other than those defined by its enum constants.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 17:00:53.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[619999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2955999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[extends]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[extends]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[The extends keyword allows to declare a Class as inheriting from another class]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2955999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[The extends keyword allows to declare a Class as inheriting from another class]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:21:48.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[631999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2967999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[false]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[false]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Boolean false value]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2967999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Boolean false value]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 17:06:32.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[620999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2956999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[final]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[final]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Fields declared final are initialized once, but never changed under normal circumstances.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2956999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Fields declared final are initialized once, but never changed under normal circumstances.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 16:47:16.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[618999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2954999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[finally]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[finally]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[A try statement executes a block. If a value is thrown and the try statement has one or more catch clauses that can catch it, then control will be transferred to the first such catch clause. If the try statement has a finally clause, then another block of code is executed, no matter whether the try block completes normally or abruptly, and no matter whether a catch clause is first given control.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2954999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[A try statement executes a block. If a value is thrown and the try statement has one or more catch clauses that can catch it, then control will be transferred to the first such catch clause. If the try statement has a finally clause, then another block of code is executed, no matter whether the try block completes normally or abruptly, and no matter whether a catch clause is first given control.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 16:18:44.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[607999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2943999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[implements]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[implements]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[A Class implements an Interface when it provides an implementation for all the methods of the Interface.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2943999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[A Class implements an Interface when it provides an implementation for all the methods of the Interface.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 16:26:32.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[610999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2946999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[import]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[import]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[An import declaration allows a static member or a named type to be referred to by a simple name that consists of a single identifier. Without the use of an appropriate import declaration, the only way to refer to a type declared in another package, or a static member of another type, is to use a fully qualified name]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2946999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[An import declaration allows a static member or a named type to be referred to by a simple name that consists of a single identifier. Without the use of an appropriate import declaration, the only way to refer to a type declared in another package, or a static member of another type, is to use a fully qualified name]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 17:07:23.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[621999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2957999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[interface]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[interface]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[An interface declaration introduces a new reference type whose members are classes, interfaces, constants and abstract methods. This type has no implementation, but otherwise unrelated classes can implement it by providing implementations for its abstract methods.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2957999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[An interface declaration introduces a new reference type whose members are classes, interfaces, constants and abstract methods. This type has no implementation, but otherwise unrelated classes can implement it by providing implementations for its abstract methods.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 09:54:32.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[628999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2964999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[native]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[native]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[A method that is native is implemented in platform-dependent code, typically written in another programming language such as C, C++, FORTRAN,or assembly language. The body of a native method is given as a semicolon only, indicating that the implementation is omitted, instead of a block.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2964999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[A method that is native is implemented in platform-dependent code, typically written in another programming language such as C, C++, FORTRAN,or assembly language. The body of a native method is given as a semicolon only, indicating that the implementation is omitted, instead of a block.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 15:40:41.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[601999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2937999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[new]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[new]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Creates a new class instance]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2937999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Creates a new class instance]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 15:46:01.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[603999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2939999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[package]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[package]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Programs are organized as sets of packages. Each package has its own set of names for types, which helps to prevent name conflicts.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2939999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Programs are organized as sets of packages. Each package has its own set of names for types, which helps to prevent name conflicts.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 15:49:31.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[605999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2941999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[private]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[private]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[If a member or constructor is declared private, then access is permitted if and only if it occurs within the body of the top level class that encloses the declaration of the member or constructor]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2941999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[If a member or constructor is declared private, then access is permitted if and only if it occurs within the body of the top level class that encloses the declaration of the member or constructor]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 16:21:46.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[608999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2944999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[protected]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[protected]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[if the member or constructor is declared protected, then access is permitted only when one of the following is true:
+- Access to the member or constructor occurs from within the package containing the class in which the protected member or constructor is declared.
+- Access to the member or constructor occurs from outside the package in which it is declared only by code that is responsible for the implementation of that object.
+]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2944999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[if the member or constructor is declared protected, then access is permitted only when one of the following is true:
+- Access to the member or constructor occurs from within the package containing the class in which the protected member or constructor is declared.
+- Access to the member or constructor occurs from outside the package in which it is declared only by code that is responsible for the implementation of that object.
+]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 16:28:09.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[611999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2947999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[public]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[public]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[If a class or interface type is declared public, then it may be accessed by any code, provided that the compilation unit in which it is declared is observable. If a top level class or interface type is not declared public, then it may be accessed only from within the package in which it is declared.
+
+If a member or constructor is declared public, then access is permitted. All members of interfaces are implicitly public.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2947999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[If a class or interface type is declared public, then it may be accessed by any code, provided that the compilation unit in which it is declared is observable. If a top level class or interface type is not declared public, then it may be accessed only from within the package in which it is declared.
+
+If a member or constructor is declared public, then access is permitted. All members of interfaces are implicitly public.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 16:40:28.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[614999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2950999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[return]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[return]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[A return statement returns control to the invoker of a method or constructor]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2950999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[A return statement returns control to the invoker of a method or constructor]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 17:09:54.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[622999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2958999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[static]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[static]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[If a field is declared static, there exists exactly one incarnation of the field, no matter how many instances (possibly zero) of the class may eventually be created. A static field, sometimes called a class variable, is incarnated when the class is initialized
+
+A method that is declared static is called a class method. A class method is always invoked without reference to a particular object. An attempt to reference the current object using the keyword this or the keyword super or to reference the type parameters of any surrounding declaration in the body of a class method results in a compile-time error. It is a compile-time error for a static method to be declared abstract.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2958999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[If a field is declared static, there exists exactly one incarnation of the field, no matter how many instances (possibly zero) of the class may eventually be created. A static field, sometimes called a class variable, is incarnated when the class is initialized
+
+A method that is declared static is called a class method. A class method is always invoked without reference to a particular object. An attempt to reference the current object using the keyword this or the keyword super or to reference the type parameters of any surrounding declaration in the body of a class method results in a compile-time error. It is a compile-time error for a static method to be declared abstract.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 17:43:00.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[625999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2961999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[strictfp]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[strictfp]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[The effect of the strictfp modifier is to make all float or double expressions be explicitly FP-strict]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2961999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[The effect of the strictfp modifier is to make all float or double expressions be explicitly FP-strict]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 09:56:02.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[629999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2965999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[super]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[super]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[The special forms using the keyword super are valid only in an instance method, instance initializer or constructor, or in the initializer of an instance variable of a class; these are exactly the same situations in which the keyword this may be used]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2965999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[The special forms using the keyword super are valid only in an instance method, instance initializer or constructor, or in the initializer of an instance variable of a class; these are exactly the same situations in which the keyword this may be used]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 15:47:36.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[604999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2940999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[synchronized]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[synchronized]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[A synchronized method acquires a monitor before it executes. For a class (static) method, the monitor associated with the Class object for the method's class is used. For an instance method, the monitor associated with this (the object for which the method was invoked) is used.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2940999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[A synchronized method acquires a monitor before it executes. For a class (static) method, the monitor associated with the Class object for the method's class is used. For an instance method, the monitor associated with this (the object for which the method was invoked) is used.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 15:51:21.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[606999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2942999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[this]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[this]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[The keyword this may be used only in the body of an instance method, instance initializer or constructor, or in the initializer of an instance variable of a class. If it appears anywhere else, a compile-time error occurs.
+
+When used as a primary expression, the keyword this denotes a value that is a reference to the object for which the instance method was invoked, or to the object being constructed. The type of this is the class C within which the keyword this occurs. At run time, the class of the actual object referred to may be the class C or any subclass of C.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2942999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[The keyword this may be used only in the body of an instance method, instance initializer or constructor, or in the initializer of an instance variable of a class. If it appears anywhere else, a compile-time error occurs.
+
+When used as a primary expression, the keyword this denotes a value that is a reference to the object for which the instance method was invoked, or to the object being constructed. The type of this is the class C within which the keyword this occurs. At run time, the class of the actual object referred to may be the class C or any subclass of C.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 16:23:22.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[609999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2945999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[throw]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[throw]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[A throw statement causes an exception to be thrown. The result is an immediate transfer of control that may exit multiple statements and multiple constructor, instance initializer, static initializer and field initializer evaluations, and method invocations until a try statement is found that catches the thrown value. If no such try statement is found, then execution of the thread that executed the throw is terminated after invocation of the uncaughtException method for the thread group to which the thread belongs.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2945999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[A throw statement causes an exception to be thrown. The result is an immediate transfer of control that may exit multiple statements and multiple constructor, instance initializer, static initializer and field initializer evaluations, and method invocations until a try statement is found that catches the thrown value. If no such try statement is found, then execution of the thread that executed the throw is terminated after invocation of the uncaughtException method for the thread group to which the thread belongs.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 16:29:23.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[612999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2948999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[throws]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[throws]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[A throws clause is used to declare any checked exceptions that can result from the execution of a method or constructor]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2948999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[A throws clause is used to declare any checked exceptions that can result from the execution of a method or constructor]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 16:43:50.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[615999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2951999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[transient]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[transient]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Variables may be marked transient to indicate that they are not part of the persistent state of an object. ]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2951999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Variables may be marked transient to indicate that they are not part of the persistent state of an object. ]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:21:30.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[630999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2966999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[true]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[true]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Boolean true value]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2966999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Boolean true value]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 16:47:01.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[617999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2953999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[try]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[try]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[A try statement executes a block. If a value is thrown and the try statement has one or more catch clauses that can catch it, then control will be transferred to the first such catch clause. If the try statement has a finally clause, then another block of code is executed, no matter whether the try block completes normally or abruptly, and no matter whether a catch clause is first given control.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2953999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[A try statement executes a block. If a value is thrown and the try statement has one or more catch clauses that can catch it, then control will be transferred to the first such catch clause. If the try statement has a finally clause, then another block of code is executed, no matter whether the try block completes normally or abruptly, and no matter whether a catch clause is first given control.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-15 17:11:33.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[623999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2959999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[void]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[void]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[A method declaration either specifies the type of value that the method returns or uses the keyword void to indicate that the method does not return a value.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2959999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[A method declaration either specifies the type of value that the method returns or uses the keyword void to indicate that the method does not return a value.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 09:47:20.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[626999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[24999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2962999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[volatile]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[volatile]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[A field may be declared volatile, in which case the Java memory model ensures that all threads see a consistent value for the variable.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2962999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[A field may be declared volatile, in which case the Java memory model ensures that all threads see a consistent value for the variable.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpSubLang">
+		<Field name="EditColor" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="SlName" type="java.lang.String"><![CDATA[SnpSubLang.Operators.label]]></Field>
+	<Field name="SlType" type="java.lang.String"><![CDATA[O]]></Field>
+	<Field name="UsFilter" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="UsFrom" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="UsMapping" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="UsTask" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:50:29.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[646999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2982999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[!]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[!]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Logical complement]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2982999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Logical complement]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:56:40.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[652999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2988999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[!=]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[!=]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Different]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2988999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Different]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 12:02:19.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[664999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3000999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[%]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[%]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Remainder]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3000999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Remainder]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:09:22.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[675999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3011999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[%=]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[$(expr1)s1%=$(expr2)s2]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Is equivalent to expr1=expr1%expr2]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3011999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Is equivalent to expr1=expr1%expr2]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 12:00:46.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[661999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2997999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[&]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[&]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Bitwise AND]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2997999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Bitwise AND]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:57:11.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[653999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2989999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[&&]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[&&]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Conditionnal And]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2989999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Conditionnal And]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:08:04.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[672999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3008999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[&=]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[$(expr1)s1&=$(expr2)s2]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Is equivalent to expr1=expr1&expr2]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3008999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Is equivalent to expr1=expr1&expr2]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:59:33.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[659999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2995999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[*]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[*]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Multiplication]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2995999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Multiplication]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:06:45.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[670999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3006999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[*=]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[$(expr1)s1*=$(expr2)s2]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Is equivalent to expr1=expr1*expr2]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3006999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Is equivalent to expr1=expr1*expr2]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:58:44.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[657999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2993999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[+]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[+]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Unary plus]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2993999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Unary plus]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:57:56.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[655999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2991999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[++]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[++]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Increment]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2991999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Increment]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:05:46.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[668999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3004999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[+=]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[$(expr1)s1+=$(expr2)s2]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Is equivalent to expr1=expr1+expr2]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3004999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Is equivalent to expr1=expr1+expr2]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:58:59.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[658999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2994999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[-]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[-]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Unary minus]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2994999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Unary minus]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:58:10.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[656999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2992999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[--]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[--]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Decrement]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2992999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Decrement]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:06:13.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[669999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3005999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[-=]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[$(expr1)s1-=$(expr2)s2]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Is equivalent to expr1=expr1-expr2]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3005999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Is equivalent to expr1=expr1-expr2]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:59:46.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[660999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2996999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[/]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[/]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Division]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2996999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Division]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:07:34.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[671999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3007999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[/=]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[$(expr1)s1/=$(expr2)s2]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Is equivalent to expr1=expr1/expr2]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3007999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Is equivalent to expr1=expr1/expr2]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:49:42.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[645999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2981999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[<]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[<]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Lower than]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2981999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Lower than]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:02:34.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[665999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3001999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[<<]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[<<]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Left shift]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3001999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Left shift]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:09:55.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[676999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3012999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[<<=]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[$(expr1)s1<<=$(expr2)s2]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Is equivalent to expr1=expr1<<expr2]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3012999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Is equivalent to expr1=expr1<<expr2]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:56:02.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[650999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2986999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[<=]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[<=]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Lower than or equal]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2986999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Lower than or equal]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:48:11.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[643999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2979999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[=]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[=]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Simple assignment]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2979999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Simple assignment]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:55:24.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[649999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2985999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[==]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[==]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Equal]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2985999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Equal]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:48:33.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[644999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2980999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[>]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[>]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Greater than]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2980999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Greater than]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:56:17.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[651999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2987999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[>=]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[>=]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Greater than or equal]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2987999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Greater than or equal]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:02:50.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[666999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3002999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[>>]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[>>]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Signed right shift]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3002999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Signed right shift]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:10:30.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[677999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3013999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[>>=]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[$(expr1)s1>>=$(expr2)s2]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Is equivalent to expr1=expr1>>expr2]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3013999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Is equivalent to expr1=expr1>>expr2]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:03:11.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[667999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3003999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[>>>]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[>>>]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Unsigned right shift]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3003999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Unsigned right shift]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:10:51.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[678999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3014999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[>>>=]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[$(expr1)s1>>>=$(expr2)s2]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Is equivalent to expr1=expr1>>>expr2]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3014999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Is equivalent to expr1=expr1>>>expr2]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:53:43.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[648999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2984999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[? :]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[$(condition)s1?$(expr1)s2:$(expr2)s3]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Returns expr1 if condition is true and expr2 if condition is false]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2984999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Returns expr1 if condition is true and expr2 if condition is false]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 12:01:55.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[663999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2999999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[^]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[^]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Bitwise exclusive OR]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2999999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Bitwise exclusive OR]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:09:02.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[674999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3010999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[^=]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[$(expr1)s1^=$(expr2)s2]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Is equivalent to expr1=expr1^expr2]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3010999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Is equivalent to expr1=expr1^expr2]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:12:36.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[679999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3015999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[instanceof]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[$(instance)s1 instanceof $(class)s2]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[At run time, the result of the instanceof operator is true if the value of the RelationalExpression is not null and the reference could be cast to the ReferenceType without raising a ClassCastException. Otherwise the result is false.]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3015999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[At run time, the result of the instanceof operator is true if the value of the RelationalExpression is not null and the reference could be cast to the ReferenceType without raising a ClassCastException. Otherwise the result is false.]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 12:01:23.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[662999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2998999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[|]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[|]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Bitwise inclusive OR ]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2998999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Bitwise inclusive OR ]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:08:29.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[673999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3009999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[|=]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[$(expr1)s1|=$(expr2)s2]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Is equivalent to expr1=expr1|expr2]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3009999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Is equivalent to expr1=expr1|expr2]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:57:25.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[654999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2990999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[||]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[||]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Conditionnal Or]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2990999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Conditionnal Or]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 11:51:09.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[647999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[26999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[2983999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[~]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[~]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Bitwise complement]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[2983999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Bitwise complement]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpSubLang">
+		<Field name="EditColor" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[27999]]></Field>
+	<Field name="SlName" type="java.lang.String"><![CDATA[SnpSubLang.PrimitiveDataTypes.label]]></Field>
+	<Field name="SlType" type="java.lang.String"><![CDATA[KW]]></Field>
+	<Field name="UsFilter" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="UsFrom" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="UsMapping" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="UsTask" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:18:53.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[687999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[27999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3023999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[boolean]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[boolean]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[The boolean type represents a logical quantity with two possible values, indicated by the literals true and false]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3023999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[The boolean type represents a logical quantity with two possible values, indicated by the literals true and false]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:13:46.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[680999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[27999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3016999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[byte]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[byte]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[A number from -128 to 127 inclusive]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3016999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[A number from -128 to 127 inclusive]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:15:37.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[684999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[27999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3020999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[char]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[char]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[A single character from '\u0000' to '\uffff' inclusive, that is, from 0 to 65535 ]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3020999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[A single character from '\u0000' to '\uffff' inclusive, that is, from 0 to 65535 ]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:18:01.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[686999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[27999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3022999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[double]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[double]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Floating point number with double precision 64-bits]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3022999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Floating point number with double precision 64-bits]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:17:40.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[685999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[27999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3021999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[float]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[float]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[Floating point number with single precision 32-bits]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3021999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[Floating point number with single precision 32-bits]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:14:34.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[682999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[27999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3018999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[int]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[int]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[A number from -2147483648 to 2147483647 inclusive]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3018999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[A number from -2147483648 to 2147483647 inclusive]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:15:05.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[683999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[27999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3019999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[long]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[long]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[A number from -9223372036854775808 to 9223372036854775807 inclusive ]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3019999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[A number from -9223372036854775808 to 9223372036854775807 inclusive ]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangElt">
+		<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2009-06-16 14:14:13.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ILangElt" type="com.sunopsis.sql.DbInt"><![CDATA[681999]]></Field>
+	<Field name="ISubLang" type="com.sunopsis.sql.DbInt"><![CDATA[27999]]></Field>
+	<Field name="ITxtLeHelp" type="com.sunopsis.sql.DbInt"><![CDATA[3017999]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2010-02-24 22:26:49.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
+	<Field name="LeName" type="java.lang.String"><![CDATA[short]]></Field>
+	<Field name="LeSqlGrp" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="LeStd" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="LeTxt" type="java.lang.String"><![CDATA[short]]></Field>
+	<Field name="LeUniversal" type="java.lang.String"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+	<Field name="FullTxt" type="java.lang.String"><![CDATA[A number from -32768 to 32767 inclusive ]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[3017999]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[A number from -32768 to 32767 inclusive ]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLangTechno">
+		<Field name="DefLang" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="FullComp" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="ILang" type="com.sunopsis.sql.DbInt"><![CDATA[5999]]></Field>
+	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[30999]]></Field>
+	<Field name="LitDel" type="java.lang.String">null</Field>
+	<Field name="ObjCaseSens" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ObjDel" type="java.lang.String">null</Field>
+	<Field name="WordCaseSens" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="WordSep" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMImportRep">
+		<Field name="RepShortId" type="com.sunopsis.sql.DbInt"><![CDATA[999]]></Field>
+	<Field name="RepTimestamp" type="java.lang.String"><![CDATA[1034693943302]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.DwgExportSummary">
+		<Field name="ExpTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="InstObjNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="LinkDiagNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MorigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="MtxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[87]]></Field>
+	<Field name="OrigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OtherObjectsNb" type="com.sunopsis.sql.DbInt"><![CDATA[93]]></Field>
+	<Field name="PlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="StepNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="TxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeOrigNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeUsedNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="VarPlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ScenTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OdiVersion" type="java.lang.String"><![CDATA[11.1.1.7.0 - 06/11/2012]]></Field>
+	<Field name="OriginRepositoryID" type="com.sunopsis.sql.DbInt"><![CDATA[999]]></Field>
+	<Field name="RepositoryVersion" type="java.lang.String"><![CDATA[04.03.04.02]]></Field>
+</Object>
+</SunopsisExport>

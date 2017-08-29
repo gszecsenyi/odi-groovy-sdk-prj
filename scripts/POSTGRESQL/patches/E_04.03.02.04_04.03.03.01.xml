@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<!-- (MODIFY) Table: SNP_PLAN_AGENT -->
+<!-- Change column type -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PLAN_AGENT alter SCEN_VERSION drop not null
+]]></Field>
+
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PLAN_AGENT add IND_JOB_TYPE <?=snpRef.getDataType("SRC_VARCHAR", "1", "")?> NULL
+]]></Field>
+
+
+<!-- (MODIFY) Table: SNP_SESSION -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESSION add IND_LOG_METHOD <?=snpRef.getDataType("SRC_VARCHAR", "1", "")?> NULL
+]]></Field>
+
+
+<!-- (CREATE) Table SNP_PARAM_LPI_RUN -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create table SNP_PARAM_LPI_RUN
+(
+
+  I_LP_INST <?=snpRef.getDataType("SRC_NUMERIC", "19", "")?> NOT NULL ,
+
+  NB_RUN <?=snpRef.getDataType("SRC_NUMERIC", "10", "")?> NOT NULL ,
+
+  PARAM_NAME <?=snpRef.getDataType("SRC_VARCHAR", "400", "")?> NOT NULL ,
+
+  PARAM_VALUE <?=snpRef.getDataType("SRC_VARCHAR", "250", "")?> NULL ,
+
+  I_TXT_VALUE <?=snpRef.getDataType("SRC_NUMERIC", "19", "")?> NULL 
+
+)
+]]></Field>
+
+<!-- (CREATE) Primary Key SNP_PARAM_LPI_RUN.PK_PARAM_LPI_RUN -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PARAM_LPI_RUN add constraint PK_PARAM_LPI_RUN primary key ( I_LP_INST , NB_RUN , PARAM_NAME  )
+]]></Field>
+
+<!-- (CREATE) Index SNP_PARAM_LPI_RUN.LPIRPARAM_LPIR_FK -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+create index LPIRPARAM_LPIR_FK on SNP_PARAM_LPI_RUN ( I_LP_INST , NB_RUN  )
+]]></Field>
+
+<!-- (CREATE) Foreign Key SNP_PARAM_LPI_RUN.FK_LPIRPARAM_LPIR -->
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PARAM_LPI_RUN
+ add constraint FK_LPIRPARAM_LPIR foreign key ( I_LP_INST , NB_RUN  )
+  references SNP_LPI_RUN ( I_LP_INST , NB_RUN  )
+]]></Field>
+
+</Object>
+</SunopsisRepository>

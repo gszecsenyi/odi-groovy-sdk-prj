@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SunopsisRepository>
+<Object class="com.sunopsis.dwg.xml.DwgXmlSession">
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PARAM_LPI_RUN
+ add constraint FK_LPIRPARAM_LPIR foreign key ( I_LP_INST , NB_RUN  )
+  references SNP_LPI_RUN ( I_LP_INST , NB_RUN  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_EXC_LOG
+ add constraint FK_LPI_ELOG_SLOG foreign key ( I_LP_INST , I_LP_STEP , NB_RUN  )
+  references SNP_LPI_STEP_LOG ( I_LP_INST , I_LP_STEP , NB_RUN  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_EXC_LOG
+ add constraint FK_LPI_ELOG_STEP foreign key ( I_LP_INST , I_LP_STEP_EXCEPT  )
+  references SNP_LPI_STEP ( I_LP_INST , I_LP_STEP  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_EC_VAR_LOG
+ add constraint FK_LPI_EVLOG_ELOG foreign key ( I_LP_INST , I_LP_STEP , NB_RUN , I_LP_STEP_EXCEPT  )
+  references SNP_LPI_EXC_LOG ( I_LP_INST , I_LP_STEP , NB_RUN , I_LP_STEP_EXCEPT  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_EC_VAR_LOG
+ add constraint FK_LPI_EVLOG_SVAR foreign key ( I_LP_INST , I_LP_STEP_EXCEPT , VAR_NAME  )
+  references SNP_LPI_STEP_VAR ( I_LP_INST , I_LP_STEP , VAR_NAME  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_RUN
+ add constraint FK_LPI_RUN_LPI foreign key ( I_LP_INST  )
+  references SNP_LP_INST ( I_LP_INST  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_STEP_LOG
+ add constraint FK_LPI_SLOG_RUN foreign key ( I_LP_INST , NB_RUN  )
+  references SNP_LPI_RUN ( I_LP_INST , NB_RUN  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_STEP_LOG
+ add constraint FK_LPI_SLOG_STEP foreign key ( I_LP_INST , I_LP_STEP  )
+  references SNP_LPI_STEP ( I_LP_INST , I_LP_STEP  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_STEP
+ add constraint FK_LPI_STEP_EXC foreign key ( I_LP_INST , I_LP_STEP_EXCEPT  )
+  references SNP_LPI_STEP ( I_LP_INST , I_LP_STEP  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_STEP
+ add constraint FK_LPI_STEP_LPI foreign key ( I_LP_INST  )
+  references SNP_LP_INST ( I_LP_INST  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_STEP
+ add constraint FK_LPI_STEP_STEP foreign key ( I_LP_INST , PAR_I_LP_STEP  )
+  references SNP_LPI_STEP ( I_LP_INST , I_LP_STEP  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_STEP
+ add constraint FK_LPI_STEP_VAR foreign key ( I_LP_INST , VAR_NAME  )
+  references SNP_LPI_VAR ( I_LP_INST , VAR_NAME  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_STEP_VAR
+ add constraint FK_LPI_SVAR_STEP foreign key ( I_LP_INST , I_LP_STEP  )
+  references SNP_LPI_STEP ( I_LP_INST , I_LP_STEP  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_STEP_VAR
+ add constraint FK_LPI_SVAR_VAR foreign key ( I_LP_INST , VAR_NAME  )
+  references SNP_LPI_VAR ( I_LP_INST , VAR_NAME  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_VAR
+ add constraint FK_LPI_VAR_LPI foreign key ( I_LP_INST  )
+  references SNP_LP_INST ( I_LP_INST  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_VAR_LOG
+ add constraint FK_LPI_VLOG_SLOG foreign key ( I_LP_INST , I_LP_STEP , NB_RUN  )
+  references SNP_LPI_STEP_LOG ( I_LP_INST , I_LP_STEP , NB_RUN  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LPI_VAR_LOG
+ add constraint FK_LPI_VLOG_SVAR foreign key ( I_LP_INST , I_LP_STEP , VAR_NAME  )
+  references SNP_LPI_STEP_VAR ( I_LP_INST , I_LP_STEP , VAR_NAME  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LOAD_PLAN
+ add constraint FK_LP_SCEN_FOLD foreign key ( I_SCEN_FOLDER  )
+  references SNP_SCEN_FOLDER ( I_SCEN_FOLDER  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LP_STEP
+ add constraint FK_LP_STEP_EXC foreign key ( I_LOAD_PLAN , I_LP_STEP_EXCEPT  )
+  references SNP_LP_STEP ( I_LOAD_PLAN , I_LP_STEP  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LP_STEP
+ add constraint FK_LP_STEP_LP foreign key ( I_LOAD_PLAN  )
+  references SNP_LOAD_PLAN ( I_LOAD_PLAN  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LP_STEP
+ add constraint FK_LP_STEP_STEP foreign key ( I_LOAD_PLAN , PAR_I_LP_STEP  )
+  references SNP_LP_STEP ( I_LOAD_PLAN , I_LP_STEP  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LP_STEP
+ add constraint FK_LP_STEP_VAR foreign key ( I_LOAD_PLAN , VAR_NAME  )
+  references SNP_LP_VAR ( I_LOAD_PLAN , VAR_NAME  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LP_STEP_VAR
+ add constraint FK_LP_STVAR_STEP foreign key ( I_LOAD_PLAN , I_LP_STEP  )
+  references SNP_LP_STEP ( I_LOAD_PLAN , I_LP_STEP  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LP_STEP_VAR
+ add constraint FK_LP_STVAR_VAR foreign key ( I_LOAD_PLAN , VAR_NAME  )
+  references SNP_LP_VAR ( I_LOAD_PLAN , VAR_NAME  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_LP_VAR
+ add constraint FK_LP_VAR_LP foreign key ( I_LOAD_PLAN  )
+  references SNP_LOAD_PLAN ( I_LOAD_PLAN  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_PARAM_SESS
+ add constraint FK_PARAM_SESS foreign key ( SESS_NO  )
+  references SNP_SESSION ( SESS_NO  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SCEN
+ add constraint FK_SCEN_FOLDER foreign key ( I_SCEN_FOLDER  )
+  references SNP_SCEN_FOLDER ( I_SCEN_FOLDER  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SCEN_REPORT
+ add constraint FK_SCEN_REPORT foreign key ( SCEN_NO  )
+  references SNP_SCEN ( SCEN_NO  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SCEN_STEP
+ add constraint FK_SCEN_STEP foreign key ( SCEN_NO  )
+  references SNP_SCEN ( SCEN_NO  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SCEN_TASK
+ add constraint FK_SCEN_TASK foreign key ( SCEN_NO , NNO  )
+  references SNP_SCEN_STEP ( SCEN_NO , NNO  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SCEN_TXT
+ add constraint FK_SCEN_TXT foreign key ( SCEN_NO , NNO , SCEN_TASK_NO  )
+  references SNP_SCEN_TASK ( SCEN_NO , NNO , SCEN_TASK_NO  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SEQ_SCEN
+ add constraint FK_SEQ_SCEN foreign key ( SCEN_NO  )
+  references SNP_SCEN ( SCEN_NO  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SEQ_SESS
+ add constraint FK_SEQ_SESS foreign key ( SESS_NO  )
+  references SNP_SESSION ( SESS_NO  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK_LS
+ add constraint FK_SESS_LS_SEQ foreign key ( SESS_NO , SEQ_NAME  )
+  references SNP_SEQ_SESS ( SESS_NO , SEQ_NAME  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_STEP_LV
+ add constraint FK_SESS_LV_VAR foreign key ( SESS_NO , VAR_NAME  )
+  references SNP_VAR_SESS ( SESS_NO , VAR_NAME  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_STEP
+ add constraint FK_SESS_STEP foreign key ( SESS_NO  )
+  references SNP_SESSION ( SESS_NO  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_STEP_LV
+ add constraint FK_SESS_STEP_LV foreign key ( NNO , SESS_NO , NB_RUN  )
+  references SNP_STEP_LOG ( NNO , SESS_NO , NB_RUN  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK
+ add constraint FK_SESS_TASK foreign key ( SESS_NO , NNO  )
+  references SNP_SESS_STEP ( SESS_NO , NNO  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK_LOG
+ add constraint FK_SESS_TASK_LOG foreign key ( NNO , SESS_NO , NB_RUN  )
+  references SNP_STEP_LOG ( NNO , SESS_NO , NB_RUN  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TASK_LS
+ add constraint FK_SESS_TASK_LS foreign key ( SESS_NO , NNO , NB_RUN , SCEN_TASK_NO  )
+  references SNP_SESS_TASK_LOG ( SESS_NO , NNO , NB_RUN , SCEN_TASK_NO  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_SESS_TXT_LOG
+ add constraint FK_SESS_TXT_LOG foreign key ( SESS_NO , NNO , NB_RUN , SCEN_TASK_NO  )
+  references SNP_SESS_TASK_LOG ( SESS_NO , NNO , NB_RUN , SCEN_TASK_NO  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_VAR_PLAN_AGENT
+ add constraint FK_SNP_PLAN_AGENT foreign key ( I_PLAN_AGENT  )
+  references SNP_PLAN_AGENT ( I_PLAN_AGENT  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP_LOG
+ add constraint FK_STEP_LOG foreign key ( SESS_NO , NNO  )
+  references SNP_SESS_STEP ( SESS_NO , NNO  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_STEP_REPORT
+ add constraint FK_STEP_REPORT foreign key ( SCEN_NO , SCEN_RUN_NO  )
+  references SNP_SCEN_REPORT ( SCEN_NO , SCEN_RUN_NO  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_TASK_TXT
+ add constraint FK_TASK_TXT foreign key ( SESS_NO , NNO , SCEN_TASK_NO  )
+  references SNP_SESS_TASK ( SESS_NO , NNO , SCEN_TASK_NO  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_VAR_SCEN
+ add constraint FK_VAR_SCEN foreign key ( SCEN_NO  )
+  references SNP_SCEN ( SCEN_NO  )
+]]></Field>
+<Field name="XmlTask" type="com.sunopsis.dwg.xml.DwgXmlTask"><![CDATA[
+alter table SNP_VAR_SESS
+ add constraint FK_VAR_SESS foreign key ( SESS_NO  )
+  references SNP_SESSION ( SESS_NO  )
+]]></Field>
+</Object>
+</SunopsisRepository>
