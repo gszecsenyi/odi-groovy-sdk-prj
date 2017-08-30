@@ -1,5 +1,6 @@
 package org.odideveloper
 
+import org.odideveloper.config.ModelConfig
 import org.odideveloper.config.TopologyConfig
 import org.odideveloper.config.ProjectConfig
 import org.odideveloper.config.RepoConfig
@@ -29,5 +30,8 @@ class OdiConfigRunner {
 
         // Topology
         TopologyConfig.configure(environment)
+
+        // Models
+        ModelConfig.configure(environment)
     }
 }

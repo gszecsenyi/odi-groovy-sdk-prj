@@ -19,7 +19,7 @@ class TopologyConfig {
     static void configure(String environment) {
 
         ConfigObject config = new ConfigSlurper(environment).parse(
-                getClass().getResource('/config/DataServerConfigProperties.groovy'))
+                getClass().getResource('/config/TopologyConfigProperties.groovy'))
 
         String odiSupervisorUser = config.odiSupervisorUser
         String odiSupervisorPassword = config.odiSupervisorPassword

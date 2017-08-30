@@ -49,7 +49,7 @@ java -jar ./target/odi-groovy-sdk-prj-0.1-SNAPSHOT.jar <environment>
 
 The main-class set to `org.odideveloper.OdiConfigRunner` via manifest.
 
-###### ODI environments
+##### ODI environments
 The code supports different environments like `dev, test, prod`. Update the properties under `src/main/resources/config` to suit.
 
 ---
@@ -59,7 +59,7 @@ The code supports different environments like `dev, test, prod`. Update the prop
 [OdiConfigRunner](./src/main/groovy/org/odideveloper/OdiConfigRunner.groovy) is the main class to start the configuration -
 
 Currently these configurations are implemented
-* ODI-Repositories - [RepoConfig](./src/main/groovy/org/odideveloper/config/RepoConfig.groovy)
+* Master & Work ODI Repos - [RepoConfig](./src/main/groovy/org/odideveloper/config/RepoConfig.groovy)
 * Project & Folder - [ProjectConfig](./src/main/groovy/org/odideveloper/config/ProjectConfig.groovy)
 * Topology - [TopologyConfig](./src/main/groovy/org/odideveloper/config/TopologyConfig.groovy)
 
