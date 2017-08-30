@@ -62,5 +62,6 @@ Currently these configurations are implemented
 * Master & Work ODI Repos - [RepoConfig](./src/main/groovy/org/odideveloper/config/RepoConfig.groovy)
 * Project & Folder - [ProjectConfig](./src/main/groovy/org/odideveloper/config/ProjectConfig.groovy)
 * Topology - [TopologyConfig](./src/main/groovy/org/odideveloper/config/TopologyConfig.groovy)
+* Models & DataStores - [ModelConfig](./src/main/groovy/org/odideveloper/config/ModelConfig.groovy)
 
 ---
